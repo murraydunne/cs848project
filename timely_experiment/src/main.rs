@@ -1,5 +1,7 @@
 use timely::*;
 use timely::dataflow::operators::*;
+use timely::dataflow::operators::generic::*;
+use timely::dataflow::channels::pact::Pipeline;
 
 fn main() {
 
@@ -10,12 +12,26 @@ fn main() {
         let mut input = worker.dataflow(|scope| {
             let index = scope.index();
             let (input, stream) = scope.new_input();
-            stream.exchange(|x| *x % 5 as u64)
+            stream.unary(Pipeline, "DropNotNeeded", |capability, info| {
+                        let mut vector = Vec::new();
+                        move |input, output| {
+                            while let Some((time, data)) = input.next() {
+                                data.swap(&mut vector);
+                                let mut session = output.session(&time);
+                                for datum in vector.drain(..) {
+                                    if datum == index as u64 {
+                                        session.give(datum);
+                                    }
+                                }
+                            }
+                        }
+                    })
+                    .exchange(|x| *x % 5 as u64)
                     .map(|x| x * 2)
-                    .inspect(move |x| println!("first worker {:?} done {:?}", index, x))
+                    .inspect(move |x| println!("{:?} did {:?} - first", index, x / 2))
                     .exchange(|x| *x % 5 + 5 as u64)
                     .map(|x| x * 3)
-                    .inspect(move |x| println!("second worker {:?} done {:?}", index, x));
+                    .inspect(move |x| println!("{:?} did {:?} - second", index, x / 6));
             input
         });
 

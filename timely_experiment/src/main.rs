@@ -1,5 +1,5 @@
 use timely::*;
-use timely::dataflow::operators::{Input, Inspect};
+use timely::dataflow::operators::{Input, Inspect, Map};
 
 fn main() {
 
@@ -9,7 +9,8 @@ fn main() {
         // add an input and base computation off of it
         let mut input = worker.dataflow(|scope| {
             let (input, stream) = scope.new_input();
-            stream.inspect(|x| println!("hello {:?}", x));
+            stream.map(|x| x * 2)
+                    .inspect(|x| println!("hello {:?}", x));
             input
         });
 

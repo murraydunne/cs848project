@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "bytes",
+    "communication",
+    "kafkaesque",
+    "logging",
+#    "sort",
+    "timely",
+]
+
+[profile.release]
+opt-level = 3
+debug = true
+rpath = false
+lto = true
+debug-assertions = false

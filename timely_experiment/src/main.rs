@@ -1,5 +1,6 @@
 use timely::dataflow::operators::*;
 use timely::dataflow::channels::pact::Pipeline;
+use std::{thread, time};
 
 fn main() {
 
@@ -17,7 +18,7 @@ fn main() {
                                 data.swap(&mut vector);
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
-                                    if datum.0 == index as u64 {
+                                    if datum.1 == index as u64 {
                                         session.give(datum);
                                     }
                                 }
@@ -34,12 +35,26 @@ fn main() {
         });
 
         // introduce input, advance computation
-        for video_frame_index in 0..23 {
-            for pipeline in 0..5 {
-                input.send((video_frame_index, pipeline));
+        let command_line_args: Vec<String> = std::env::args().collect();
+        let index = command_line_args.iter().position(|r| r == "-p").unwrap();
+        let pnum = command_line_args[index + 1].parse::<i32>().unwrap();
+
+
+        if pnum == 0 {
+            for video_frame_index in 0..23 {
+                for pipeline in 0..5 {
+                    input.send((video_frame_index, pipeline));
+                }
+                input.advance_to(video_frame_index + 1);
+                for _ in 0..5 {
+                    worker.step();
+                }
+                thread::sleep(time::Duration::from_millis(500));
             }
-            input.advance_to(video_frame_index + 1);
-            worker.step();
+        } else {
+            while worker.step() { }
         }
+
+        
     }).ok();
 }

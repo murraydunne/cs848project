@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 timely = { path = "../timely/timely" }
+pyo3 = "0.8.2"

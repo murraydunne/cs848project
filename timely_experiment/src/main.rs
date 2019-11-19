@@ -1,6 +1,32 @@
 use timely::dataflow::operators::*;
 use timely::dataflow::channels::pact::Pipeline;
 use std::{thread, time};
+use pyo3::{prelude::*, types::{IntoPyDict, PyModule}};
+
+fn execute_python_module(param: u64) -> f64 {
+    println!("Hello from the function!");
+    let gil = Python::acquire_gil();
+    let py = gil.python();
+    println!("We have a python.");
+    
+    let pymodule = PyModule::from_code(py, "
+def main(inp):
+    return 45.6
+    ", "pymodule.py", "pymodule");
+
+    /*match pymodule {
+        Ok(module) => println!("We have a module."),
+        Err(err) => err.print_and_set_sys_last_vars(py),
+    }*/
+    println!("We have a module.");
+    
+    let something = pymodule.unwrap().call1("main", (param,));
+
+    println!("We called it!");
+
+    let pyresult: f64 = (*something.unwrap()).extract().unwrap();
+    return pyresult;
+}
 
 fn main() {
 
@@ -30,7 +56,8 @@ fn main() {
                     .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - first", index, (*x).1, (*x).0))
                     .exchange(|x: &(u64, u64)| (*x).1 + 5)
                     //.map(|x| x * 3)
-                    .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - second", index, (*x).1, (*x).0));
+                    .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - second (result {:?})", 
+                                                            index, (*x).1, (*x).0, execute_python_module((*x).0)));
             input
         });
 
@@ -49,10 +76,12 @@ fn main() {
                 for _ in 0..5 {
                     worker.step();
                 }
-                thread::sleep(time::Duration::from_millis(500));
+                thread::sleep(time::Duration::from_millis(5000));
             }
         } else {
-            while worker.step() { }
+            while worker.step() {
+                thread::sleep(time::Duration::from_millis(1));
+            }
         }
 
         

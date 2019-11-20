@@ -1,0 +1,2842 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point3d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'z', '', '/RW']])
+parse_name: class cv.Point3d with ['cv'] -> fullname:cv::Point3d namespace:cv classpath: classname: name:Point3d
+register class cv::Point3d (('class cv.Point3d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'z', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point3f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'z', '', '/RW']])
+parse_name: class cv.Point3f with ['cv'] -> fullname:cv::Point3f namespace:cv classpath: classname: name:Point3f
+register class cv::Point3f (('class cv.Point3f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'z', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point3i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'z', '', '/RW']])
+parse_name: class cv.Point3i with ['cv'] -> fullname:cv::Point3i namespace:cv classpath: classname: name:Point3i
+register class cv::Point3i (('class cv.Point3i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'z', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef DummyVectorOfPoint3i', 'std::vector<Point3i>', [], [])
+parse_name: typedef DummyVectorOfPoint3i with ['cv'] -> fullname:DummyVectorOfPoint3i namespace: classpath: classname: name:DummyVectorOfPoint3i
+Registering an unknown type: DummyVectorOfPoint3i
+
+--- Manual ---
+('typedef DummyVectorOfPoint3f', 'std::vector<Point3f>', [], [])
+parse_name: typedef DummyVectorOfPoint3f with ['cv'] -> fullname:DummyVectorOfPoint3f namespace: classpath: classname: name:DummyVectorOfPoint3f
+Registering an unknown type: DummyVectorOfPoint3f
+
+--- Manual ---
+('typedef DummyVectorOfPoint3d', 'std::vector<Point3d>', [], [])
+parse_name: typedef DummyVectorOfPoint3d with ['cv'] -> fullname:DummyVectorOfPoint3d namespace: classpath: classname: name:DummyVectorOfPoint3d
+Registering an unknown type: DummyVectorOfPoint3d
+
+--- Manual ---
+(   'typedef DummyVectorOfVectorOfPoint3i',
+    'std::vector<std::vector<Point3i>>',
+    [],
+    [])
+parse_name: typedef DummyVectorOfVectorOfPoint3i with ['cv'] -> fullname:DummyVectorOfVectorOfPoint3i namespace: classpath: classname: name:DummyVectorOfVectorOfPoint3i
+Registering an unknown type: DummyVectorOfVectorOfPoint3i
+
+--- Manual ---
+(   'typedef DummyVectorOfVectorOfPoint3f',
+    'std::vector<std::vector<Point3f>>',
+    [],
+    [])
+parse_name: typedef DummyVectorOfVectorOfPoint3f with ['cv'] -> fullname:DummyVectorOfVectorOfPoint3f namespace: classpath: classname: name:DummyVectorOfVectorOfPoint3f
+Registering an unknown type: DummyVectorOfVectorOfPoint3f
+
+--- Manual ---
+(   'typedef DummyVectorOfVectorOfPoint3d',
+    'std::vector<std::vector<Point3d>>',
+    [],
+    [])
+parse_name: typedef DummyVectorOfVectorOfPoint3d with ['cv'] -> fullname:DummyVectorOfVectorOfPoint3d namespace: classpath: classname: name:DummyVectorOfVectorOfPoint3d
+Registering an unknown type: DummyVectorOfVectorOfPoint3d
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n\n- @ref face_changelog\n- @ref tutorial_face_main\n\n\n'}
+
+--- Incoming ---
+[   'class cv.face.FaceRecognizer',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for all face recognition models\n'
+    '\n'
+    'All face recognition models in OpenCV are derived from the abstract base '
+    'class FaceRecognizer, which\n'
+    'provides a unified access to all face recongition algorithms in OpenCV.\n'
+    '\n'
+    '### Description\n'
+    '\n'
+    "I'll go a bit more into detail explaining FaceRecognizer, because it "
+    "doesn't look like a powerful\n"
+    'interface at first sight. But: Every FaceRecognizer is an Algorithm, so '
+    'you can easily get/set all\n'
+    'model internals (if allowed by the implementation). Algorithm is a '
+    'relatively new OpenCV concept,\n'
+    'which is available since the 2.4 release. I suggest you take a look at '
+    'its description.\n'
+    '\n'
+    'Algorithm provides the following features for all derived classes:\n'
+    '\n'
+    '-   So called "virtual constructor". That is, each Algorithm derivative '
+    'is registered at program\n'
+    'start and you can get the list of registered algorithms and create '
+    'instance of a particular\n'
+    'algorithm by its name (see Algorithm::create). If you plan to add your '
+    'own algorithms, it is\n'
+    'good practice to add a unique prefix to your algorithms to distinguish '
+    'them from other\n'
+    'algorithms.\n'
+    '-   Setting/Retrieving algorithm parameters by name. If you used video '
+    'capturing functionality from\n'
+    'OpenCV highgui module, you are probably familar with '
+    'cv::cvSetCaptureProperty,\n'
+    'ocvcvGetCaptureProperty, VideoCapture::set and VideoCapture::get. '
+    'Algorithm provides similar\n'
+    "method where instead of integer id's you specify the parameter names as "
+    'text Strings. See\n'
+    'Algorithm::set and Algorithm::get for details.\n'
+    '-   Reading and writing parameters from/to XML or YAML files. Every '
+    'Algorithm derivative can store\n'
+    'all its parameters and then read them back. There is no need to '
+    're-implement it each time.\n'
+    '\n'
+    'Moreover every FaceRecognizer supports the:\n'
+    '\n'
+    '-   **Training** of a FaceRecognizer with FaceRecognizer::train on a '
+    'given set of images (your face\n'
+    'database!).\n'
+    '-   **Prediction** of a given sample image, that means a face. The image '
+    'is given as a Mat.\n'
+    '-   **Loading/Saving** the model state from/to a given XML or YAML.\n'
+    '-   **Setting/Getting labels info**, that is stored as a string. String '
+    'labels info is useful for\n'
+    'keeping names of the recognized people.\n'
+    '\n'
+    '@note When using the FaceRecognizer interface in combination with Python, '
+    'please stick to Python 2.\n'
+    'Some underlying scripts like create_csv will not work in other versions, '
+    'like Python 3. Setting the\n'
+    'Thresholds +++++++++++++++++++++++\n'
+    '\n'
+    'Sometimes you run into the situation, when you want to apply a threshold '
+    'on the prediction. A common\n'
+    'scenario in face recognition is to tell, whether a face belongs to the '
+    'training dataset or if it is\n'
+    "unknown. You might wonder, why there's no public API in FaceRecognizer to "
+    'set the threshold for the\n'
+    "prediction, but rest assured: It's supported. It just means there's no "
+    'generic way in an abstract\n'
+    'class to provide an interface for setting/getting the thresholds of '
+    '*every possible* FaceRecognizer\n'
+    'algorithm. The appropriate place to set the thresholds is in the '
+    'constructor of the specific\n'
+    'FaceRecognizer and since every FaceRecognizer is a Algorithm (see above), '
+    'you can get/set the\n'
+    'thresholds at runtime!\n'
+    '\n'
+    'Here is an example of setting a threshold for the Eigenfaces method, when '
+    'creating the model:\n'
+    '\n'
+    '@code\n'
+    "// Let's say we want to keep 10 Eigenfaces and have a threshold value of "
+    '10.0\n'
+    'int num_components = 10;\n'
+    'double threshold = 10.0;\n'
+    '// Then if you want to have a cv::FaceRecognizer with a confidence '
+    'threshold,\n'
+    '// create the concrete implementation with the appropiate parameters:\n'
+    'Ptr<FaceRecognizer> model = EigenFaceRecognizer::create(num_components, '
+    'threshold);\n'
+    '@endcode\n'
+    '\n'
+    "Sometimes it's impossible to train the model, just to experiment with "
+    'threshold values. Thanks to\n'
+    "Algorithm it's possible to set internal model thresholds during runtime. "
+    "Let's see how we would\n"
+    "set/get the prediction for the Eigenface model, we've created above:\n"
+    '\n'
+    '@code\n'
+    '// The following line reads the threshold from the Eigenfaces model:\n'
+    'double current_threshold = model->getDouble("threshold");\n'
+    '// And this line sets the threshold to 0.0:\n'
+    'model->set("threshold", 0.0);\n'
+    '@endcode\n'
+    '\n'
+    "If you've set the threshold to 0.0 as we did above, then:\n"
+    '\n'
+    '@code\n'
+    '//\n'
+    'Mat img = imread("person1/3.jpg", IMREAD_GRAYSCALE);\n'
+    "// Get a prediction from the model. Note: We've set a threshold of 0.0 "
+    'above,\n'
+    "// since the distance is almost always larger than 0.0, you'll get -1 as\n"
+    '// label, which indicates, this face is unknown\n'
+    'int predicted_label = model->predict(img);\n'
+    '// ...\n'
+    '@endcode\n'
+    '\n'
+    'is going to yield -1 as predicted label, which states this face is '
+    'unknown.\n'
+    '\n'
+    '### Getting the name of a FaceRecognizer\n'
+    '\n'
+    'Since every FaceRecognizer is a Algorithm, you can use Algorithm::name to '
+    'get the name of a\n'
+    'FaceRecognizer:\n'
+    '\n'
+    '@code\n'
+    '// Create a FaceRecognizer:\n'
+    'Ptr<FaceRecognizer> model = EigenFaceRecognizer::create();\n'
+    "// And here's how to get its name:\n"
+    'String name = model->name();\n'
+    '@endcode']
+parse_name: class cv.face.FaceRecognizer with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer namespace:cv::face classpath: classname: name:FaceRecognizer
+register class cv::face::FaceRecognizer (['class cv.face.FaceRecognizer', ': cv::Algorithm', [], [], None, '@brief Abstract base class for all face recognition models\n\nAll face recognition models in OpenCV are derived from the abstract base class FaceRecognizer, which\nprovides a unified access to all face recongition algorithms in OpenCV.\n\n### Description\n\nI\'ll go a bit more into detail explaining FaceRecognizer, because it doesn\'t look like a powerful\ninterface at first sight. But: Every FaceRecognizer is an Algorithm, so you can easily get/set all\nmodel internals (if allowed by the implementation). Algorithm is a relatively new OpenCV concept,\nwhich is available since the 2.4 release. I suggest you take a look at its description.\n\nAlgorithm provides the following features for all derived classes:\n\n-   So called "virtual constructor". That is, each Algorithm derivative is registered at program\nstart and you can get the list of registered algorithms and create instance of a particular\nalgorithm by its name (see Algorithm::create). If you plan to add your own algorithms, it is\ngood practice to add a unique prefix to your algorithms to distinguish them from other\nalgorithms.\n-   Setting/Retrieving algorithm parameters by name. If you used video capturing functionality from\nOpenCV highgui module, you are probably familar with cv::cvSetCaptureProperty,\nocvcvGetCaptureProperty, VideoCapture::set and VideoCapture::get. Algorithm provides similar\nmethod where instead of integer id\'s you specify the parameter names as text Strings. See\nAlgorithm::set and Algorithm::get for details.\n-   Reading and writing parameters from/to XML or YAML files. Every Algorithm derivative can store\nall its parameters and then read them back. There is no need to re-implement it each time.\n\nMoreover every FaceRecognizer supports the:\n\n-   **Training** of a FaceRecognizer with FaceRecognizer::train on a given set of images (your face\ndatabase!).\n-   **Prediction** of a given sample image, that means a face. The image is given as a Mat.\n-   **Loading/Saving** the model state from/to a given XML or YAML.\n-   **Setting/Getting labels info**, that is stored as a string. String labels info is useful for\nkeeping names of the recognized people.\n\n@note When using the FaceRecognizer interface in combination with Python, please stick to Python 2.\nSome underlying scripts like create_csv will not work in other versions, like Python 3. Setting the\nThresholds +++++++++++++++++++++++\n\nSometimes you run into the situation, when you want to apply a threshold on the prediction. A common\nscenario in face recognition is to tell, whether a face belongs to the training dataset or if it is\nunknown. You might wonder, why there\'s no public API in FaceRecognizer to set the threshold for the\nprediction, but rest assured: It\'s supported. It just means there\'s no generic way in an abstract\nclass to provide an interface for setting/getting the thresholds of *every possible* FaceRecognizer\nalgorithm. The appropriate place to set the thresholds is in the constructor of the specific\nFaceRecognizer and since every FaceRecognizer is a Algorithm (see above), you can get/set the\nthresholds at runtime!\n\nHere is an example of setting a threshold for the Eigenfaces method, when creating the model:\n\n@code\n// Let\'s say we want to keep 10 Eigenfaces and have a threshold value of 10.0\nint num_components = 10;\ndouble threshold = 10.0;\n// Then if you want to have a cv::FaceRecognizer with a confidence threshold,\n// create the concrete implementation with the appropiate parameters:\nPtr<FaceRecognizer> model = EigenFaceRecognizer::create(num_components, threshold);\n@endcode\n\nSometimes it\'s impossible to train the model, just to experiment with threshold values. Thanks to\nAlgorithm it\'s possible to set internal model thresholds during runtime. Let\'s see how we would\nset/get the prediction for the Eigenface model, we\'ve created above:\n\n@code\n// The following line reads the threshold from the Eigenfaces model:\ndouble current_threshold = model->getDouble("threshold");\n// And this line sets the threshold to 0.0:\nmodel->set("threshold", 0.0);\n@endcode\n\nIf you\'ve set the threshold to 0.0 as we did above, then:\n\n@code\n//\nMat img = imread("person1/3.jpg", IMREAD_GRAYSCALE);\n// Get a prediction from the model. Note: We\'ve set a threshold of 0.0 above,\n// since the distance is almost always larger than 0.0, you\'ll get -1 as\n// label, which indicates, this face is unknown\nint predicted_label = model->predict(img);\n// ...\n@endcode\n\nis going to yield -1 as predicted label, which states this face is unknown.\n\n### Getting the name of a FaceRecognizer\n\nSince every FaceRecognizer is a Algorithm, you can use Algorithm::name to get the name of a\nFaceRecognizer:\n\n@code\n// Create a FaceRecognizer:\nPtr<FaceRecognizer> model = EigenFaceRecognizer::create();\n// And here\'s how to get its name:\nString name = model->name();\n@endcode']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.train',
+    'void',
+    ['/A'],
+    [['InputArrayOfArrays', 'src', '', []], ['InputArray', 'labels', '', []]],
+    None,
+    '@brief Trains a FaceRecognizer with given data and associated labels.\n'
+    '\n'
+    '@param src The training images, that means the faces you want to learn. '
+    'The data has to be\n'
+    'given as a vector\\<Mat\\>.\n'
+    '@param labels The labels corresponding to the images have to be given '
+    'either as a vector\\<int\\>\n'
+    'or a Mat of type CV_32SC1.\n'
+    '\n'
+    'The following source code snippet shows you how to learn a Fisherfaces '
+    'model on a given set of\n'
+    'images. The images are read with imread and pushed into a '
+    'std::vector\\<Mat\\>. The labels of each\n'
+    'image are stored within a std::vector\\<int\\> (you could also use a Mat '
+    'of type CV_32SC1). Think of\n'
+    'the label as the subject (the person) this image belongs to, so same '
+    'subjects (persons) should have\n'
+    "the same label. For the available FaceRecognizer you don't have to pay "
+    'any attention to the order of\n'
+    'the labels, just make sure same persons have the same label:\n'
+    '\n'
+    '@code\n'
+    '// holds images and labels\n'
+    'vector<Mat> images;\n'
+    'vector<int> labels;\n'
+    '// using Mat of type CV_32SC1\n'
+    '// Mat labels(number_of_samples, 1, CV_32SC1);\n'
+    '// images for first person\n'
+    'images.push_back(imread("person0/0.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(0);\n'
+    'images.push_back(imread("person0/1.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(0);\n'
+    'images.push_back(imread("person0/2.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(0);\n'
+    '// images for second person\n'
+    'images.push_back(imread("person1/0.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(1);\n'
+    'images.push_back(imread("person1/1.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(1);\n'
+    'images.push_back(imread("person1/2.jpg", IMREAD_GRAYSCALE)); '
+    'labels.push_back(1);\n'
+    '@endcode\n'
+    '\n'
+    'Now that you have read some images, we can create a new FaceRecognizer. '
+    "In this example I'll create\n"
+    'a Fisherfaces model and decide to keep all of the possible Fisherfaces:\n'
+    '\n'
+    '@code\n'
+    '// Create a new Fisherfaces model and retain all available Fisherfaces,\n'
+    '// this is the most common usage of this specific FaceRecognizer:\n'
+    '//\n'
+    'Ptr<FaceRecognizer> model =  FisherFaceRecognizer::create();\n'
+    '@endcode\n'
+    '\n'
+    'And finally train it on the given dataset (the face images and labels):\n'
+    '\n'
+    '@code\n'
+    '// This is the common interface to train all of the available '
+    'cv::FaceRecognizer\n'
+    '// implementations:\n'
+    '//\n'
+    'model->train(images, labels);\n'
+    '@endcode']
+parse_name: cv.face.FaceRecognizer.train with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::train namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:train
+register (method) train in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_train__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.update',
+    'void',
+    [],
+    [['InputArrayOfArrays', 'src', '', []], ['InputArray', 'labels', '', []]],
+    None,
+    '@brief Updates a FaceRecognizer with given data and associated labels.\n'
+    '\n'
+    '@param src The training images, that means the faces you want to learn. '
+    'The data has to be given\n'
+    'as a vector\\<Mat\\>.\n'
+    '@param labels The labels corresponding to the images have to be given '
+    'either as a vector\\<int\\> or\n'
+    'a Mat of type CV_32SC1.\n'
+    '\n'
+    'This method updates a (probably trained) FaceRecognizer, but only if the '
+    'algorithm supports it. The\n'
+    'Local Binary Patterns Histograms (LBPH) recognizer (see '
+    'createLBPHFaceRecognizer) can be updated.\n'
+    'For the Eigenfaces and Fisherfaces method, this is algorithmically not '
+    'possible and you have to\n'
+    're-estimate the model with FaceRecognizer::train. In any case, a call to '
+    'train empties the existing\n'
+    'model and learns a new model, while update does not delete any model '
+    'data.\n'
+    '\n'
+    '@code\n'
+    '// Create a new LBPH model (it can be updated) and use the default '
+    'parameters,\n'
+    '// this is the most common usage of this specific FaceRecognizer:\n'
+    '//\n'
+    'Ptr<FaceRecognizer> model =  LBPHFaceRecognizer::create();\n'
+    '// This is the common interface to train all of the available '
+    'cv::FaceRecognizer\n'
+    '// implementations:\n'
+    '//\n'
+    'model->train(images, labels);\n'
+    '// Some containers to hold new image:\n'
+    'vector<Mat> newImages;\n'
+    'vector<int> newLabels;\n'
+    '// You should add some images to the containers:\n'
+    '//\n'
+    '// ...\n'
+    '//\n'
+    '// Now updating the model is as easy as calling:\n'
+    'model->update(newImages,newLabels);\n'
+    '// This will preserve the old model data and extend the existing model\n'
+    '// with the new features extracted from newImages!\n'
+    '@endcode\n'
+    '\n'
+    'Calling update on an Eigenfaces model (see EigenFaceRecognizer::create), '
+    "which doesn't support\n"
+    'updating, will throw an error similar to:\n'
+    '\n'
+    '@code\n'
+    'OpenCV Error: The function/feature is not implemented (This '
+    'FaceRecognizer (FaceRecognizer.Eigenfaces) does not support updating, you '
+    'have to use FaceRecognizer::train to update it.) in update, file '
+    '/home/philipp/git/opencv/modules/contrib/src/facerec.cpp, line 305\n'
+    "terminate called after throwing an instance of 'cv::Exception'\n"
+    '@endcode\n'
+    '\n'
+    '@note The FaceRecognizer does not store your training images, because '
+    'this would be very\n'
+    "memory intense and it's not the responsibility of te FaceRecognizer to do "
+    'so. The caller is\n'
+    'responsible for maintaining the dataset, he want to work with.']
+parse_name: cv.face.FaceRecognizer.update with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::update namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:update
+register (method) update in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_update__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.predict',
+    'int',
+    ['/C'],
+    [['InputArray', 'src', '', []]],
+    None,
+    '@overload']
+parse_name: cv.face.FaceRecognizer.predict with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::predict namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:predict
+register (method) predict in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_predict_const__InputArray)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.predict',
+    'void',
+    ['/C'],
+    [   ['InputArray', 'src', '', []],
+        ['int &', 'label', '', []],
+        ['double &', 'confidence', '', []]],
+    None,
+    '@brief Predicts a label and associated confidence (e.g. distance) for a '
+    'given input image.\n'
+    '\n'
+    '@param src Sample image to get a prediction from.\n'
+    '@param label The predicted label for the given image.\n'
+    '@param confidence Associated confidence (e.g. distance) for the predicted '
+    'label.\n'
+    '\n'
+    'The suffix const means that prediction does not affect the internal model '
+    'state, so the method can\n'
+    'be safely called from within different threads.\n'
+    '\n'
+    'The following example shows how to get a prediction from a trained '
+    'model:\n'
+    '\n'
+    '@code\n'
+    'using namespace cv;\n'
+    '// Do your initialization here (create the cv::FaceRecognizer model) ...\n'
+    '// ...\n'
+    '// Read in a sample image:\n'
+    'Mat img = imread("person1/3.jpg", IMREAD_GRAYSCALE);\n'
+    '// And get a prediction from the cv::FaceRecognizer:\n'
+    'int predicted = model->predict(img);\n'
+    '@endcode\n'
+    '\n'
+    'Or to get a prediction and the associated confidence (e.g. distance):\n'
+    '\n'
+    '@code\n'
+    'using namespace cv;\n'
+    '// Do your initialization here (create the cv::FaceRecognizer model) ...\n'
+    '// ...\n'
+    'Mat img = imread("person1/3.jpg", IMREAD_GRAYSCALE);\n'
+    '// Some variables for the predicted label and associated confidence (e.g. '
+    'distance):\n'
+    'int predicted_label = -1;\n'
+    'double predicted_confidence = 0.0;\n'
+    '// Get the prediction and associated confidence from the model\n'
+    'model->predict(img, predicted_label, predicted_confidence);\n'
+    '@endcode']
+parse_name: cv.face.FaceRecognizer.predict with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::predict namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:predict
+register (method) predict in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_predict_const__InputArray_int_double)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.predict',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'src', '', []],
+        ['Ptr<PredictCollector>', 'collector', '', []]],
+    None,
+    '@brief - if implemented - send all result of prediction to collector that '
+    'can be used for somehow custom result handling\n'
+    '@param src Sample image to get a prediction from.\n'
+    '@param collector User-defined collector object that accepts all results\n'
+    '\n'
+    'To implement this method u just have to do same internal cycle as in '
+    'predict(InputArray src, CV_OUT int &label, CV_OUT double &confidence) '
+    'but\n'
+    'not try to get "best@ result, just resend it to caller side with given '
+    'collector']
+parse_name: cv.face.FaceRecognizer.predict with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::predict namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:predict
+Registering an unknown type: PredictCollector
+register (method) predict in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_predict_const__InputArray_Ptr<PredictCollector>)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.write',
+    'void',
+    ['/C'],
+    [['const String&', 'filename', '', []]],
+    None,
+    '@brief Saves a FaceRecognizer and its model state.\n'
+    '\n'
+    'Saves this model to a given filename, either as XML or YAML.\n'
+    '@param filename The filename to store this FaceRecognizer to (either '
+    'XML/YAML).\n'
+    '\n'
+    'Every FaceRecognizer overwrites FaceRecognizer::save(FileStorage& fs) to '
+    'save the internal model\n'
+    'state. FaceRecognizer::save(const String& filename) saves the state of a '
+    'model to the given\n'
+    'filename.\n'
+    '\n'
+    'The suffix const means that prediction does not affect the internal model '
+    'state, so the method can\n'
+    'be safely called from within different threads.']
+parse_name: cv.face.FaceRecognizer.write with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::write namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:write
+register (method) write in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_write_const_String)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.read',
+    'void',
+    [],
+    [['const String&', 'filename', '', []]],
+    None,
+    '@brief Loads a FaceRecognizer and its model state.\n'
+    '\n'
+    'Loads a persisted model and state from a given XML or YAML file . Every '
+    'FaceRecognizer has to\n'
+    'overwrite FaceRecognizer::load(FileStorage& fs) to enable loading the '
+    'model state.\n'
+    'FaceRecognizer::load(FileStorage& fs) in turn gets called by\n'
+    'FaceRecognizer::load(const String& filename), to ease saving a model.']
+parse_name: cv.face.FaceRecognizer.read with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::read namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:read
+register (method) read in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_read_String)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', 'fs', '', []]],
+    None,
+    '@overload\n'
+    'Saves this model to a given FileStorage.\n'
+    '@param fs The FileStorage to store this FaceRecognizer to.']
+parse_name: cv.face.FaceRecognizer.write with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::write namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:write
+register (method) write in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_write_const_FileStorage)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.read',
+    'void',
+    [],
+    [['const FileNode&', 'fn', '', []]],
+    None,
+    '@overload']
+parse_name: cv.face.FaceRecognizer.read with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::read namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:read
+register (method) read in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_read_FileNode)
+
+--- Incoming ---
+['cv.face.FaceRecognizer.empty', 'bool', ['/C'], [], None, '@overload']
+parse_name: cv.face.FaceRecognizer.empty with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::empty namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:empty
+register (method) empty in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_empty_const)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.setLabelInfo',
+    'void',
+    [],
+    [['int', 'label', '', []], ['const String&', 'strInfo', '', []]],
+    None,
+    "@brief Sets string info for the specified model's label.\n"
+    '\n'
+    'The string info is replaced by the provided value if it was set before '
+    'for the specified label.']
+parse_name: cv.face.FaceRecognizer.setLabelInfo with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::setLabelInfo namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:setLabelInfo
+register (method) setLabelInfo in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_setLabelInfo_int_String)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.getLabelInfo',
+    'String',
+    ['/C'],
+    [['int', 'label', '', []]],
+    None,
+    '@brief Gets string information by label.\n'
+    '\n'
+    'If an unknown label id is provided or there is no label information '
+    'associated with the specified\n'
+    'label id the method returns an empty string.']
+parse_name: cv.face.FaceRecognizer.getLabelInfo with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::getLabelInfo namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:getLabelInfo
+register (method) getLabelInfo in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_getLabelInfo_const_int)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.getLabelsByString',
+    'std::vector<int>',
+    ['/C'],
+    [['const String&', 'str', '', []]],
+    None,
+    '@brief Gets vector of labels by string.\n'
+    '\n'
+    'The function searches for the labels containing the specified sub-string '
+    'in the associated string\n'
+    'info.']
+parse_name: cv.face.FaceRecognizer.getLabelsByString with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::getLabelsByString namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:getLabelsByString
+register (method) getLabelsByString in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_getLabelsByString_const_String)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.getThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief threshold parameter accessor - required for default BestMinDist '
+    'collector']
+parse_name: cv.face.FaceRecognizer.getThreshold with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::getThreshold namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:getThreshold
+register (method) getThreshold in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_getThreshold_const)
+
+--- Incoming ---
+[   'cv.face.FaceRecognizer.setThreshold',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@brief Sets threshold of model']
+parse_name: cv.face.FaceRecognizer.setThreshold with ['cv', 'cv::face'] -> fullname:cv::face::FaceRecognizer::setThreshold namespace:cv::face classpath:FaceRecognizer classname:FaceRecognizer name:setThreshold
+register (method) setThreshold in cv::face::FaceRecognizer (trait) (cv_face_FaceRecognizer_setThreshold_double)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/bif.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n\n- @ref face_changelog\n- @ref tutorial_face_main\n\n\n'}
+
+--- Incoming ---
+[   'class cv.face.BIF',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    'Implementation of bio-inspired features (BIF) from the paper:\n'
+    '*  Guo, Guodong, et al. "Human age estimation using bio-inspired '
+    'features."\n'
+    '*  Computer Vision and Pattern Recognition, 2009. CVPR 2009.']
+parse_name: class cv.face.BIF with ['cv', 'cv::face'] -> fullname:cv::face::BIF namespace:cv::face classpath: classname: name:BIF
+register class cv::face::BIF (['class cv.face.BIF', ': cv::Algorithm', [], [], None, 'Implementation of bio-inspired features (BIF) from the paper:\n*  Guo, Guodong, et al. "Human age estimation using bio-inspired features."\n*  Computer Vision and Pattern Recognition, 2009. CVPR 2009.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.face.BIF.getNumBands',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@returns The number of filter bands used for computing BIF.']
+parse_name: cv.face.BIF.getNumBands with ['cv', 'cv::face'] -> fullname:cv::face::BIF::getNumBands namespace:cv::face classpath:BIF classname:BIF name:getNumBands
+register (method) getNumBands in cv::face::BIF (trait) (cv_face_BIF_getNumBands_const)
+
+--- Incoming ---
+[   'cv.face.BIF.getNumRotations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@returns The number of image rotations.']
+parse_name: cv.face.BIF.getNumRotations with ['cv', 'cv::face'] -> fullname:cv::face::BIF::getNumRotations namespace:cv::face classpath:BIF classname:BIF name:getNumRotations
+register (method) getNumRotations in cv::face::BIF (trait) (cv_face_BIF_getNumRotations_const)
+
+--- Incoming ---
+[   'cv.face.BIF.compute',
+    'void',
+    ['/A', '/C'],
+    [['InputArray', 'image', '', []], ['OutputArray', 'features', '', []]],
+    None,
+    'Computes features sby input image.\n'
+    '*  @param image Input image (CV_32FC1).\n'
+    '*  @param features Feature vector (CV_32FC1).']
+parse_name: cv.face.BIF.compute with ['cv', 'cv::face'] -> fullname:cv::face::BIF::compute namespace:cv::face classpath:BIF classname:BIF name:compute
+register (method) compute in cv::face::BIF (trait) (cv_face_BIF_compute_const__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.face.BIF.create',
+    'Ptr<BIF>',
+    ['/S'],
+    [['int', 'num_bands', '8', []], ['int', 'num_rotations', '12', []]],
+    None,
+    '* @param num_bands The number of filter bands (<=8) used for computing '
+    'BIF.\n'
+    '* @param num_rotations The number of image rotations for computing BIF.\n'
+    '* @returns Object for computing BIF.']
+parse_name: cv.face.BIF.create with ['cv', 'cv::face'] -> fullname:cv::face::BIF::create namespace:cv::face classpath:BIF classname:BIF name:create
+register (method) create in cv::face::BIF (trait) (cv_face_BIF_create_int_int)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/face_alignment.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n\n- @ref face_changelog\n- @ref tutorial_face_main\n\n\n'}
+
+--- Incoming ---
+['class cv.face.FacemarkKazemi', ': cv::face::Facemark', [], [], None, '']
+parse_name: class cv.face.FacemarkKazemi with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi namespace:cv::face classpath: classname: name:FacemarkKazemi
+register class cv::face::FacemarkKazemi (['class cv.face.FacemarkKazemi', ': cv::face::Facemark', [], [], None, '']) impl:cv::face::Facemark
+
+--- Incoming ---
+['struct cv.face.FacemarkKazemi.Params', '', [], [], None, '']
+parse_name: struct cv.face.FacemarkKazemi.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::Params namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:Params
+register class cv::face::FacemarkKazemi::Params (['struct cv.face.FacemarkKazemi.Params', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.FacemarkKazemi.Params.Params',
+    'P',
+    [],
+    [],
+    None,
+    '* \\brief Constructor']
+parse_name: cv.face.FacemarkKazemi.Params.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::Params::Params namespace:cv::face classpath:FacemarkKazemi::Params classname:Params name:Params
+register (constructor) default in cv::face::FacemarkKazemi::Params (cv_face_FacemarkKazemi_Params_Params)
+
+--- Incoming ---
+[   'cv.face.FacemarkKazemi.create',
+    'Ptr<FacemarkKazemi>',
+    ['/S'],
+    [   [   'const FacemarkKazemi::Params &',
+            'parameters',
+            'FacemarkKazemi::Params()',
+            []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkKazemi.create with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::create namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:create
+register (method) create in cv::face::FacemarkKazemi (cv_face_FacemarkKazemi_create_Params)
+
+--- Incoming ---
+['cv.face.FacemarkKazemi.~FacemarkKazemi', '~', [], [], None, '']
+parse_name: cv.face.FacemarkKazemi.~FacemarkKazemi with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::~FacemarkKazemi namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:~FacemarkKazemi
+Registering an unknown type: ~
+ignore destructor (method) ~FacemarkKazemi in cv::face::FacemarkKazemi
+
+--- Incoming ---
+[   'cv.face.FacemarkKazemi.training',
+    'bool',
+    ['/A'],
+    [   ['std::vector<Mat>&', 'images', '', []],
+        ['std::vector< std::vector<Point2f> >&', 'landmarks', '', []],
+        ['std::string', 'configfile', '', []],
+        ['Size', 'scale', '', []],
+        ['std::string', 'modelFilename', '"face_landmarks.dat"', []]],
+    None,
+    '@brief This function is used to train the model using gradient boosting '
+    'to get a cascade of regressors\n'
+    '*which can then be used to predict shape.\n'
+    '*@param images A vector of type cv::Mat which stores the images which are '
+    'used in training samples.\n'
+    '*@param landmarks A vector of vectors of type cv::Point2f which stores '
+    'the landmarks detected in a particular image.\n'
+    '*@param scale A size of type cv::Size to which all images and landmarks '
+    'have to be scaled to.\n'
+    '*@param configfile A variable of type std::string which stores the name '
+    'of the file storing parameters for training the model.\n'
+    '*@param modelFilename A variable of type std::string which stores the '
+    'name of the trained model file that has to be saved.\n'
+    '*@returns A boolean value. The function returns true if the model is '
+    'trained properly or false if it is not trained.']
+parse_name: cv.face.FacemarkKazemi.training with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::training namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:training
+register (method) training in cv::face::FacemarkKazemi (trait) (cv_face_FacemarkKazemi_training_VectorOfMat_VectorOfVectorOfPoint2f_std_string_Size_std_string)
+
+--- Incoming ---
+[   'cv.face.FacemarkKazemi.setFaceDetector',
+    'bool',
+    ['/A'],
+    [   ['bool(*f)(InputArray @comma@ OutputArray@comma@ void*)', '', '', []],
+        ['void*', 'userData', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkKazemi.setFaceDetector with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::setFaceDetector namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:setFaceDetector
+Registering an unknown type: bool(*f)(InputArray @comma@ OutputArray@comma@ void*)
+register (method) setFaceDetector in cv::face::FacemarkKazemi (trait) (cv_face_FacemarkKazemi_setFaceDetector_bool(*f)(InputArray @comma@ OutputArray@comma@ void*)_void_X)
+
+--- Incoming ---
+[   'cv.face.FacemarkKazemi.getFaces',
+    'bool',
+    ['/A'],
+    [['InputArray', 'image', '', []], ['OutputArray', 'faces', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkKazemi.getFaces with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkKazemi::getFaces namespace:cv::face classpath:FacemarkKazemi classname:FacemarkKazemi name:getFaces
+register (method) getFaces in cv::face::FacemarkKazemi (trait) (cv_face_FacemarkKazemi_getFaces__InputArray__OutputArray)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/facemark.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.Facemark',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for all facemark models\n'
+    '\n'
+    'To utilize this API in your program, please take a look at the @ref '
+    'tutorial_table_of_content_facemark\n'
+    '### Description\n'
+    '\n'
+    'Facemark is a base class which provides universal access to any specific '
+    'facemark algorithm.\n'
+    'Therefore, the users should declare a desired algorithm before they can '
+    'use it in their application.\n'
+    '\n'
+    'Here is an example on how to declare a facemark algorithm:\n'
+    '@code\n'
+    '// Using Facemark in your code:\n'
+    'Ptr<Facemark> facemark = createFacemarkLBF();\n'
+    '@endcode\n'
+    '\n'
+    'The typical pipeline for facemark detection is as follows:\n'
+    '- Load the trained model using Facemark::loadModel.\n'
+    '- Perform the fitting on an image via Facemark::fit.']
+parse_name: class cv.face.Facemark with ['cv', 'cv::face'] -> fullname:cv::face::Facemark namespace:cv::face classpath: classname: name:Facemark
+register class cv::face::Facemark (['class cv.face.Facemark', ': cv::Algorithm', [], [], None, '@brief Abstract base class for all facemark models\n\nTo utilize this API in your program, please take a look at the @ref tutorial_table_of_content_facemark\n### Description\n\nFacemark is a base class which provides universal access to any specific facemark algorithm.\nTherefore, the users should declare a desired algorithm before they can use it in their application.\n\nHere is an example on how to declare a facemark algorithm:\n@code\n// Using Facemark in your code:\nPtr<Facemark> facemark = createFacemarkLBF();\n@endcode\n\nThe typical pipeline for facemark detection is as follows:\n- Load the trained model using Facemark::loadModel.\n- Perform the fitting on an image via Facemark::fit.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.face.Facemark.loadModel',
+    'void',
+    ['/A'],
+    [['String', 'model', '', []]],
+    None,
+    '@brief A function to load the trained model before the fitting process.\n'
+    '@param model A string represent the filename of a trained model.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'facemark->loadModel("../data/lbf.model");\n'
+    '@endcode']
+parse_name: cv.face.Facemark.loadModel with ['cv', 'cv::face'] -> fullname:cv::face::Facemark::loadModel namespace:cv::face classpath:Facemark classname:Facemark name:loadModel
+register (method) loadModel in cv::face::Facemark (trait) (cv_face_Facemark_loadModel_String)
+
+--- Incoming ---
+[   'cv.face.Facemark.fit',
+    'bool',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'faces', '', []],
+        ['OutputArrayOfArrays', 'landmarks', '', []]],
+    None,
+    '@brief Detect facial landmarks from an image.\n'
+    '@param image Input image.\n'
+    '@param faces Output of the function which represent region of interest of '
+    'the detected faces.\n'
+    'Each face is stored in cv::Rect container.\n'
+    '@param landmarks The detected landmark points for each faces.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'Mat image = imread("image.jpg");\n'
+    'std::vector<Rect> faces;\n'
+    'std::vector<std::vector<Point2f> > landmarks;\n'
+    'facemark->fit(image, faces, landmarks);\n'
+    '@endcode']
+parse_name: cv.face.Facemark.fit with ['cv', 'cv::face'] -> fullname:cv::face::Facemark::fit namespace:cv::face classpath:Facemark classname:Facemark name:fit
+register (method) fit in cv::face::Facemark (trait) (cv_face_Facemark_fit__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.face.createFacemarkAAM',
+    'Ptr<Facemark>',
+    [],
+    [],
+    None,
+    'construct an AAM facemark detector']
+parse_name: cv.face.createFacemarkAAM with ['cv', 'cv::face'] -> fullname:cv::face::createFacemarkAAM namespace:cv::face classpath: classname: name:createFacemarkAAM
+register (function) createFacemarkAAM (cv_face_createFacemarkAAM)
+
+--- Incoming ---
+[   'cv.face.createFacemarkLBF',
+    'Ptr<Facemark>',
+    [],
+    [],
+    None,
+    'construct an LBF facemark detector']
+parse_name: cv.face.createFacemarkLBF with ['cv', 'cv::face'] -> fullname:cv::face::createFacemarkLBF namespace:cv::face classpath: classname: name:createFacemarkLBF
+register (function) createFacemarkLBF (cv_face_createFacemarkLBF)
+
+--- Incoming ---
+[   'cv.face.createFacemarkKazemi',
+    'Ptr<Facemark>',
+    [],
+    [],
+    None,
+    'construct a Kazemi facemark detector']
+parse_name: cv.face.createFacemarkKazemi with ['cv', 'cv::face'] -> fullname:cv::face::createFacemarkKazemi namespace:cv::face classpath: classname: name:createFacemarkKazemi
+register (function) createFacemarkKazemi (cv_face_createFacemarkKazemi)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/facemarkAAM.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.FacemarkAAM',
+    ': cv::face::FacemarkTrain',
+    [],
+    [],
+    None,
+    '@addtogroup face\n@{']
+parse_name: class cv.face.FacemarkAAM with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM namespace:cv::face classpath: classname: name:FacemarkAAM
+register class cv::face::FacemarkAAM (['class cv.face.FacemarkAAM', ': cv::face::FacemarkTrain', [], [], None, '@addtogroup face\n@{']) impl:cv::face::FacemarkTrain
+
+--- Incoming ---
+['struct cv.face.FacemarkAAM.Params', '', [], [], None, '']
+parse_name: struct cv.face.FacemarkAAM.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Params namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:Params
+register class cv::face::FacemarkAAM::Params (['struct cv.face.FacemarkAAM.Params', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.Params.Params',
+    'P',
+    [],
+    [],
+    None,
+    '* \\brief Constructor']
+parse_name: cv.face.FacemarkAAM.Params.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Params::Params namespace:cv::face classpath:FacemarkAAM::Params classname:Params name:Params
+register (constructor) default in cv::face::FacemarkAAM::Params (cv_face_FacemarkAAM_Params_Params)
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.Params.read',
+    'void',
+    [],
+    [['const FileNode&', '', '', []]],
+    None,
+    '* \\brief Read parameters from file, currently unused']
+parse_name: cv.face.FacemarkAAM.Params.read with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Params::read namespace:cv::face classpath:FacemarkAAM::Params classname:Params name:read
+register (method) read in cv::face::FacemarkAAM::Params (cv_face_FacemarkAAM_Params_read_FileNode)
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.Params.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', '', '', []]],
+    None,
+    '* \\brief Read parameters from file, currently unused']
+parse_name: cv.face.FacemarkAAM.Params.write with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Params::write namespace:cv::face classpath:FacemarkAAM::Params classname:Params name:write
+register (method) write in cv::face::FacemarkAAM::Params (cv_face_FacemarkAAM_Params_write_const_FileStorage)
+
+--- Incoming ---
+[   'struct cv.face.FacemarkAAM.Config',
+    '',
+    [],
+    [],
+    None,
+    '* \\brief Optional parameter for fitting process.']
+parse_name: struct cv.face.FacemarkAAM.Config with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Config namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:Config
+register class cv::face::FacemarkAAM::Config (['struct cv.face.FacemarkAAM.Config', '', [], [], None, '* \\brief Optional parameter for fitting process.'])
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.Config.Config',
+    'C',
+    [],
+    [   ['Mat', 'rot', 'Mat::eye(2,2,CV_32F)', []],
+        ['Point2f', 'trans', 'Point2f(0.0f, 0.0f)', []],
+        ['float', 'scaling', '1.0f', []],
+        ['int', 'scale_id', '0', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkAAM.Config.Config with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Config::Config namespace:cv::face classpath:FacemarkAAM::Config classname:Config name:Config
+register (constructor) new in cv::face::FacemarkAAM::Config (cv_face_FacemarkAAM_Config_Config_Mat_Point2f_float_int)
+
+--- Incoming ---
+[   'struct cv.face.FacemarkAAM.Data',
+    '',
+    [],
+    [],
+    None,
+    '* \\brief Data container for the facemark::getData function']
+parse_name: struct cv.face.FacemarkAAM.Data with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Data namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:Data
+register class cv::face::FacemarkAAM::Data (['struct cv.face.FacemarkAAM.Data', '', [], [], None, '* \\brief Data container for the facemark::getData function'])
+
+--- Incoming ---
+[   'struct cv.face.FacemarkAAM.Model',
+    '',
+    [],
+    [],
+    None,
+    '* \\brief The model of AAM Algorithm']
+parse_name: struct cv.face.FacemarkAAM.Model with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Model namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:Model
+register class cv::face::FacemarkAAM::Model (['struct cv.face.FacemarkAAM.Model', '', [], [], None, '* \\brief The model of AAM Algorithm'])
+
+--- Incoming ---
+['struct cv.face.FacemarkAAM.Model.Texture', '', [], [], None, '']
+parse_name: struct cv.face.FacemarkAAM.Model.Texture with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::Model::Texture namespace:cv::face classpath:FacemarkAAM::Model classname:Model name:Texture
+register class cv::face::FacemarkAAM::Model::Texture (['struct cv.face.FacemarkAAM.Model.Texture', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.fitConfig',
+    'bool',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'roi', '', []],
+        ['OutputArrayOfArrays', '_landmarks', '', []],
+        ['const std::vector<Config> &', 'runtime_params', '', []]],
+    None,
+    'overload with additional Config structures']
+parse_name: cv.face.FacemarkAAM.fitConfig with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::fitConfig namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:fitConfig
+register (method) fitConfig in cv::face::FacemarkAAM (trait) (cv_face_FacemarkAAM_fitConfig__InputArray__InputArray__OutputArray_VectorOfConfig)
+
+--- Incoming ---
+[   'cv.face.FacemarkAAM.create',
+    'Ptr<FacemarkAAM>',
+    ['/S'],
+    [   [   'const FacemarkAAM::Params &',
+            'parameters',
+            'FacemarkAAM::Params()',
+            []]],
+    None,
+    'initializer']
+parse_name: cv.face.FacemarkAAM.create with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::create namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:create
+register (method) create in cv::face::FacemarkAAM (trait) (cv_face_FacemarkAAM_create_Params)
+
+--- Incoming ---
+['cv.face.FacemarkAAM.~FacemarkAAM', '~', [], [], None, '']
+parse_name: cv.face.FacemarkAAM.~FacemarkAAM with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkAAM::~FacemarkAAM namespace:cv::face classpath:FacemarkAAM classname:FacemarkAAM name:~FacemarkAAM
+ignore destructor (method) ~FacemarkAAM in cv::face::FacemarkAAM (trait)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/facemarkLBF.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.FacemarkLBF',
+    ': cv::face::FacemarkTrain',
+    [],
+    [],
+    None,
+    '@addtogroup face\n@{']
+parse_name: class cv.face.FacemarkLBF with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF namespace:cv::face classpath: classname: name:FacemarkLBF
+register class cv::face::FacemarkLBF (['class cv.face.FacemarkLBF', ': cv::face::FacemarkTrain', [], [], None, '@addtogroup face\n@{']) impl:cv::face::FacemarkTrain
+
+--- Incoming ---
+['struct cv.face.FacemarkLBF.Params', '', [], [], None, '']
+parse_name: struct cv.face.FacemarkLBF.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::Params namespace:cv::face classpath:FacemarkLBF classname:FacemarkLBF name:Params
+register class cv::face::FacemarkLBF::Params (['struct cv.face.FacemarkLBF.Params', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.Params.Params',
+    'P',
+    [],
+    [],
+    None,
+    '* \\brief Constructor']
+parse_name: cv.face.FacemarkLBF.Params.Params with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::Params::Params namespace:cv::face classpath:FacemarkLBF::Params classname:Params name:Params
+register (constructor) default in cv::face::FacemarkLBF::Params (cv_face_FacemarkLBF_Params_Params)
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.Params.read',
+    'void',
+    [],
+    [['const FileNode&', '', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.Params.read with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::Params::read namespace:cv::face classpath:FacemarkLBF::Params classname:Params name:read
+register (method) read in cv::face::FacemarkLBF::Params (cv_face_FacemarkLBF_Params_read_FileNode)
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.Params.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', '', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.Params.write with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::Params::write namespace:cv::face classpath:FacemarkLBF::Params classname:Params name:write
+register (method) write in cv::face::FacemarkLBF::Params (cv_face_FacemarkLBF_Params_write_const_FileStorage)
+
+--- Incoming ---
+['class cv.face.FacemarkLBF.BBox', '', [], [], None, '']
+parse_name: class cv.face.FacemarkLBF.BBox with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox namespace:cv::face classpath:FacemarkLBF classname:FacemarkLBF name:BBox
+register class cv::face::FacemarkLBF::BBox (['class cv.face.FacemarkLBF.BBox', '', [], [], None, ''])
+
+--- Incoming ---
+['cv.face.FacemarkLBF.BBox.BBox', 'B', [], [], None, '']
+parse_name: cv.face.FacemarkLBF.BBox.BBox with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox::BBox namespace:cv::face classpath:FacemarkLBF::BBox classname:BBox name:BBox
+register (constructor) default in cv::face::FacemarkLBF::BBox (cv_face_FacemarkLBF_BBox_BBox)
+
+--- Incoming ---
+['cv.face.FacemarkLBF.BBox.~BBox', '~', [], [], None, '']
+parse_name: cv.face.FacemarkLBF.BBox.~BBox with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox::~BBox namespace:cv::face classpath:FacemarkLBF::BBox classname:BBox name:~BBox
+ignore destructor (method) ~BBox in cv::face::FacemarkLBF::BBox
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.BBox.BBox',
+    'B',
+    [],
+    [   ['double', 'x', '', []],
+        ['double', 'y', '', []],
+        ['double', 'w', '', []],
+        ['double', 'h', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.BBox.BBox with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox::BBox namespace:cv::face classpath:FacemarkLBF::BBox classname:BBox name:BBox
+register (constructor) new in cv::face::FacemarkLBF::BBox (cv_face_FacemarkLBF_BBox_BBox_double_double_double_double)
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.BBox.project',
+    'Mat',
+    ['/C'],
+    [['const Mat &', 'shape', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.BBox.project with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox::project namespace:cv::face classpath:FacemarkLBF::BBox classname:BBox name:project
+register (method) project in cv::face::FacemarkLBF::BBox (cv_face_FacemarkLBF_BBox_project_const_Mat)
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.BBox.reproject',
+    'Mat',
+    ['/C'],
+    [['const Mat &', 'shape', '', []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.BBox.reproject with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::BBox::reproject namespace:cv::face classpath:FacemarkLBF::BBox classname:BBox name:reproject
+register (method) reproject in cv::face::FacemarkLBF::BBox (cv_face_FacemarkLBF_BBox_reproject_const_Mat)
+
+--- Incoming ---
+[   'cv.face.FacemarkLBF.create',
+    'Ptr<FacemarkLBF>',
+    ['/S'],
+    [   [   'const FacemarkLBF::Params &',
+            'parameters',
+            'FacemarkLBF::Params()',
+            []]],
+    None,
+    '']
+parse_name: cv.face.FacemarkLBF.create with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::create namespace:cv::face classpath:FacemarkLBF classname:FacemarkLBF name:create
+register (method) create in cv::face::FacemarkLBF (cv_face_FacemarkLBF_create_Params)
+
+--- Incoming ---
+['cv.face.FacemarkLBF.~FacemarkLBF', '~', [], [], None, '']
+parse_name: cv.face.FacemarkLBF.~FacemarkLBF with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkLBF::~FacemarkLBF namespace:cv::face classpath:FacemarkLBF classname:FacemarkLBF name:~FacemarkLBF
+ignore destructor (method) ~FacemarkLBF in cv::face::FacemarkLBF
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/facemark_train.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'callback cv.face.FN_FaceDetector',
+    'bool',
+    '',
+    [['InputArray', ''], ['OutputArray', ''], ['void*', 'userData']],
+    None,
+    '@addtogroup face\n@{']
+parse_name: callback cv.face.FN_FaceDetector with ['cv', 'cv::face'] -> fullname:cv::face::FN_FaceDetector namespace:cv::face classpath: classname: name:FN_FaceDetector
+parse_name: class cv.face.FN_FaceDetector with ['cv', 'cv::face'] -> fullname:cv::face::FN_FaceDetector namespace:cv::face classpath: classname: name:FN_FaceDetector
+register class cv::face::FN_FaceDetector (('class cv.face.FN_FaceDetector', '', ['/Ghost', '/Callback'], []))
+
+--- Incoming ---
+['struct cv.face.CParams', '', [], [], None, '']
+parse_name: struct cv.face.CParams with ['cv', 'cv::face'] -> fullname:cv::face::CParams namespace:cv::face classpath: classname: name:CParams
+register class cv::face::CParams (['struct cv.face.CParams', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.CParams.CParams',
+    'C',
+    [],
+    [   ['String', 'cascade_model', '', []],
+        ['double', 'sf', '1.1', []],
+        ['int', 'minN', '3', []],
+        ['Size', 'minSz', 'Size(30, 30)', []],
+        ['Size', 'maxSz', 'Size()', []]],
+    None,
+    '']
+parse_name: cv.face.CParams.CParams with ['cv', 'cv::face'] -> fullname:cv::face::CParams::CParams namespace:cv::face classpath:CParams classname:CParams name:CParams
+register (constructor) new in cv::face::CParams (cv_face_CParams_CParams_String_double_int_Size_Size)
+
+--- Incoming ---
+[   'cv.face.getFaces',
+    'bool',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'faces', '', []],
+        ['CParams*', 'params', '', []]],
+    None,
+    '@brief Default face detector\n'
+    'This function is mainly utilized by the implementation of a Facemark '
+    'Algorithm.\n'
+    'End users are advised to use function Facemark::getFaces which can be '
+    'manually defined\n'
+    'and circumvented to the algorithm by Facemark::setFaceDetector.\n'
+    '\n'
+    '@param image The input image to be processed.\n'
+    '@param faces Output of the function which represent region of interest of '
+    'the detected faces.\n'
+    'Each face is stored in cv::Rect container.\n'
+    '@param params detector parameters\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'std::vector<cv::Rect> faces;\n'
+    'CParams params("haarcascade_frontalface_alt.xml");\n'
+    'cv::face::getFaces(frame, faces, &params);\n'
+    'for(int j=0;j<faces.size();j++){\n'
+    'cv::rectangle(frame, faces[j], cv::Scalar(255,0,255));\n'
+    '}\n'
+    'cv::imshow("detection", frame);\n'
+    '@endcode']
+parse_name: cv.face.getFaces with ['cv', 'cv::face'] -> fullname:cv::face::getFaces namespace:cv::face classpath: classname: name:getFaces
+register (function) getFaces (cv_face_getFaces__InputArray__OutputArray_CParams)
+
+--- Incoming ---
+[   'cv.face.getFacesHAAR',
+    'bool',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'faces', '', []],
+        ['const String&', 'face_cascade_name', '', []]],
+    None,
+    '']
+parse_name: cv.face.getFacesHAAR with ['cv', 'cv::face'] -> fullname:cv::face::getFacesHAAR namespace:cv::face classpath: classname: name:getFacesHAAR
+register (function) getFacesHAAR (cv_face_getFacesHAAR__InputArray__OutputArray_String)
+
+--- Incoming ---
+[   'cv.face.loadDatasetList',
+    'bool',
+    [],
+    [   ['String', 'imageList', '', []],
+        ['String', 'annotationList', '', []],
+        ['std::vector<String> &', 'images', '', []],
+        ['std::vector<String> &', 'annotations', '', []]],
+    None,
+    '@brief A utility to load list of paths to training image and annotation '
+    'file.\n'
+    '@param imageList The specified file contains paths to the training '
+    'images.\n'
+    '@param annotationList The specified file contains paths to the training '
+    'annotations.\n'
+    '@param images The loaded paths of training images.\n'
+    '@param annotations The loaded paths of annotation files.\n'
+    '\n'
+    'Example of usage:\n'
+    '@code\n'
+    'String imageFiles = "images_path.txt";\n'
+    'String ptsFiles = "annotations_path.txt";\n'
+    'std::vector<String> images_train;\n'
+    'std::vector<String> landmarks_train;\n'
+    'loadDatasetList(imageFiles,ptsFiles,images_train,landmarks_train);\n'
+    '@endcode']
+parse_name: cv.face.loadDatasetList with ['cv', 'cv::face'] -> fullname:cv::face::loadDatasetList namespace:cv::face classpath: classname: name:loadDatasetList
+register (function) loadDatasetList (cv_face_loadDatasetList_String_String_VectorOfString_VectorOfString)
+
+--- Incoming ---
+[   'cv.face.loadTrainingData',
+    'bool',
+    [],
+    [   ['String', 'filename', '', []],
+        ['std::vector<String> &', 'images', '', []],
+        ['OutputArray', 'facePoints', '', []],
+        ['char', 'delim', "' '", []],
+        ['float', 'offset', '0.0f', []]],
+    None,
+    '@brief A utility to load facial landmark dataset from a single file.\n'
+    '\n'
+    '@param filename The filename of a file that contains the dataset '
+    'information.\n'
+    'Each line contains the filename of an image followed by\n'
+    'pairs of x and y values of facial landmarks points separated by a space.\n'
+    'Example\n'
+    '@code\n'
+    '/home/user/ibug/image_003_1.jpg 336.820955 240.864510 334.238298 '
+    '260.922709 335.266918 ...\n'
+    '/home/user/ibug/image_005_1.jpg 376.158428 230.845712 376.736984 '
+    '254.924635 383.265403 ...\n'
+    '@endcode\n'
+    '@param images A vector where each element represent the filename of image '
+    'in the dataset.\n'
+    'Images are not loaded by default to save the memory.\n'
+    '@param facePoints The loaded landmark points for all training data.\n'
+    '@param delim Delimiter between each element, the default value is a '
+    'whitespace.\n'
+    '@param offset An offset value to adjust the loaded points.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'cv::String imageFiles = "../data/images_train.txt";\n'
+    'cv::String ptsFiles = "../data/points_train.txt";\n'
+    'std::vector<String> images;\n'
+    'std::vector<std::vector<Point2f> > facePoints;\n'
+    'loadTrainingData(imageFiles, ptsFiles, images, facePoints, 0.0f);\n'
+    '@endcode']
+parse_name: cv.face.loadTrainingData with ['cv', 'cv::face'] -> fullname:cv::face::loadTrainingData namespace:cv::face classpath: classname: name:loadTrainingData
+register (function) loadTrainingData (cv_face_loadTrainingData_String_VectorOfString__OutputArray_char_float)
+
+--- Incoming ---
+[   'cv.face.loadTrainingData',
+    'bool',
+    [],
+    [   ['String', 'imageList', '', []],
+        ['String', 'groundTruth', '', []],
+        ['std::vector<String> &', 'images', '', []],
+        ['OutputArray', 'facePoints', '', []],
+        ['float', 'offset', '0.0f', []]],
+    None,
+    '@brief A utility to load facial landmark information from the dataset.\n'
+    '\n'
+    '@param imageList A file contains the list of image filenames in the '
+    'training dataset.\n'
+    '@param groundTruth A file contains the list of filenames\n'
+    'where the landmarks points information are stored.\n'
+    'The content in each file should follow the standard format (see '
+    'face::loadFacePoints).\n'
+    '@param images A vector where each element represent the filename of image '
+    'in the dataset.\n'
+    'Images are not loaded by default to save the memory.\n'
+    '@param facePoints The loaded landmark points for all training data.\n'
+    '@param offset An offset value to adjust the loaded points.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'cv::String imageFiles = "../data/images_train.txt";\n'
+    'cv::String ptsFiles = "../data/points_train.txt";\n'
+    'std::vector<String> images;\n'
+    'std::vector<std::vector<Point2f> > facePoints;\n'
+    'loadTrainingData(imageFiles, ptsFiles, images, facePoints, 0.0f);\n'
+    '@endcode\n'
+    '\n'
+    'example of content in the images_train.txt\n'
+    '@code\n'
+    '/home/user/ibug/image_003_1.jpg\n'
+    '/home/user/ibug/image_004_1.jpg\n'
+    '/home/user/ibug/image_005_1.jpg\n'
+    '/home/user/ibug/image_006.jpg\n'
+    '@endcode\n'
+    '\n'
+    'example of content in the points_train.txt\n'
+    '@code\n'
+    '/home/user/ibug/image_003_1.pts\n'
+    '/home/user/ibug/image_004_1.pts\n'
+    '/home/user/ibug/image_005_1.pts\n'
+    '/home/user/ibug/image_006.pts\n'
+    '@endcode']
+parse_name: cv.face.loadTrainingData with ['cv', 'cv::face'] -> fullname:cv::face::loadTrainingData namespace:cv::face classpath: classname: name:loadTrainingData
+register (function) loadTrainingData (cv_face_loadTrainingData_String_String_VectorOfString__OutputArray_float)
+
+--- Incoming ---
+[   'cv.face.loadTrainingData',
+    'bool',
+    [],
+    [   ['std::vector<String>', 'filename', '', []],
+        ['std::vector< std::vector<Point2f> > &', 'trainlandmarks', '', []],
+        ['std::vector<String> &', 'trainimages', '', []]],
+    None,
+    '@brief This function extracts the data for training from .txt files which '
+    'contains the corresponding image name and landmarks.\n'
+    '*The first file in each file should give the path of the image whose\n'
+    '*landmarks are being described in the file. Then in the subsequent\n'
+    '*lines there should be coordinates of the landmarks in the image\n'
+    '*i.e each line should be of the form x,y\n'
+    '*where x represents the x coordinate of the landmark and y represents\n'
+    '*the y coordinate of the landmark.\n'
+    '*\n'
+    '*For reference you can see the files as provided in the\n'
+    '*<a href="http://www.ifp.illinois.edu/~vuongle2/helen/">HELEN '
+    'dataset</a>\n'
+    '*\n'
+    '* @param filename A vector of type cv::String containing name of the .txt '
+    'files.\n'
+    '* @param trainlandmarks A vector of type cv::Point2f that would store '
+    'shape or landmarks of all images.\n'
+    '* @param trainimages A vector of type cv::String which stores the name of '
+    'images whose landmarks are tracked\n'
+    '* @returns A boolean value. It returns true when it reads the data '
+    'successfully and false otherwise']
+parse_name: cv.face.loadTrainingData with ['cv', 'cv::face'] -> fullname:cv::face::loadTrainingData namespace:cv::face classpath: classname: name:loadTrainingData
+register (function) loadTrainingData (cv_face_loadTrainingData_VectorOfString_VectorOfVectorOfPoint2f_VectorOfString)
+
+--- Incoming ---
+[   'cv.face.loadFacePoints',
+    'bool',
+    [],
+    [   ['String', 'filename', '', []],
+        ['OutputArray', 'points', '', []],
+        ['float', 'offset', '0.0f', []]],
+    None,
+    '@brief A utility to load facial landmark information from a given file.\n'
+    '\n'
+    '@param filename The filename of file contains the facial landmarks data.\n'
+    '@param points The loaded facial landmark points.\n'
+    '@param offset An offset value to adjust the loaded points.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'std::vector<Point2f> points;\n'
+    'face::loadFacePoints("filename.txt", points, 0.0f);\n'
+    '@endcode\n'
+    '\n'
+    'The annotation file should follow the default format which is\n'
+    '@code\n'
+    'version: 1\n'
+    'n_points:  68\n'
+    '{\n'
+    '212.716603 499.771793\n'
+    '230.232816 566.290071\n'
+    '...\n'
+    '}\n'
+    '@endcode\n'
+    'where n_points is the number of points considered\n'
+    'and each point is represented as its position in x and y.']
+parse_name: cv.face.loadFacePoints with ['cv', 'cv::face'] -> fullname:cv::face::loadFacePoints namespace:cv::face classpath: classname: name:loadFacePoints
+register (function) loadFacePoints (cv_face_loadFacePoints_String__OutputArray_float)
+
+--- Incoming ---
+[   'cv.face.drawFacemarks',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArray', 'points', '', []],
+        ['Scalar', 'color', 'Scalar(255,0,0)', []]],
+    None,
+    '@brief Utility to draw the detected facial landmark points\n'
+    '\n'
+    '@param image The input image to be processed.\n'
+    '@param points Contains the data of points which will be drawn.\n'
+    '@param color The color of points in BGR format represented by '
+    'cv::Scalar.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'std::vector<Rect> faces;\n'
+    'std::vector<std::vector<Point2f> > landmarks;\n'
+    'facemark->getFaces(img, faces);\n'
+    'facemark->fit(img, faces, landmarks);\n'
+    'for(int j=0;j<rects.size();j++){\n'
+    'face::drawFacemarks(frame, landmarks[j], Scalar(0,0,255));\n'
+    '}\n'
+    '@endcode']
+parse_name: cv.face.drawFacemarks with ['cv', 'cv::face'] -> fullname:cv::face::drawFacemarks namespace:cv::face classpath: classname: name:drawFacemarks
+register (function) drawFacemarks (cv_face_drawFacemarks__InputOutputArray__InputArray_Scalar)
+
+--- Incoming ---
+[   'class cv.face.FacemarkTrain',
+    ': cv::face::Facemark',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for trainable facemark models\n'
+    '\n'
+    'To utilize this API in your program, please take a look at the @ref '
+    'tutorial_table_of_content_facemark\n'
+    '### Description\n'
+    '\n'
+    'The AAM and LBF facemark models in OpenCV are derived from the abstract '
+    'base class FacemarkTrain, which\n'
+    'provides a unified access to those facemark algorithms in OpenCV.\n'
+    '\n'
+    'Here is an example on how to declare facemark algorithm:\n'
+    '@code\n'
+    '// Using Facemark in your code:\n'
+    'Ptr<Facemark> facemark = FacemarkLBF::create();\n'
+    '@endcode\n'
+    '\n'
+    '\n'
+    'The typical pipeline for facemark detection is listed as follows:\n'
+    '- (Non-mandatory) Set a user defined face detection using '
+    'FacemarkTrain::setFaceDetector.\n'
+    'The facemark algorithms are desgined to fit the facial points into a '
+    'face.\n'
+    'Therefore, the face information should be provided to the facemark '
+    'algorithm.\n'
+    'Some algorithms might provides a default face recognition function.\n'
+    'However, the users might prefer to use their own face detector to obtains '
+    'the best possible detection result.\n'
+    '- (Non-mandatory) Training the model for a specific algorithm using '
+    'FacemarkTrain::training.\n'
+    'In this case, the model should be automatically saved by the algorithm.\n'
+    'If the user already have a trained model, then this part can be omitted.\n'
+    '- Load the trained model using Facemark::loadModel.\n'
+    '- Perform the fitting via the Facemark::fit.']
+parse_name: class cv.face.FacemarkTrain with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain namespace:cv::face classpath: classname: name:FacemarkTrain
+register class cv::face::FacemarkTrain (['class cv.face.FacemarkTrain', ': cv::face::Facemark', [], [], None, '@brief Abstract base class for trainable facemark models\n\nTo utilize this API in your program, please take a look at the @ref tutorial_table_of_content_facemark\n### Description\n\nThe AAM and LBF facemark models in OpenCV are derived from the abstract base class FacemarkTrain, which\nprovides a unified access to those facemark algorithms in OpenCV.\n\nHere is an example on how to declare facemark algorithm:\n@code\n// Using Facemark in your code:\nPtr<Facemark> facemark = FacemarkLBF::create();\n@endcode\n\n\nThe typical pipeline for facemark detection is listed as follows:\n- (Non-mandatory) Set a user defined face detection using FacemarkTrain::setFaceDetector.\nThe facemark algorithms are desgined to fit the facial points into a face.\nTherefore, the face information should be provided to the facemark algorithm.\nSome algorithms might provides a default face recognition function.\nHowever, the users might prefer to use their own face detector to obtains the best possible detection result.\n- (Non-mandatory) Training the model for a specific algorithm using FacemarkTrain::training.\nIn this case, the model should be automatically saved by the algorithm.\nIf the user already have a trained model, then this part can be omitted.\n- Load the trained model using Facemark::loadModel.\n- Perform the fitting via the Facemark::fit.']) impl:cv::face::Facemark
+
+--- Incoming ---
+[   'cv.face.FacemarkTrain.addTrainingSample',
+    'bool',
+    ['/A'],
+    [['InputArray', 'image', '', []], ['InputArray', 'landmarks', '', []]],
+    None,
+    '@brief Add one training sample to the trainer.\n'
+    '\n'
+    '@param image Input image.\n'
+    '@param landmarks The ground-truth of facial landmarks points corresponds '
+    'to the image.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'String imageFiles = "../data/images_train.txt";\n'
+    'String ptsFiles = "../data/points_train.txt";\n'
+    'std::vector<String> images_train;\n'
+    'std::vector<String> landmarks_train;\n'
+    '\n'
+    '// load the list of dataset: image paths and landmark file paths\n'
+    'loadDatasetList(imageFiles,ptsFiles,images_train,landmarks_train);\n'
+    '\n'
+    'Mat image;\n'
+    'std::vector<Point2f> facial_points;\n'
+    'for(size_t i=0;i<images_train.size();i++){\n'
+    'image = imread(images_train[i].c_str());\n'
+    'loadFacePoints(landmarks_train[i],facial_points);\n'
+    'facemark->addTrainingSample(image, facial_points);\n'
+    '}\n'
+    '@endcode\n'
+    '\n'
+    'The contents in the training files should follows the standard format.\n'
+    'Here are examples for the contents in these files.\n'
+    'example of content in the images_train.txt\n'
+    '@code\n'
+    '/home/user/ibug/image_003_1.jpg\n'
+    '/home/user/ibug/image_004_1.jpg\n'
+    '/home/user/ibug/image_005_1.jpg\n'
+    '/home/user/ibug/image_006.jpg\n'
+    '@endcode\n'
+    '\n'
+    'example of content in the points_train.txt\n'
+    '@code\n'
+    '/home/user/ibug/image_003_1.pts\n'
+    '/home/user/ibug/image_004_1.pts\n'
+    '/home/user/ibug/image_005_1.pts\n'
+    '/home/user/ibug/image_006.pts\n'
+    '@endcode']
+parse_name: cv.face.FacemarkTrain.addTrainingSample with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain::addTrainingSample namespace:cv::face classpath:FacemarkTrain classname:FacemarkTrain name:addTrainingSample
+register (method) addTrainingSample in cv::face::FacemarkTrain (trait) (cv_face_FacemarkTrain_addTrainingSample__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.face.FacemarkTrain.training',
+    'void',
+    ['/A'],
+    [['void*', 'parameters', '0', []]],
+    None,
+    '@brief Trains a Facemark algorithm using the given dataset.\n'
+    'Before the training process, training samples should be added to the '
+    'trainer\n'
+    'using face::addTrainingSample function.\n'
+    '\n'
+    '@param parameters Optional extra parameters (algorithm dependent).\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'FacemarkLBF::Params params;\n'
+    'params.model_filename = "ibug68.model"; // filename to save the trained '
+    'model\n'
+    'Ptr<Facemark> facemark = FacemarkLBF::create(params);\n'
+    '\n'
+    '// add training samples (see Facemark::addTrainingSample)\n'
+    '\n'
+    'facemark->training();\n'
+    '@endcode']
+parse_name: cv.face.FacemarkTrain.training with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain::training namespace:cv::face classpath:FacemarkTrain classname:FacemarkTrain name:training
+register (method) training in cv::face::FacemarkTrain (trait) (cv_face_FacemarkTrain_training_void_X)
+
+--- Incoming ---
+[   'cv.face.FacemarkTrain.setFaceDetector',
+    'bool',
+    ['/A'],
+    [['FN_FaceDetector', 'detector', '', []], ['void*', 'userData', '0', []]],
+    None,
+    '@brief Set a user defined face detector for the Facemark algorithm.\n'
+    '@param detector The user defined face detector function\n'
+    '@param userData Detector parameters\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'MyDetectorParameters detectorParameters(...);\n'
+    'facemark->setFaceDetector(myDetector, &detectorParameters);\n'
+    '@endcode\n'
+    '\n'
+    'Example of a user defined face detector\n'
+    '@code\n'
+    'bool myDetector( InputArray image, OutputArray faces, void* userData)\n'
+    '{\n'
+    'MyDetectorParameters* params = (MyDetectorParameters*)userData;\n'
+    '// -------- do something --------\n'
+    '}\n'
+    '@endcode\n'
+    '\n'
+    'TODO Lifetime of detector parameters is uncontrolled. Rework interface '
+    'design to "Ptr<FaceDetector>".']
+parse_name: cv.face.FacemarkTrain.setFaceDetector with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain::setFaceDetector namespace:cv::face classpath:FacemarkTrain classname:FacemarkTrain name:setFaceDetector
+ignore function with callback, but without userdata (method) setFaceDetector in cv::face::FacemarkTrain (trait)
+
+--- Incoming ---
+[   'cv.face.FacemarkTrain.getFaces',
+    'bool',
+    ['/A'],
+    [['InputArray', 'image', '', []], ['OutputArray', 'faces', '', []]],
+    None,
+    '@brief Detect faces from a given image using default or user defined face '
+    'detector.\n'
+    'Some Algorithm might not provide a default face detector.\n'
+    '\n'
+    '@param image Input image.\n'
+    '@param faces Output of the function which represent region of interest of '
+    'the detected faces. Each face is stored in cv::Rect container.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'std::vector<cv::Rect> faces;\n'
+    'facemark->getFaces(img, faces);\n'
+    'for(int j=0;j<faces.size();j++){\n'
+    'cv::rectangle(img, faces[j], cv::Scalar(255,0,255));\n'
+    '}\n'
+    '@endcode']
+parse_name: cv.face.FacemarkTrain.getFaces with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain::getFaces namespace:cv::face classpath:FacemarkTrain classname:FacemarkTrain name:getFaces
+register (method) getFaces in cv::face::FacemarkTrain (trait) (cv_face_FacemarkTrain_getFaces__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.face.FacemarkTrain.getData',
+    'bool',
+    ['/A'],
+    [['void *', 'items', '0', []]],
+    None,
+    '@brief Get data from an algorithm\n'
+    '\n'
+    '@param items The obtained data, algorithm dependent.\n'
+    '\n'
+    '<B>Example of usage</B>\n'
+    '@code\n'
+    'Ptr<FacemarkAAM> facemark = FacemarkAAM::create();\n'
+    'facemark->loadModel("AAM.yml");\n'
+    '\n'
+    'FacemarkAAM::Data data;\n'
+    'facemark->getData(&data);\n'
+    'std::vector<Point2f> s0 = data.s0;\n'
+    '\n'
+    'cout<<s0<<endl;\n'
+    '@endcode']
+parse_name: cv.face.FacemarkTrain.getData with ['cv', 'cv::face'] -> fullname:cv::face::FacemarkTrain::getData namespace:cv::face classpath:FacemarkTrain classname:FacemarkTrain name:getData
+register (method) getData in cv::face::FacemarkTrain (trait) (cv_face_FacemarkTrain_getData_void_X)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/facerec.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.BasicFaceRecognizer',
+    ': cv::face::FaceRecognizer',
+    [],
+    [],
+    None,
+    '@addtogroup face\n@{']
+parse_name: class cv.face.BasicFaceRecognizer with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer namespace:cv::face classpath: classname: name:BasicFaceRecognizer
+register class cv::face::BasicFaceRecognizer (['class cv.face.BasicFaceRecognizer', ': cv::face::FaceRecognizer', [], [], None, '@addtogroup face\n@{']) impl:cv::face::FaceRecognizer
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.getNumComponents',
+    'int',
+    ['/C'],
+    [],
+    None,
+    '@see setNumComponents']
+parse_name: cv.face.BasicFaceRecognizer.getNumComponents with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getNumComponents namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getNumComponents
+register (method) getNumComponents in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getNumComponents_const)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.setNumComponents',
+    'void',
+    [],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getNumComponents @see getNumComponents']
+parse_name: cv.face.BasicFaceRecognizer.setNumComponents with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::setNumComponents namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:setNumComponents
+register (method) setNumComponents in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_setNumComponents_int)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.getThreshold',
+    'double',
+    ['/C'],
+    [],
+    None,
+    '@see setThreshold']
+parse_name: cv.face.BasicFaceRecognizer.getThreshold with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getThreshold namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getThreshold
+register (method) getThreshold in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getThreshold_const)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.setThreshold',
+    'void',
+    [],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getThreshold @see getThreshold']
+parse_name: cv.face.BasicFaceRecognizer.setThreshold with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::setThreshold namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:setThreshold
+register (method) setThreshold in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_setThreshold_double)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.getProjections',
+    'std::vector<cv::Mat>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.face.BasicFaceRecognizer.getProjections with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getProjections namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getProjections
+register (method) getProjections in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getProjections_const)
+
+--- Incoming ---
+['cv.face.BasicFaceRecognizer.getLabels', 'cv::Mat', ['/C'], [], None, '']
+parse_name: cv.face.BasicFaceRecognizer.getLabels with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getLabels namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getLabels
+register (method) getLabels in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getLabels_const)
+
+--- Incoming ---
+['cv.face.BasicFaceRecognizer.getEigenValues', 'cv::Mat', ['/C'], [], None, '']
+parse_name: cv.face.BasicFaceRecognizer.getEigenValues with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getEigenValues namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getEigenValues
+register (method) getEigenValues in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getEigenValues_const)
+
+--- Incoming ---
+['cv.face.BasicFaceRecognizer.getEigenVectors', 'cv::Mat', ['/C'], [], None, '']
+parse_name: cv.face.BasicFaceRecognizer.getEigenVectors with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getEigenVectors namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getEigenVectors
+register (method) getEigenVectors in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getEigenVectors_const)
+
+--- Incoming ---
+['cv.face.BasicFaceRecognizer.getMean', 'cv::Mat', ['/C'], [], None, '']
+parse_name: cv.face.BasicFaceRecognizer.getMean with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::getMean namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:getMean
+register (method) getMean in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_getMean_const)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.read',
+    'void',
+    [],
+    [['const FileNode&', 'fn', '', []]],
+    None,
+    '']
+parse_name: cv.face.BasicFaceRecognizer.read with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::read namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:read
+register (method) read in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_read_FileNode)
+
+--- Incoming ---
+[   'cv.face.BasicFaceRecognizer.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', 'fs', '', []]],
+    None,
+    '']
+parse_name: cv.face.BasicFaceRecognizer.write with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::write namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:write
+register (method) write in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_write_const_FileStorage)
+
+--- Incoming ---
+['cv.face.BasicFaceRecognizer.empty', 'bool', ['/C'], [], None, '']
+parse_name: cv.face.BasicFaceRecognizer.empty with ['cv', 'cv::face'] -> fullname:cv::face::BasicFaceRecognizer::empty namespace:cv::face classpath:BasicFaceRecognizer classname:BasicFaceRecognizer name:empty
+register (method) empty in cv::face::BasicFaceRecognizer (cv_face_BasicFaceRecognizer_empty_const)
+
+--- Incoming ---
+[   'class cv.face.EigenFaceRecognizer',
+    ': cv::face::BasicFaceRecognizer',
+    [],
+    [],
+    None,
+    '']
+parse_name: class cv.face.EigenFaceRecognizer with ['cv', 'cv::face'] -> fullname:cv::face::EigenFaceRecognizer namespace:cv::face classpath: classname: name:EigenFaceRecognizer
+register class cv::face::EigenFaceRecognizer (['class cv.face.EigenFaceRecognizer', ': cv::face::BasicFaceRecognizer', [], [], None, '']) impl:cv::face::BasicFaceRecognizer
+
+--- Incoming ---
+[   'cv.face.EigenFaceRecognizer.create',
+    'Ptr<EigenFaceRecognizer>',
+    ['/S'],
+    [   ['int', 'num_components', '0', []],
+        ['double', 'threshold', 'DBL_MAX', []]],
+    None,
+    '@param num_components The number of components (read: Eigenfaces) kept '
+    'for this Principal\n'
+    "Component Analysis. As a hint: There's no rule how many components (read: "
+    'Eigenfaces) should be\n'
+    'kept for good reconstruction capabilities. It is based on your input '
+    'data, so experiment with the\n'
+    'number. Keeping 80 components should almost always be sufficient.\n'
+    '@param threshold The threshold applied in the prediction.\n'
+    '\n'
+    '### Notes:\n'
+    '\n'
+    '-   Training and prediction must be done on grayscale images, use '
+    'cvtColor to convert between the\n'
+    'color spaces.\n'
+    '-   **THE EIGENFACES METHOD MAKES THE ASSUMPTION, THAT THE TRAINING AND '
+    'TEST IMAGES ARE OF EQUAL\n'
+    'SIZE.** (caps-lock, because I got so many mails asking for this). You '
+    'have to make sure your\n'
+    'input data has the correct shape, else a meaningful exception is thrown. '
+    'Use resize to resize\n'
+    'the images.\n'
+    '-   This model does not support updating.\n'
+    '\n'
+    '### Model internal data:\n'
+    '\n'
+    '-   num_components see EigenFaceRecognizer::create.\n'
+    '-   threshold see EigenFaceRecognizer::create.\n'
+    '-   eigenvalues The eigenvalues for this Principal Component Analysis '
+    '(ordered descending).\n'
+    '-   eigenvectors The eigenvectors for this Principal Component Analysis '
+    '(ordered by their\n'
+    'eigenvalue).\n'
+    '-   mean The sample mean calculated from the training data.\n'
+    '-   projections The projections of the training data.\n'
+    '-   labels The threshold applied in the prediction. If the distance to '
+    'the nearest neighbor is\n'
+    'larger than the threshold, this method returns -1.']
+parse_name: cv.face.EigenFaceRecognizer.create with ['cv', 'cv::face'] -> fullname:cv::face::EigenFaceRecognizer::create namespace:cv::face classpath:EigenFaceRecognizer classname:EigenFaceRecognizer name:create
+register (method) create in cv::face::EigenFaceRecognizer (cv_face_EigenFaceRecognizer_create_int_double)
+
+--- Incoming ---
+[   'class cv.face.FisherFaceRecognizer',
+    ': cv::face::BasicFaceRecognizer',
+    [],
+    [],
+    None,
+    '']
+parse_name: class cv.face.FisherFaceRecognizer with ['cv', 'cv::face'] -> fullname:cv::face::FisherFaceRecognizer namespace:cv::face classpath: classname: name:FisherFaceRecognizer
+register class cv::face::FisherFaceRecognizer (['class cv.face.FisherFaceRecognizer', ': cv::face::BasicFaceRecognizer', [], [], None, '']) impl:cv::face::BasicFaceRecognizer
+
+--- Incoming ---
+[   'cv.face.FisherFaceRecognizer.create',
+    'Ptr<FisherFaceRecognizer>',
+    ['/S'],
+    [   ['int', 'num_components', '0', []],
+        ['double', 'threshold', 'DBL_MAX', []]],
+    None,
+    '@param num_components The number of components (read: Fisherfaces) kept '
+    'for this Linear\n'
+    "Discriminant Analysis with the Fisherfaces criterion. It's useful to keep "
+    'all components, that\n'
+    'means the number of your classes c (read: subjects, persons you want to '
+    'recognize). If you leave\n'
+    'this at the default (0) or set it to a value less-equal 0 or greater '
+    '(c-1), it will be set to the\n'
+    'correct number (c-1) automatically.\n'
+    '@param threshold The threshold applied in the prediction. If the distance '
+    'to the nearest neighbor\n'
+    'is larger than the threshold, this method returns -1.\n'
+    '\n'
+    '### Notes:\n'
+    '\n'
+    '-   Training and prediction must be done on grayscale images, use '
+    'cvtColor to convert between the\n'
+    'color spaces.\n'
+    '-   **THE FISHERFACES METHOD MAKES THE ASSUMPTION, THAT THE TRAINING AND '
+    'TEST IMAGES ARE OF EQUAL\n'
+    'SIZE.** (caps-lock, because I got so many mails asking for this). You '
+    'have to make sure your\n'
+    'input data has the correct shape, else a meaningful exception is thrown. '
+    'Use resize to resize\n'
+    'the images.\n'
+    '-   This model does not support updating.\n'
+    '\n'
+    '### Model internal data:\n'
+    '\n'
+    '-   num_components see FisherFaceRecognizer::create.\n'
+    '-   threshold see FisherFaceRecognizer::create.\n'
+    '-   eigenvalues The eigenvalues for this Linear Discriminant Analysis '
+    '(ordered descending).\n'
+    '-   eigenvectors The eigenvectors for this Linear Discriminant Analysis '
+    '(ordered by their\n'
+    'eigenvalue).\n'
+    '-   mean The sample mean calculated from the training data.\n'
+    '-   projections The projections of the training data.\n'
+    '-   labels The labels corresponding to the projections.']
+parse_name: cv.face.FisherFaceRecognizer.create with ['cv', 'cv::face'] -> fullname:cv::face::FisherFaceRecognizer::create namespace:cv::face classpath:FisherFaceRecognizer classname:FisherFaceRecognizer name:create
+register (method) create in cv::face::FisherFaceRecognizer (cv_face_FisherFaceRecognizer_create_int_double)
+
+--- Incoming ---
+[   'class cv.face.LBPHFaceRecognizer',
+    ': cv::face::FaceRecognizer',
+    [],
+    [],
+    None,
+    '']
+parse_name: class cv.face.LBPHFaceRecognizer with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer namespace:cv::face classpath: classname: name:LBPHFaceRecognizer
+register class cv::face::LBPHFaceRecognizer (['class cv.face.LBPHFaceRecognizer', ': cv::face::FaceRecognizer', [], [], None, '']) impl:cv::face::FaceRecognizer
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getGridX',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setGridX']
+parse_name: cv.face.LBPHFaceRecognizer.getGridX with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getGridX namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getGridX
+register (method) getGridX in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getGridX_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.setGridX',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getGridX @see getGridX']
+parse_name: cv.face.LBPHFaceRecognizer.setGridX with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::setGridX namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:setGridX
+register (method) setGridX in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_setGridX_int)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getGridY',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setGridY']
+parse_name: cv.face.LBPHFaceRecognizer.getGridY with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getGridY namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getGridY
+register (method) getGridY in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getGridY_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.setGridY',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getGridY @see getGridY']
+parse_name: cv.face.LBPHFaceRecognizer.setGridY with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::setGridY namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:setGridY
+register (method) setGridY in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_setGridY_int)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getRadius',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setRadius']
+parse_name: cv.face.LBPHFaceRecognizer.getRadius with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getRadius namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getRadius
+register (method) getRadius in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getRadius_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.setRadius',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getRadius @see getRadius']
+parse_name: cv.face.LBPHFaceRecognizer.setRadius with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::setRadius namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:setRadius
+register (method) setRadius in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_setRadius_int)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getNeighbors',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setNeighbors']
+parse_name: cv.face.LBPHFaceRecognizer.getNeighbors with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getNeighbors namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getNeighbors
+register (method) getNeighbors in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getNeighbors_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.setNeighbors',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getNeighbors @see getNeighbors']
+parse_name: cv.face.LBPHFaceRecognizer.setNeighbors with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::setNeighbors namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:setNeighbors
+register (method) setNeighbors in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_setNeighbors_int)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getThreshold',
+    'double',
+    ['/C'],
+    [],
+    None,
+    '@see setThreshold']
+parse_name: cv.face.LBPHFaceRecognizer.getThreshold with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getThreshold namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getThreshold
+register (method) getThreshold in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getThreshold_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.setThreshold',
+    'void',
+    [],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getThreshold @see getThreshold']
+parse_name: cv.face.LBPHFaceRecognizer.setThreshold with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::setThreshold namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:setThreshold
+register (method) setThreshold in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_setThreshold_double)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.getHistograms',
+    'std::vector<cv::Mat>',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.face.LBPHFaceRecognizer.getHistograms with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getHistograms namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getHistograms
+register (method) getHistograms in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getHistograms_const)
+
+--- Incoming ---
+['cv.face.LBPHFaceRecognizer.getLabels', 'cv::Mat', ['/A', '/C'], [], None, '']
+parse_name: cv.face.LBPHFaceRecognizer.getLabels with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::getLabels namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:getLabels
+register (method) getLabels in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_getLabels_const)
+
+--- Incoming ---
+[   'cv.face.LBPHFaceRecognizer.create',
+    'Ptr<LBPHFaceRecognizer>',
+    ['/S'],
+    [   ['int', 'radius', '1', []],
+        ['int', 'neighbors', '8', []],
+        ['int', 'grid_x', '8', []],
+        ['int', 'grid_y', '8', []],
+        ['double', 'threshold', 'DBL_MAX', []]],
+    None,
+    '@param radius The radius used for building the Circular Local Binary '
+    'Pattern. The greater the\n'
+    'radius, the smoother the image but more spatial information you can get.\n'
+    '@param neighbors The number of sample points to build a Circular Local '
+    'Binary Pattern from. An\n'
+    'appropriate value is to use `8` sample points. Keep in mind: the more '
+    'sample points you include,\n'
+    'the higher the computational cost.\n'
+    '@param grid_x The number of cells in the horizontal direction, 8 is a '
+    'common value used in\n'
+    'publications. The more cells, the finer the grid, the higher the '
+    'dimensionality of the resulting\n'
+    'feature vector.\n'
+    '@param grid_y The number of cells in the vertical direction, 8 is a '
+    'common value used in\n'
+    'publications. The more cells, the finer the grid, the higher the '
+    'dimensionality of the resulting\n'
+    'feature vector.\n'
+    '@param threshold The threshold applied in the prediction. If the distance '
+    'to the nearest neighbor\n'
+    'is larger than the threshold, this method returns -1.\n'
+    '\n'
+    '### Notes:\n'
+    '\n'
+    '-   The Circular Local Binary Patterns (used in training and prediction) '
+    'expect the data given as\n'
+    'grayscale images, use cvtColor to convert between the color spaces.\n'
+    '-   This model supports updating.\n'
+    '\n'
+    '### Model internal data:\n'
+    '\n'
+    '-   radius see LBPHFaceRecognizer::create.\n'
+    '-   neighbors see LBPHFaceRecognizer::create.\n'
+    '-   grid_x see LLBPHFaceRecognizer::create.\n'
+    '-   grid_y see LBPHFaceRecognizer::create.\n'
+    '-   threshold see LBPHFaceRecognizer::create.\n'
+    '-   histograms Local Binary Patterns Histograms calculated from the given '
+    'training data (empty if\n'
+    'none was given).\n'
+    '-   labels Labels corresponding to the calculated Local Binary Patterns '
+    'Histograms.']
+parse_name: cv.face.LBPHFaceRecognizer.create with ['cv', 'cv::face'] -> fullname:cv::face::LBPHFaceRecognizer::create namespace:cv::face classpath:LBPHFaceRecognizer classname:LBPHFaceRecognizer name:create
+register (method) create in cv::face::LBPHFaceRecognizer (trait) (cv_face_LBPHFaceRecognizer_create_int_int_int_int_double)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/mace.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.MACE',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Minimum Average Correlation Energy Filter\n'
+    'useful for authentication with (cancellable) biometrical features.\n'
+    '(does not need many positives to train (10-50), and no negatives at all, '
+    'also robust to noise/salting)\n'
+    '\n'
+    'see also: @cite Savvides04\n'
+    '\n'
+    'this implementation is largely based on: '
+    'https://code.google.com/archive/p/pam-face-authentication (GSOC 2009)\n'
+    '\n'
+    'use it like:\n'
+    '@code\n'
+    '\n'
+    'Ptr<face::MACE> mace = face::MACE::create(64);\n'
+    '\n'
+    'vector<Mat> pos_images = ...\n'
+    'mace->train(pos_images);\n'
+    '\n'
+    'Mat query = ...\n'
+    'bool same = mace->same(query);\n'
+    '\n'
+    '@endcode\n'
+    '\n'
+    'you can also use two-factor authentication, with an additional '
+    'passphrase:\n'
+    '\n'
+    '@code\n'
+    'String owners_passphrase = "ilikehotdogs";\n'
+    'Ptr<face::MACE> mace = face::MACE::create(64);\n'
+    'mace->salt(owners_passphrase);\n'
+    'vector<Mat> pos_images = ...\n'
+    'mace->train(pos_images);\n'
+    '\n'
+    '// now, users have to give a valid passphrase, along with the image:\n'
+    'Mat query = ...\n'
+    'cout << "enter passphrase: ";\n'
+    'string pass;\n'
+    'getline(cin, pass);\n'
+    'mace->salt(pass);\n'
+    'bool same = mace->same(query);\n'
+    '@endcode\n'
+    '\n'
+    'save/load your model:\n'
+    '@code\n'
+    'Ptr<face::MACE> mace = face::MACE::create(64);\n'
+    'mace->train(pos_images);\n'
+    'mace->save("my_mace.xml");\n'
+    '\n'
+    '// later:\n'
+    'Ptr<MACE> reloaded = MACE::load("my_mace.xml");\n'
+    'reloaded->same(some_image);\n'
+    '@endcode']
+parse_name: class cv.face.MACE with ['cv', 'cv::face'] -> fullname:cv::face::MACE namespace:cv::face classpath: classname: name:MACE
+register class cv::face::MACE (['class cv.face.MACE', ': cv::Algorithm', [], [], None, '@brief Minimum Average Correlation Energy Filter\nuseful for authentication with (cancellable) biometrical features.\n(does not need many positives to train (10-50), and no negatives at all, also robust to noise/salting)\n\nsee also: @cite Savvides04\n\nthis implementation is largely based on: https://code.google.com/archive/p/pam-face-authentication (GSOC 2009)\n\nuse it like:\n@code\n\nPtr<face::MACE> mace = face::MACE::create(64);\n\nvector<Mat> pos_images = ...\nmace->train(pos_images);\n\nMat query = ...\nbool same = mace->same(query);\n\n@endcode\n\nyou can also use two-factor authentication, with an additional passphrase:\n\n@code\nString owners_passphrase = "ilikehotdogs";\nPtr<face::MACE> mace = face::MACE::create(64);\nmace->salt(owners_passphrase);\nvector<Mat> pos_images = ...\nmace->train(pos_images);\n\n// now, users have to give a valid passphrase, along with the image:\nMat query = ...\ncout << "enter passphrase: ";\nstring pass;\ngetline(cin, pass);\nmace->salt(pass);\nbool same = mace->same(query);\n@endcode\n\nsave/load your model:\n@code\nPtr<face::MACE> mace = face::MACE::create(64);\nmace->train(pos_images);\nmace->save("my_mace.xml");\n\n// later:\nPtr<MACE> reloaded = MACE::load("my_mace.xml");\nreloaded->same(some_image);\n@endcode']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.face.MACE.salt',
+    'void',
+    ['/A'],
+    [['const cv::String &', 'passphrase', '', []]],
+    None,
+    '@brief optionally encrypt images with random convolution\n'
+    '@param passphrase a crc64 random seed will get generated from this']
+parse_name: cv.face.MACE.salt with ['cv', 'cv::face'] -> fullname:cv::face::MACE::salt namespace:cv::face classpath:MACE classname:MACE name:salt
+register (method) salt in cv::face::MACE (trait) (cv_face_MACE_salt_String)
+
+--- Incoming ---
+[   'cv.face.MACE.train',
+    'void',
+    ['/A'],
+    [['cv::InputArrayOfArrays', 'images', '', []]],
+    None,
+    '@brief train it on positive features\n'
+    'compute the mace filter: `h = D(-1) * X * (X(+) * D(-1) * X)(-1) * C`\n'
+    'also calculate a minimal threshold for this class, the smallest '
+    'self-similarity from the train images\n'
+    '@param images  a vector<Mat> with the train images']
+parse_name: cv.face.MACE.train with ['cv', 'cv::face'] -> fullname:cv::face::MACE::train namespace:cv::face classpath:MACE classname:MACE name:train
+Registering an unknown type: cv::InputArrayOfArrays
+register (method) train in cv::face::MACE (trait) (cv_face_MACE_train_InputArrayOfArrays)
+
+--- Incoming ---
+[   'cv.face.MACE.same',
+    'bool',
+    ['/A', '/C'],
+    [['cv::InputArray', 'query', '', []]],
+    None,
+    '@brief correlate query img and threshold to min class value\n'
+    '@param query  a Mat with query image']
+parse_name: cv.face.MACE.same with ['cv', 'cv::face'] -> fullname:cv::face::MACE::same namespace:cv::face classpath:MACE classname:MACE name:same
+Registering an unknown type: cv::InputArray
+register (method) same in cv::face::MACE (trait) (cv_face_MACE_same_const_InputArray)
+
+--- Incoming ---
+[   'cv.face.MACE.load',
+    'cv::Ptr<MACE>',
+    ['/S'],
+    [   ['const String &', 'filename', '', []],
+        ['const String &', 'objname', 'String()', []]],
+    None,
+    '@brief constructor\n'
+    '@param filename  build a new MACE instance from a pre-serialized '
+    'FileStorage\n'
+    '@param objname (optional) top-level node in the FileStorage']
+parse_name: cv.face.MACE.load with ['cv', 'cv::face'] -> fullname:cv::face::MACE::load namespace:cv::face classpath:MACE classname:MACE name:load
+Registering an unknown type: cv::Ptr<MACE>
+register (method) load in cv::face::MACE (trait) (cv_face_MACE_load_String_String)
+
+--- Incoming ---
+[   'cv.face.MACE.create',
+    'cv::Ptr<MACE>',
+    ['/S'],
+    [['int', 'IMGSIZE', '64', []]],
+    None,
+    '@brief constructor\n'
+    '@param IMGSIZE  images will get resized to this (should be an even '
+    'number)']
+parse_name: cv.face.MACE.create with ['cv', 'cv::face'] -> fullname:cv::face::MACE::create namespace:cv::face classpath:MACE classname:MACE name:create
+register (method) create in cv::face::MACE (trait) (cv_face_MACE_create_int)
+
+
+=============== Header: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2/face/predict_collector.hpp ================
+
+
+Namespaces: ['cv', 'cv.face']
+Comment: {'face': '\n@defgroup face Face Analysis\n- @ref tutorial_table_of_content_facemark\n- The Facemark API\n\n'}
+
+--- Incoming ---
+[   'class cv.face.PredictCollector',
+    '',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for all strategies of prediction result '
+    'handling']
+parse_name: class cv.face.PredictCollector with ['cv', 'cv::face'] -> fullname:cv::face::PredictCollector namespace:cv::face classpath: classname: name:PredictCollector
+register class cv::face::PredictCollector (['class cv.face.PredictCollector', '', [], [], None, '@brief Abstract base class for all strategies of prediction result handling'])
+
+--- Incoming ---
+['cv.face.PredictCollector.~PredictCollector', '~', [], [], None, '']
+parse_name: cv.face.PredictCollector.~PredictCollector with ['cv', 'cv::face'] -> fullname:cv::face::PredictCollector::~PredictCollector namespace:cv::face classpath:PredictCollector classname:PredictCollector name:~PredictCollector
+ignore destructor (method) ~PredictCollector in cv::face::PredictCollector
+
+--- Incoming ---
+[   'cv.face.PredictCollector.init',
+    'void',
+    [],
+    [['size_t', 'size', '', []]],
+    None,
+    '@brief Interface method called by face recognizer before results '
+    'processing\n'
+    '@param size total size of prediction evaluation that recognizer could '
+    'perform']
+parse_name: cv.face.PredictCollector.init with ['cv', 'cv::face'] -> fullname:cv::face::PredictCollector::init namespace:cv::face classpath:PredictCollector classname:PredictCollector name:init
+register (method) init in cv::face::PredictCollector (cv_face_PredictCollector_init_size_t)
+
+--- Incoming ---
+[   'cv.face.PredictCollector.collect',
+    'bool',
+    ['/A'],
+    [['int', 'label', '', []], ['double', 'dist', '', []]],
+    None,
+    '@brief Interface method called by face recognizer for each result\n'
+    '@param label current prediction label\n'
+    '@param dist current prediction distance (confidence)']
+parse_name: cv.face.PredictCollector.collect with ['cv', 'cv::face'] -> fullname:cv::face::PredictCollector::collect namespace:cv::face classpath:PredictCollector classname:PredictCollector name:collect
+register (method) collect in cv::face::PredictCollector (trait) (cv_face_PredictCollector_collect_int_double)
+
+--- Incoming ---
+[   'class cv.face.StandardCollector',
+    ': cv::face::PredictCollector',
+    [],
+    [],
+    None,
+    '@brief Default predict collector\n'
+    '\n'
+    'Trace minimal distance with treshhold checking (that is default behavior '
+    'for most predict logic)']
+parse_name: class cv.face.StandardCollector with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector namespace:cv::face classpath: classname: name:StandardCollector
+register class cv::face::StandardCollector (['class cv.face.StandardCollector', ': cv::face::PredictCollector', [], [], None, '@brief Default predict collector\n\nTrace minimal distance with treshhold checking (that is default behavior for most predict logic)']) impl:cv::face::PredictCollector
+
+--- Incoming ---
+['struct cv.face.StandardCollector.PredictResult', '', [], [], None, '']
+parse_name: struct cv.face.StandardCollector.PredictResult with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::PredictResult namespace:cv::face classpath:StandardCollector classname:StandardCollector name:PredictResult
+register class cv::face::StandardCollector::PredictResult (['struct cv.face.StandardCollector.PredictResult', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.face.StandardCollector.PredictResult.PredictResult',
+    'P',
+    [],
+    [['int', 'label_', '-1', []], ['double', 'distance_', 'DBL_MAX', []]],
+    None,
+    '']
+parse_name: cv.face.StandardCollector.PredictResult.PredictResult with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::PredictResult::PredictResult namespace:cv::face classpath:StandardCollector::PredictResult classname:PredictResult name:PredictResult
+register (constructor) new in cv::face::StandardCollector::PredictResult (cv_face_StandardCollector_PredictResult_PredictResult_int_double)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.StandardCollector',
+    'S',
+    [],
+    [['double', 'threshold_', 'DBL_MAX', []]],
+    None,
+    '@brief Constructor\n@param threshold_ set threshold']
+parse_name: cv.face.StandardCollector.StandardCollector with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::StandardCollector namespace:cv::face classpath:StandardCollector classname:StandardCollector name:StandardCollector
+register (constructor) new in cv::face::StandardCollector (cv_face_StandardCollector_StandardCollector_double)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.init',
+    'void',
+    [],
+    [['size_t', 'size', '', []]],
+    None,
+    '@brief overloaded interface method']
+parse_name: cv.face.StandardCollector.init with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::init namespace:cv::face classpath:StandardCollector classname:StandardCollector name:init
+register (method) init in cv::face::StandardCollector (cv_face_StandardCollector_init_size_t)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.collect',
+    'bool',
+    [],
+    [['int', 'label', '', []], ['double', 'dist', '', []]],
+    None,
+    '@brief overloaded interface method']
+parse_name: cv.face.StandardCollector.collect with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::collect namespace:cv::face classpath:StandardCollector classname:StandardCollector name:collect
+register (method) collect in cv::face::StandardCollector (cv_face_StandardCollector_collect_int_double)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.getMinLabel',
+    'int',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns label with minimal distance']
+parse_name: cv.face.StandardCollector.getMinLabel with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::getMinLabel namespace:cv::face classpath:StandardCollector classname:StandardCollector name:getMinLabel
+register (method) getMinLabel in cv::face::StandardCollector (cv_face_StandardCollector_getMinLabel_const)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.getMinDist',
+    'double',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns minimal distance value']
+parse_name: cv.face.StandardCollector.getMinDist with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::getMinDist namespace:cv::face classpath:StandardCollector classname:StandardCollector name:getMinDist
+register (method) getMinDist in cv::face::StandardCollector (cv_face_StandardCollector_getMinDist_const)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.getResults',
+    'std::vector< std::pair<int, double> >',
+    ['/C'],
+    [['bool', 'sorted', 'false', []]],
+    None,
+    '@brief Return results as vector\n'
+    '@param sorted If set, results will be sorted by distance\n'
+    'Each values is a pair of label and distance.']
+parse_name: cv.face.StandardCollector.getResults with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::getResults namespace:cv::face classpath:StandardCollector classname:StandardCollector name:getResults
+Registering an unknown type: std::pair<int, double>
+register (method) getResults in cv::face::StandardCollector (cv_face_StandardCollector_getResults_const_bool)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.getResultsMap',
+    'std::map<int, double>',
+    ['/C'],
+    [],
+    None,
+    '@brief Return results as map\n'
+    'Labels are keys, values are minimal distances']
+parse_name: cv.face.StandardCollector.getResultsMap with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::getResultsMap namespace:cv::face classpath:StandardCollector classname:StandardCollector name:getResultsMap
+Registering an unknown type: std::map<int, double>
+register (method) getResultsMap in cv::face::StandardCollector (cv_face_StandardCollector_getResultsMap_const)
+
+--- Incoming ---
+[   'cv.face.StandardCollector.create',
+    'Ptr<StandardCollector>',
+    ['/S'],
+    [['double', 'threshold', 'DBL_MAX', []]],
+    None,
+    '@brief Static constructor\n@param threshold set threshold']
+parse_name: cv.face.StandardCollector.create with ['cv', 'cv::face'] -> fullname:cv::face::StandardCollector::create namespace:cv::face classpath:StandardCollector classname:StandardCollector name:create
+register (method) create in cv::face::StandardCollector (cv_face_StandardCollector_create_double)
+
+
+===== Generating... =====
+Generating func cv_face_createFacemarkAAM
+Generating func cv_face_createFacemarkKazemi
+Generating func cv_face_createFacemarkLBF
+Generating func cv_face_drawFacemarks__InputOutputArray__InputArray_Scalar
+Generating func cv_face_getFacesHAAR__InputArray__OutputArray_String
+Generating func cv_face_getFaces__InputArray__OutputArray_CParams
+Generating func cv_face_loadDatasetList_String_String_VectorOfString_VectorOfString
+Generating func cv_face_loadFacePoints_String__OutputArray_float
+Generating func cv_face_loadTrainingData_String_String_VectorOfString__OutputArray_float
+Generating func cv_face_loadTrainingData_String_VectorOfString__OutputArray_char_float
+Generating func cv_face_loadTrainingData_VectorOfString_VectorOfVectorOfPoint2f_VectorOfString
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::face::BIF (trait)
+Generating func cv_face_BIF_getNumBands_const
+Generating func cv_face_BIF_getNumRotations_const
+Generating func cv_face_BIF_compute_const__InputArray__OutputArray
+Generating func cv_face_BIF_create_int_int
+Generating impl for trait cv::face::BasicFaceRecognizer (trait)
+Generating func cv_face_BasicFaceRecognizer_getNumComponents_const
+Generating func cv_face_BasicFaceRecognizer_setNumComponents_int
+Generating func cv_face_BasicFaceRecognizer_getThreshold_const
+Generating func cv_face_BasicFaceRecognizer_setThreshold_double
+Generating func cv_face_BasicFaceRecognizer_getProjections_const
+Generating func cv_face_BasicFaceRecognizer_getLabels_const
+Generating func cv_face_BasicFaceRecognizer_getEigenValues_const
+Generating func cv_face_BasicFaceRecognizer_getEigenVectors_const
+Generating func cv_face_BasicFaceRecognizer_getMean_const
+Generating func cv_face_BasicFaceRecognizer_read_FileNode
+Generating func cv_face_BasicFaceRecognizer_write_const_FileStorage
+Generating func cv_face_BasicFaceRecognizer_empty_const
+Generating box for cv::face::BasicFaceRecognizer (trait)
+Generating func cv_face_BasicFaceRecognizer_getNumComponents_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_setNumComponents_int
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getThreshold_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_setThreshold_double
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getProjections_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getLabels_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getEigenValues_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getEigenVectors_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_getMean_const
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_read_FileNode
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_write_const_FileStorage
+  ignored: already there
+Generating func cv_face_BasicFaceRecognizer_empty_const
+  ignored: already there
+Generating box for cv::face::CParams
+Generating func cv_face_CParams_CParams_String_double_int_Size_Size
+Generating box for cv::face::EigenFaceRecognizer
+Generating func cv_face_EigenFaceRecognizer_create_int_double
+Ghost class cv::face::FN_FaceDetector (ghost), ignoring
+Generating impl for trait cv::face::FaceRecognizer (trait)
+Generating func cv_face_FaceRecognizer_train__InputArray__InputArray
+Generating func cv_face_FaceRecognizer_update__InputArray__InputArray
+Generating func cv_face_FaceRecognizer_predict_const__InputArray
+Generating func cv_face_FaceRecognizer_predict_const__InputArray_int_double
+Generating func cv_face_FaceRecognizer_predict_const__InputArray_Ptr<PredictCollector>
+  ignored: can not map type SmartPtr[Unknown[PredictCollector]] yet
+Generating func cv_face_FaceRecognizer_write_const_String
+Generating func cv_face_FaceRecognizer_read_String
+Generating func cv_face_FaceRecognizer_write_const_FileStorage
+Generating func cv_face_FaceRecognizer_read_FileNode
+Generating func cv_face_FaceRecognizer_empty_const
+Generating func cv_face_FaceRecognizer_setLabelInfo_int_String
+Generating func cv_face_FaceRecognizer_getLabelInfo_const_int
+Generating func cv_face_FaceRecognizer_getLabelsByString_const_String
+Generating func cv_face_FaceRecognizer_getThreshold_const
+Generating func cv_face_FaceRecognizer_setThreshold_double
+Generating impl for trait cv::face::Facemark (trait)
+Generating func cv_face_Facemark_loadModel_String
+Generating func cv_face_Facemark_fit__InputArray__InputArray__OutputArray
+Generating impl for trait cv::face::FacemarkAAM (trait)
+Generating func cv_face_FacemarkAAM_fitConfig__InputArray__InputArray__OutputArray_VectorOfConfig
+Generating func cv_face_FacemarkAAM_create_Params
+Generating box for cv::face::FacemarkAAM::Config
+Generating func cv_face_FacemarkAAM_Config_Config_Mat_Point2f_float_int
+Generating box for cv::face::FacemarkAAM::Data
+Generating box for cv::face::FacemarkAAM::Model
+Generating box for cv::face::FacemarkAAM::Model::Texture
+Generating box for cv::face::FacemarkAAM::Params
+Generating func cv_face_FacemarkAAM_Params_Params
+Generating func cv_face_FacemarkAAM_Params_read_FileNode
+Generating func cv_face_FacemarkAAM_Params_write_const_FileStorage
+Generating impl for trait cv::face::FacemarkKazemi (trait)
+Generating func cv_face_FacemarkKazemi_training_VectorOfMat_VectorOfVectorOfPoint2f_std_string_Size_std_string
+Generating func cv_face_FacemarkKazemi_setFaceDetector_bool(*f)(InputArray @comma@ OutputArray@comma@ void*)_void_X
+  ignored: can not map type Unknown[bool(*f)(InputArray @comma@ OutputArray@comma@ void*)] yet
+Generating func cv_face_FacemarkKazemi_getFaces__InputArray__OutputArray
+Generating func cv_face_FacemarkKazemi_create_Params
+Generating box for cv::face::FacemarkKazemi::Params
+Generating func cv_face_FacemarkKazemi_Params_Params
+Generating box for cv::face::FacemarkLBF
+Generating func cv_face_FacemarkLBF_create_Params
+Generating box for cv::face::FacemarkLBF::BBox
+Generating func cv_face_FacemarkLBF_BBox_BBox
+Generating func cv_face_FacemarkLBF_BBox_BBox_double_double_double_double
+Generating func cv_face_FacemarkLBF_BBox_project_const_Mat
+Generating func cv_face_FacemarkLBF_BBox_reproject_const_Mat
+Generating box for cv::face::FacemarkLBF::Params
+Generating func cv_face_FacemarkLBF_Params_Params
+Generating func cv_face_FacemarkLBF_Params_read_FileNode
+Generating func cv_face_FacemarkLBF_Params_write_const_FileStorage
+Generating impl for trait cv::face::FacemarkTrain (trait)
+Generating func cv_face_FacemarkTrain_addTrainingSample__InputArray__InputArray
+Generating func cv_face_FacemarkTrain_training_void_X
+Generating func cv_face_FacemarkTrain_getFaces__InputArray__OutputArray
+Generating func cv_face_FacemarkTrain_getData_void_X
+Generating box for cv::face::FisherFaceRecognizer
+Generating func cv_face_FisherFaceRecognizer_create_int_double
+Generating impl for trait cv::face::LBPHFaceRecognizer (trait)
+Generating func cv_face_LBPHFaceRecognizer_getGridX_const
+Generating func cv_face_LBPHFaceRecognizer_setGridX_int
+Generating func cv_face_LBPHFaceRecognizer_getGridY_const
+Generating func cv_face_LBPHFaceRecognizer_setGridY_int
+Generating func cv_face_LBPHFaceRecognizer_getRadius_const
+Generating func cv_face_LBPHFaceRecognizer_setRadius_int
+Generating func cv_face_LBPHFaceRecognizer_getNeighbors_const
+Generating func cv_face_LBPHFaceRecognizer_setNeighbors_int
+Generating func cv_face_LBPHFaceRecognizer_getThreshold_const
+Generating func cv_face_LBPHFaceRecognizer_setThreshold_double
+Generating func cv_face_LBPHFaceRecognizer_getHistograms_const
+Generating func cv_face_LBPHFaceRecognizer_getLabels_const
+Generating func cv_face_LBPHFaceRecognizer_create_int_int_int_int_double
+Generating impl for trait cv::face::MACE (trait)
+Generating func cv_face_MACE_salt_String
+Generating func cv_face_MACE_train_InputArrayOfArrays
+  ignored: can not map type Unknown[cv::InputArrayOfArrays] yet
+Generating func cv_face_MACE_same_const_InputArray
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cv_face_MACE_load_String_String
+  ignored: return type class Unknown[cv::Ptr<MACE>] is ignored
+Generating func cv_face_MACE_create_int
+  ignored: return type class Unknown[cv::Ptr<MACE>] is ignored
+Generating impl for trait cv::face::PredictCollector (trait)
+Generating func cv_face_PredictCollector_init_size_t
+Generating func cv_face_PredictCollector_collect_int_double
+Generating box for cv::face::StandardCollector
+Generating func cv_face_StandardCollector_StandardCollector_double
+Generating func cv_face_StandardCollector_init_size_t
+Generating func cv_face_StandardCollector_collect_int_double
+Generating func cv_face_StandardCollector_getMinLabel_const
+Generating func cv_face_StandardCollector_getMinDist_const
+Generating func cv_face_StandardCollector_getResults_const_bool
+  ignored: return type class Vector[Unknown[std::pair<int, double>]] is ignored
+Generating func cv_face_StandardCollector_getResultsMap_const
+  ignored: return type class Unknown[std::map<int, double>] is ignored
+Generating func cv_face_StandardCollector_create_double
+Generating box for cv::face::StandardCollector::PredictResult
+Generating func cv_face_StandardCollector_PredictResult_PredictResult_int_double
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

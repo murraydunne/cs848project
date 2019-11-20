@@ -1,0 +1,123 @@
+=== Using OpenCV headers from: /Users/calumbruton/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.26.6/headers/4.1/opencv2
+=== Generating code in: /Users/calumbruton/Documents/EVERYTHING-PROGRAMMING/Rust/cs848project/timely_experiment/testing/loadFrame/target/debug/build/opencv-784c84baad9daffc/out
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xfa' in position 848: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3558, in gen
+    logging.info("\n--- Incoming ---\n%s", pformat(decl, 4))
+Message: '\n--- Incoming ---\n%s'
+Arguments: ("[   'class cv.AKAZE',\n    ': cv::Feature2D',\n    [],\n    [],\n    None,\n    '@brief Class implementing the AKAZE keypoint detector and descriptor '\n    'extractor, described in @cite ANB13.\\n'\n    '\\n'\n    '@details AKAZE descriptors can only be used with KAZE or AKAZE keypoints. '\n    'This class is thread-safe.\\n'\n    '\\n'\n    '@note When you need descriptors use Feature2D::detectAndCompute, which\\n'\n    'provides better performance. When using Feature2D::detect followed by\\n'\n    'Feature2D::compute scale space pyramid is computed twice.\\n'\n    '\\n'\n    '@note AKAZE implements T-API. When image is passed as UMat some parts of '\n    'the algorithm\\n'\n    'will use OpenCL.\\n'\n    '\\n'\n    '@note [ANB13] Fast Explicit Diffusion for Accelerated Features in '\n    'Nonlinear\\n'\n    'Scale Spaces. Pablo F. Alcantarilla, Jes\xfas Nuevo and Adrien Bartoli. In\\n'\n    'British Machine Vision Conference (BMVC), Bristol, UK, September 2013.']",)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xfa' in position 721: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3559, in gen
+    self.add_decl(module, decl)
+  File "gen_rust.py", line 3437, in add_decl
+    return self.add_class_decl(module, decl)
+  File "gen_rust.py", line 3457, in add_class_decl
+    " impl:"+",".join(sorted(item.bases)) if len(item.bases) else "")
+Message: 'register class %s (%s)%s%s'
+Arguments: ('cv::AKAZE', ['class cv.AKAZE', ': cv::Feature2D', [], [], None, '@brief Class implementing the AKAZE keypoint detector and descriptor extractor, described in @cite ANB13.\n\n@details AKAZE descriptors can only be used with KAZE or AKAZE keypoints. This class is thread-safe.\n\n@note When you need descriptors use Feature2D::detectAndCompute, which\nprovides better performance. When using Feature2D::detect followed by\nFeature2D::compute scale space pyramid is computed twice.\n\n@note AKAZE implements T-API. When image is passed as UMat some parts of the algorithm\nwill use OpenCL.\n\n@note [ANB13] Fast Explicit Diffusion for Accelerated Features in Nonlinear\nScale Spaces. Pablo F. Alcantarilla, Jes\xfas Nuevo and Adrien Bartoli. In\nBritish Machine Vision Conference (BMVC), Bristol, UK, September 2013.'], '', ' impl:cv::Feature2D')
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u2019' in position 488: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3558, in gen
+    logging.info("\n--- Incoming ---\n%s", pformat(decl, 4))
+Message: '\n--- Incoming ---\n%s'
+Arguments: ("[   'cv.softfloat.operator %',\n    'softfloat',\n    ['/C'],\n    [['const softfloat&', '', '', []]],\n    None,\n    '@brief Remainder operator\\n'\n    '\\n'\n    'A quote from original SoftFloat manual:\\n'\n    '\\n'\n    '> The IEEE Standard remainder operation computes the value\\n'\n    '> a - n * b, where n is the integer closest to a / b.\\n'\n    '> If a / b is exactly halfway between two integers, n is the even '\n    'integer\\n'\n    '> closest to a / b. The IEEE Standard\u2019s remainder operation is always '\n    'exact and so requires no rounding.\\n'\n    '> Depending on the relative magnitudes of the operands, the remainder '\n    'functions\\n'\n    '> can take considerably longer to execute than the other SoftFloat '\n    'functions.\\n'\n    '> This is an inherent characteristic of the remainder operation itself '\n    'and is not a flaw\\n'\n    '> in the SoftFloat implementation.']",)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u2019' in position 491: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3558, in gen
+    logging.info("\n--- Incoming ---\n%s", pformat(decl, 4))
+Message: '\n--- Incoming ---\n%s'
+Arguments: ("[   'cv.softdouble.operator %',\n    'softdouble',\n    ['/C'],\n    [['const softdouble&', '', '', []]],\n    None,\n    '@brief Remainder operator\\n'\n    '\\n'\n    'A quote from original SoftFloat manual:\\n'\n    '\\n'\n    '> The IEEE Standard remainder operation computes the value\\n'\n    '> a - n * b, where n is the integer closest to a / b.\\n'\n    '> If a / b is exactly halfway between two integers, n is the even '\n    'integer\\n'\n    '> closest to a / b. The IEEE Standard\u2019s remainder operation is always '\n    'exact and so requires no rounding.\\n'\n    '> Depending on the relative magnitudes of the operands, the remainder '\n    'functions\\n'\n    '> can take considerably longer to execute than the other SoftFloat '\n    'functions.\\n'\n    '> This is an inherent characteristic of the remainder operation itself '\n    'and is not a flaw\\n'\n    '> in the SoftFloat implementation.']",)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe8' in position 356: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3558, in gen
+    logging.info("\n--- Incoming ---\n%s", pformat(decl, 4))
+Message: '\n--- Incoming ---\n%s'
+Arguments: ('[   \'class cv.bioinspired.TransientAreasSegmentationModule\',\n    \': cv::Algorithm\',\n    [],\n    [],\n    None,\n    \'@brief class which provides a transient/moving areas segmentation module\\n\'\n    \'\\n\'\n    \'perform a locally adapted segmentation by using the retina magno input \'\n    \'data Based on Alexandre\\n\'\n    \'BENOIT thesis: "Le syst\xe8me visuel humain au secours de la vision par \'\n    \'ordinateur"\\n\'\n    \'\\n\'\n    \'3 spatio temporal filters are used:\\n\'\n    \'- a first one which filters the noise and local variations of the input \'\n    \'motion energy\\n\'\n    \'- a second (more powerfull low pass spatial filter) which gives the \'\n    \'neighborhood motion energy the\\n\'\n    \'segmentation consists in the comparison of these both outputs, if the \'\n    \'local motion energy is higher\\n\'\n    \'to the neighborhood otion energy, then the area is considered as moving \'\n    \'and is segmented\\n\'\n    \'- a stronger third low pass filter helps decision by providing a smooth \'\n    \'information about the\\n\'\n    \'"motion context" in a wider area\']',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe8' in position 353: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3559, in gen
+    self.add_decl(module, decl)
+  File "gen_rust.py", line 3437, in add_decl
+    return self.add_class_decl(module, decl)
+  File "gen_rust.py", line 3457, in add_class_decl
+    " impl:"+",".join(sorted(item.bases)) if len(item.bases) else "")
+Message: 'register class %s (%s)%s%s'
+Arguments: ('cv::bioinspired::TransientAreasSegmentationModule', ['class cv.bioinspired.TransientAreasSegmentationModule', ': cv::Algorithm', [], [], None, '@brief class which provides a transient/moving areas segmentation module\n\nperform a locally adapted segmentation by using the retina magno input data Based on Alexandre\nBENOIT thesis: "Le syst\xe8me visuel humain au secours de la vision par ordinateur"\n\n3 spatio temporal filters are used:\n- a first one which filters the noise and local variations of the input motion energy\n- a second (more powerfull low pass spatial filter) which gives the neighborhood motion energy the\nsegmentation consists in the comparison of these both outputs, if the local motion energy is higher\nto the neighborhood otion energy, then the area is considered as moving and is segmented\n- a stronger third low pass filter helps decision by providing a smooth information about the\n"motion context" in a wider area'], '', ' impl:cv::Algorithm')
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe7' in position 237: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3555, in gen
+    logging.info("Comment: %s", parser.module_comment)
+Message: 'Comment: %s'
+Arguments: {'aruco': '\n* @defgroup aruco ArUco Marker Detection\n* This module is dedicated to square fiducial markers (also known as Augmented Reality Markers)\n* These markers are useful for easy, fast and robust camera pose estimation.\xe7\n*\n* The main functionalities are:\n* - Detection of markers in an image\n* - Pose estimation from a single marker or from a board/set of markers\n* - Detection of ChArUco board for high subpixel accuracy\n* - Camera calibration from both, ArUco boards and ChArUco boards.\n* - Detection of ChArUco diamond markers\n* The samples directory includes easy examples of how to use the module.\n*\n* The implementation is based on the ArUco Library by R. Mu\xf1oz-Salinas and S. Garrido-Jurado @cite Aruco2014.\n*\n* Markers can also be detected based on the AprilTag 2 @cite wang2016iros fiducial detection method.\n*\n* @sa S. Garrido-Jurado, R. Mu\xf1oz-Salinas, F. J. Madrid-Cuevas, and M. J. Mar\xedn-Jim\xe9nez. 2014.\n* "Automatic generation and detection of highly reliable fiducial markers under occlusion".\n* Pattern Recogn. 47, 6 (June 2014), 2280-2292. DOI=10.1016/j.patcog.2014.01.005\n*\n* @sa http://www.uco.es/investiga/grupos/ava/node/26\n*\n* This module has been originally developed by Sergio Garrido-Jurado as a project\n* for Google Summer of Code 2015 (GSoC 15).\n*\n*\n\n'}
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py", line 994, in emit
+    stream.write(msg)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xe7' in position 237: ordinal not in range(128)
+Call stack:
+  File "gen_rust.py", line 3996, in <module>
+    main()
+  File "gen_rust.py", line 3980, in main
+    generator.gen(srcfiles, module, opencv_version, cpp_dir, rust_dir)
+  File "gen_rust.py", line 3555, in gen
+    logging.info("Comment: %s", parser.module_comment)
+Message: 'Comment: %s'
+Arguments: {'aruco': '\n* @defgroup aruco ArUco Marker Detection\n* This module is dedicated to square fiducial markers (also known as Augmented Reality Markers)\n* These markers are useful for easy, fast and robust camera pose estimation.\xe7\n*\n* The main functionalities are:\n* - Detection of markers in an image\n* - Pose estimation from a single marker or from a board/set of markers\n* - Detection of ChArUco board for high subpixel accuracy\n* - Camera calibration from both, ArUco boards and ChArUco boards.\n* - Detection of ChArUco diamond markers\n* The samples directory includes easy examples of how to use the module.\n*\n* The implementation is based on the ArUco Library by R. Mu\xf1oz-Salinas and S. Garrido-Jurado @cite Aruco2014.\n*\n* Markers can also be detected based on the AprilTag 2 @cite wang2016iros fiducial detection method.\n*\n* @sa S. Garrido-Jurado, R. Mu\xf1oz-Salinas, F. J. Madrid-Cuevas, and M. J. Mar\xedn-Jim\xe9nez. 2014.\n* "Automatic generation and detection of highly reliable fiducial markers under occlusion".\n* Pattern Recogn. 47, 6 (June 2014), 2280-2292. DOI=10.1016/j.patcog.2014.01.005\n*\n* @sa http://www.uco.es/investiga/grupos/ava/node/26\n*\n* This module has been originally developed by Sergio Garrido-Jurado as a project\n* for Google Summer of Code 2015 (GSoC 15).\n*\n*\n\n'}
+=== Using OpenCV library version: 4.1.2 from: /usr/local/Cellar/opencv/4.1.2/lib

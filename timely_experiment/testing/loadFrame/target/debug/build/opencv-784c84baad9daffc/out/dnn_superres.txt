@@ -1,0 +1,13 @@
+FOUND FUNCs: 9
+
+PORTED FUNCs: 9
+
+PORTED: cv::dnn_superres::DnnSuperResImpl::DnnSuperResImpl (constructor) cv::dnn_superres::DnnSuperResImpl . default
+PORTED: cv::dnn_superres::DnnSuperResImpl::DnnSuperResImpl (constructor) cv::dnn_superres::DnnSuperResImpl . new
+PORTED: cv::dnn_superres::DnnSuperResImpl::readModel (method) cv::dnn_superres::DnnSuperResImpl . readModel
+PORTED: cv::dnn_superres::DnnSuperResImpl::readModel (method) cv::dnn_superres::DnnSuperResImpl . readModel
+PORTED: cv::dnn_superres::DnnSuperResImpl::setModel (method) cv::dnn_superres::DnnSuperResImpl . setModel
+PORTED: cv::dnn_superres::DnnSuperResImpl::upsample (method) cv::dnn_superres::DnnSuperResImpl . upsample
+PORTED: cv::dnn_superres::DnnSuperResImpl::upsampleMultioutput (method) cv::dnn_superres::DnnSuperResImpl . upsampleMultioutput
+PORTED: cv::dnn_superres::DnnSuperResImpl::getScale (method) cv::dnn_superres::DnnSuperResImpl . getScale
+PORTED: cv::dnn_superres::DnnSuperResImpl::getAlgorithm (method) cv::dnn_superres::DnnSuperResImpl . getAlgorithm

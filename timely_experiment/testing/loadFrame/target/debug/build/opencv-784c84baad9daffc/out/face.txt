@@ -1,0 +1,159 @@
+FOUND FUNCs: 111
+
+PORTED FUNCs: 91
+
+PORTED: cv::face::createFacemarkAAM (function)
+PORTED: cv::face::createFacemarkKazemi (function)
+PORTED: cv::face::createFacemarkLBF (function)
+PORTED: cv::face::drawFacemarks (function)
+PORTED: cv::face::getFacesHAAR (function)
+PORTED: cv::face::getFaces (function)
+PORTED: cv::face::loadDatasetList (function)
+PORTED: cv::face::loadFacePoints (function)
+PORTED: cv::face::loadTrainingData (function)
+PORTED: cv::face::loadTrainingData (function)
+PORTED: cv::face::loadTrainingData (function)
+PORTED: cv::face::BIF::getNumBands (method) cv::face::BIF (trait) . getNumBands
+PORTED: cv::face::BIF::getNumRotations (method) cv::face::BIF (trait) . getNumRotations
+PORTED: cv::face::BIF::compute (method) cv::face::BIF (trait) . compute
+PORTED: cv::face::BIF::create (method) cv::face::BIF (trait) . create
+PORTED: cv::face::BasicFaceRecognizer::getNumComponents (method) cv::face::BasicFaceRecognizer (trait) . getNumComponents
+PORTED: cv::face::BasicFaceRecognizer::setNumComponents (method) cv::face::BasicFaceRecognizer (trait) . setNumComponents
+PORTED: cv::face::BasicFaceRecognizer::getThreshold (method) cv::face::BasicFaceRecognizer (trait) . getThreshold
+PORTED: cv::face::BasicFaceRecognizer::setThreshold (method) cv::face::BasicFaceRecognizer (trait) . setThreshold
+PORTED: cv::face::BasicFaceRecognizer::getProjections (method) cv::face::BasicFaceRecognizer (trait) . getProjections
+PORTED: cv::face::BasicFaceRecognizer::getLabels (method) cv::face::BasicFaceRecognizer (trait) . getLabels
+PORTED: cv::face::BasicFaceRecognizer::getEigenValues (method) cv::face::BasicFaceRecognizer (trait) . getEigenValues
+PORTED: cv::face::BasicFaceRecognizer::getEigenVectors (method) cv::face::BasicFaceRecognizer (trait) . getEigenVectors
+PORTED: cv::face::BasicFaceRecognizer::getMean (method) cv::face::BasicFaceRecognizer (trait) . getMean
+PORTED: cv::face::BasicFaceRecognizer::read (method) cv::face::BasicFaceRecognizer (trait) . read
+PORTED: cv::face::BasicFaceRecognizer::write (method) cv::face::BasicFaceRecognizer (trait) . write
+PORTED: cv::face::BasicFaceRecognizer::empty (method) cv::face::BasicFaceRecognizer (trait) . empty
+PORTED: cv::face::CParams::CParams (constructor) cv::face::CParams . new
+PORTED: cv::face::EigenFaceRecognizer::create (method) cv::face::EigenFaceRecognizer . create
+PORTED: cv::face::FaceRecognizer::train (method) cv::face::FaceRecognizer (trait) . train
+PORTED: cv::face::FaceRecognizer::update (method) cv::face::FaceRecognizer (trait) . update
+PORTED: cv::face::FaceRecognizer::predict (method) cv::face::FaceRecognizer (trait) . predict
+PORTED: cv::face::FaceRecognizer::predict (method) cv::face::FaceRecognizer (trait) . predict
+PORTED: cv::face::FaceRecognizer::write (method) cv::face::FaceRecognizer (trait) . write
+PORTED: cv::face::FaceRecognizer::read (method) cv::face::FaceRecognizer (trait) . read
+PORTED: cv::face::FaceRecognizer::write (method) cv::face::FaceRecognizer (trait) . write
+PORTED: cv::face::FaceRecognizer::read (method) cv::face::FaceRecognizer (trait) . read
+PORTED: cv::face::FaceRecognizer::empty (method) cv::face::FaceRecognizer (trait) . empty
+PORTED: cv::face::FaceRecognizer::setLabelInfo (method) cv::face::FaceRecognizer (trait) . setLabelInfo
+PORTED: cv::face::FaceRecognizer::getLabelInfo (method) cv::face::FaceRecognizer (trait) . getLabelInfo
+PORTED: cv::face::FaceRecognizer::getLabelsByString (method) cv::face::FaceRecognizer (trait) . getLabelsByString
+PORTED: cv::face::FaceRecognizer::getThreshold (method) cv::face::FaceRecognizer (trait) . getThreshold
+PORTED: cv::face::FaceRecognizer::setThreshold (method) cv::face::FaceRecognizer (trait) . setThreshold
+PORTED: cv::face::Facemark::loadModel (method) cv::face::Facemark (trait) . loadModel
+PORTED: cv::face::Facemark::fit (method) cv::face::Facemark (trait) . fit
+PORTED: cv::face::FacemarkAAM::fitConfig (method) cv::face::FacemarkAAM (trait) . fitConfig
+PORTED: cv::face::FacemarkAAM::create (method) cv::face::FacemarkAAM (trait) . create
+PORTED: cv::face::FacemarkAAM::Config::Config (constructor) cv::face::FacemarkAAM::Config . new
+PORTED: cv::face::FacemarkAAM::Params::Params (constructor) cv::face::FacemarkAAM::Params . default
+PORTED: cv::face::FacemarkAAM::Params::read (method) cv::face::FacemarkAAM::Params . read
+PORTED: cv::face::FacemarkAAM::Params::write (method) cv::face::FacemarkAAM::Params . write
+PORTED: cv::face::FacemarkKazemi::training (method) cv::face::FacemarkKazemi (trait) . training
+PORTED: cv::face::FacemarkKazemi::getFaces (method) cv::face::FacemarkKazemi (trait) . getFaces
+PORTED: cv::face::FacemarkKazemi::create (method) cv::face::FacemarkKazemi (trait) . create
+PORTED: cv::face::FacemarkKazemi::Params::Params (constructor) cv::face::FacemarkKazemi::Params . default
+PORTED: cv::face::FacemarkLBF::create (method) cv::face::FacemarkLBF . create
+PORTED: cv::face::FacemarkLBF::BBox::BBox (constructor) cv::face::FacemarkLBF::BBox . default
+PORTED: cv::face::FacemarkLBF::BBox::BBox (constructor) cv::face::FacemarkLBF::BBox . new
+PORTED: cv::face::FacemarkLBF::BBox::project (method) cv::face::FacemarkLBF::BBox . project
+PORTED: cv::face::FacemarkLBF::BBox::reproject (method) cv::face::FacemarkLBF::BBox . reproject
+PORTED: cv::face::FacemarkLBF::Params::Params (constructor) cv::face::FacemarkLBF::Params . default
+PORTED: cv::face::FacemarkLBF::Params::read (method) cv::face::FacemarkLBF::Params . read
+PORTED: cv::face::FacemarkLBF::Params::write (method) cv::face::FacemarkLBF::Params . write
+PORTED: cv::face::FacemarkTrain::addTrainingSample (method) cv::face::FacemarkTrain (trait) . addTrainingSample
+PORTED: cv::face::FacemarkTrain::training (method) cv::face::FacemarkTrain (trait) . training
+PORTED: cv::face::FacemarkTrain::getFaces (method) cv::face::FacemarkTrain (trait) . getFaces
+PORTED: cv::face::FacemarkTrain::getData (method) cv::face::FacemarkTrain (trait) . getData
+PORTED: cv::face::FisherFaceRecognizer::create (method) cv::face::FisherFaceRecognizer . create
+PORTED: cv::face::LBPHFaceRecognizer::getGridX (method) cv::face::LBPHFaceRecognizer (trait) . getGridX
+PORTED: cv::face::LBPHFaceRecognizer::setGridX (method) cv::face::LBPHFaceRecognizer (trait) . setGridX
+PORTED: cv::face::LBPHFaceRecognizer::getGridY (method) cv::face::LBPHFaceRecognizer (trait) . getGridY
+PORTED: cv::face::LBPHFaceRecognizer::setGridY (method) cv::face::LBPHFaceRecognizer (trait) . setGridY
+PORTED: cv::face::LBPHFaceRecognizer::getRadius (method) cv::face::LBPHFaceRecognizer (trait) . getRadius
+PORTED: cv::face::LBPHFaceRecognizer::setRadius (method) cv::face::LBPHFaceRecognizer (trait) . setRadius
+PORTED: cv::face::LBPHFaceRecognizer::getNeighbors (method) cv::face::LBPHFaceRecognizer (trait) . getNeighbors
+PORTED: cv::face::LBPHFaceRecognizer::setNeighbors (method) cv::face::LBPHFaceRecognizer (trait) . setNeighbors
+PORTED: cv::face::LBPHFaceRecognizer::getThreshold (method) cv::face::LBPHFaceRecognizer (trait) . getThreshold
+PORTED: cv::face::LBPHFaceRecognizer::setThreshold (method) cv::face::LBPHFaceRecognizer (trait) . setThreshold
+PORTED: cv::face::LBPHFaceRecognizer::getHistograms (method) cv::face::LBPHFaceRecognizer (trait) . getHistograms
+PORTED: cv::face::LBPHFaceRecognizer::getLabels (method) cv::face::LBPHFaceRecognizer (trait) . getLabels
+PORTED: cv::face::LBPHFaceRecognizer::create (method) cv::face::LBPHFaceRecognizer (trait) . create
+PORTED: cv::face::MACE::salt (method) cv::face::MACE (trait) . salt
+PORTED: cv::face::PredictCollector::init (method) cv::face::PredictCollector (trait) . init
+PORTED: cv::face::PredictCollector::collect (method) cv::face::PredictCollector (trait) . collect
+PORTED: cv::face::StandardCollector::StandardCollector (constructor) cv::face::StandardCollector . new
+PORTED: cv::face::StandardCollector::init (method) cv::face::StandardCollector . init
+PORTED: cv::face::StandardCollector::collect (method) cv::face::StandardCollector . collect
+PORTED: cv::face::StandardCollector::getMinLabel (method) cv::face::StandardCollector . getMinLabel
+PORTED: cv::face::StandardCollector::getMinDist (method) cv::face::StandardCollector . getMinDist
+PORTED: cv::face::StandardCollector::create (method) cv::face::StandardCollector . create
+PORTED: cv::face::StandardCollector::PredictResult::PredictResult (constructor) cv::face::StandardCollector::PredictResult . new
+
+
+SKIPPED FUNCs: 20
+
+SKIPPED: cv::face::BasicFaceRecognizer::getNumComponents (method) cv::face::BasicFaceRecognizer (trait) . getNumComponents
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::setNumComponents (method) cv::face::BasicFaceRecognizer (trait) . setNumComponents
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getThreshold (method) cv::face::BasicFaceRecognizer (trait) . getThreshold
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::setThreshold (method) cv::face::BasicFaceRecognizer (trait) . setThreshold
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getProjections (method) cv::face::BasicFaceRecognizer (trait) . getProjections
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getLabels (method) cv::face::BasicFaceRecognizer (trait) . getLabels
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getEigenValues (method) cv::face::BasicFaceRecognizer (trait) . getEigenValues
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getEigenVectors (method) cv::face::BasicFaceRecognizer (trait) . getEigenVectors
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::getMean (method) cv::face::BasicFaceRecognizer (trait) . getMean
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::read (method) cv::face::BasicFaceRecognizer (trait) . read
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::write (method) cv::face::BasicFaceRecognizer (trait) . write
+   already there
+
+SKIPPED: cv::face::BasicFaceRecognizer::empty (method) cv::face::BasicFaceRecognizer (trait) . empty
+   already there
+
+SKIPPED: cv::face::FaceRecognizer::predict (method) cv::face::FaceRecognizer (trait) . predict
+   can not map type SmartPtr[Unknown[PredictCollector]] yet
+
+SKIPPED: cv::face::FacemarkKazemi::setFaceDetector (method) cv::face::FacemarkKazemi (trait) . setFaceDetector
+   can not map type Unknown[bool(*f)(InputArray @comma@ OutputArray@comma@ void*)] yet
+
+SKIPPED: cv::face::MACE::train (method) cv::face::MACE (trait) . train
+   can not map type Unknown[cv::InputArrayOfArrays] yet
+
+SKIPPED: cv::face::MACE::same (method) cv::face::MACE (trait) . same
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::face::MACE::load (method) cv::face::MACE (trait) . load
+   return type class Unknown[cv::Ptr<MACE>] is ignored
+
+SKIPPED: cv::face::MACE::create (method) cv::face::MACE (trait) . create
+   return type class Unknown[cv::Ptr<MACE>] is ignored
+
+SKIPPED: cv::face::StandardCollector::getResults (method) cv::face::StandardCollector . getResults
+   return type class Vector[Unknown[std::pair<int, double>]] is ignored
+
+SKIPPED: cv::face::StandardCollector::getResultsMap (method) cv::face::StandardCollector . getResultsMap
+   return type class Unknown[std::map<int, double>] is ignored
+

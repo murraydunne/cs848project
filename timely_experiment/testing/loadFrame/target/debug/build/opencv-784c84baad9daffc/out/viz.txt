@@ -1,0 +1,549 @@
+FOUND FUNCs: 283
+
+PORTED FUNCs: 154
+
+PORTED: cv::Vec3b (function)
+PORTED: cv::viz::computeNormals (function)
+PORTED: cv::viz::getWindowByName (function)
+PORTED: cv::viz::imshow (function)
+PORTED: cv::viz::isNan (function)
+PORTED: cv::viz::isNan (function)
+PORTED: cv::viz::readCloud (function)
+PORTED: cv::viz::readMesh (function)
+PORTED: cv::viz::readTrajectory (function)
+PORTED: cv::viz::unregisterAllWindows (function)
+PORTED: cv::viz::writeCloud (function)
+PORTED: cv::viz::writeTrajectory (function)
+PORTED: cv::viz::Camera::Camera (constructor) cv::viz::Camera . new
+PORTED: cv::viz::Camera::Camera (constructor) cv::viz::Camera . new
+PORTED: cv::viz::Camera::getClip (method) cv::viz::Camera . getClip
+PORTED: cv::viz::Camera::setClip (method) cv::viz::Camera . setClip
+PORTED: cv::viz::Camera::getWindowSize (method) cv::viz::Camera . getWindowSize
+PORTED: cv::viz::Camera::setWindowSize (method) cv::viz::Camera . setWindowSize
+PORTED: cv::viz::Camera::getFov (method) cv::viz::Camera . getFov
+PORTED: cv::viz::Camera::setFov (method) cv::viz::Camera . setFov
+PORTED: cv::viz::Camera::getPrincipalPoint (method) cv::viz::Camera . getPrincipalPoint
+PORTED: cv::viz::Camera::getFocalLength (method) cv::viz::Camera . getFocalLength
+PORTED: cv::viz::Camera::KinectCamera (method) cv::viz::Camera . KinectCamera
+PORTED: cv::viz::Color::Color (constructor) cv::viz::Color . default
+PORTED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+PORTED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+PORTED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+PORTED: cv::viz::Color::operator Vec3b (convertor method) cv::viz::Color . operator Vec3b
+PORTED: cv::viz::Color::black (method) cv::viz::Color . black
+PORTED: cv::viz::Color::blue (method) cv::viz::Color . blue
+PORTED: cv::viz::Color::green (method) cv::viz::Color . green
+PORTED: cv::viz::Color::cyan (method) cv::viz::Color . cyan
+PORTED: cv::viz::Color::red (method) cv::viz::Color . red
+PORTED: cv::viz::Color::magenta (method) cv::viz::Color . magenta
+PORTED: cv::viz::Color::yellow (method) cv::viz::Color . yellow
+PORTED: cv::viz::Color::white (method) cv::viz::Color . white
+PORTED: cv::viz::Color::gray (method) cv::viz::Color . gray
+PORTED: cv::viz::Color::mlab (method) cv::viz::Color . mlab
+PORTED: cv::viz::Color::navy (method) cv::viz::Color . navy
+PORTED: cv::viz::Color::olive (method) cv::viz::Color . olive
+PORTED: cv::viz::Color::maroon (method) cv::viz::Color . maroon
+PORTED: cv::viz::Color::teal (method) cv::viz::Color . teal
+PORTED: cv::viz::Color::rose (method) cv::viz::Color . rose
+PORTED: cv::viz::Color::azure (method) cv::viz::Color . azure
+PORTED: cv::viz::Color::lime (method) cv::viz::Color . lime
+PORTED: cv::viz::Color::gold (method) cv::viz::Color . gold
+PORTED: cv::viz::Color::brown (method) cv::viz::Color . brown
+PORTED: cv::viz::Color::orange (method) cv::viz::Color . orange
+PORTED: cv::viz::Color::chartreuse (method) cv::viz::Color . chartreuse
+PORTED: cv::viz::Color::orange_red (method) cv::viz::Color . orange_red
+PORTED: cv::viz::Color::purple (method) cv::viz::Color . purple
+PORTED: cv::viz::Color::indigo (method) cv::viz::Color . indigo
+PORTED: cv::viz::Color::pink (method) cv::viz::Color . pink
+PORTED: cv::viz::Color::cherry (method) cv::viz::Color . cherry
+PORTED: cv::viz::Color::bluberry (method) cv::viz::Color . bluberry
+PORTED: cv::viz::Color::raspberry (method) cv::viz::Color . raspberry
+PORTED: cv::viz::Color::silver (method) cv::viz::Color . silver
+PORTED: cv::viz::Color::violet (method) cv::viz::Color . violet
+PORTED: cv::viz::Color::apricot (method) cv::viz::Color . apricot
+PORTED: cv::viz::Color::turquoise (method) cv::viz::Color . turquoise
+PORTED: cv::viz::Color::celestial_blue (method) cv::viz::Color . celestial_blue
+PORTED: cv::viz::Color::amethyst (method) cv::viz::Color . amethyst
+PORTED: cv::viz::Color::not_set (method) cv::viz::Color . not_set
+PORTED: cv::viz::Mesh::load (method) cv::viz::Mesh . load
+PORTED: cv::viz::Viz3d::Viz3d (constructor) cv::viz::Viz3d . new
+PORTED: cv::viz::Viz3d::Viz3d (constructor) cv::viz::Viz3d . copy
+PORTED: cv::viz::Viz3d::removeWidget (method) cv::viz::Viz3d . removeWidget
+PORTED: cv::viz::Viz3d::getWidget (method) cv::viz::Viz3d . getWidget
+PORTED: cv::viz::Viz3d::removeAllWidgets (method) cv::viz::Viz3d . removeAllWidgets
+PORTED: cv::viz::Viz3d::showImage (method) cv::viz::Viz3d . showImage
+PORTED: cv::viz::Viz3d::setCamera (method) cv::viz::Viz3d . setCamera
+PORTED: cv::viz::Viz3d::getCamera (method) cv::viz::Viz3d . getCamera
+PORTED: cv::viz::Viz3d::resetCameraViewpoint (method) cv::viz::Viz3d . resetCameraViewpoint
+PORTED: cv::viz::Viz3d::resetCamera (method) cv::viz::Viz3d . resetCamera
+PORTED: cv::viz::Viz3d::convertToWindowCoordinates (method) cv::viz::Viz3d . convertToWindowCoordinates
+PORTED: cv::viz::Viz3d::converTo3DRay (method) cv::viz::Viz3d . converTo3DRay
+PORTED: cv::viz::Viz3d::getWindowSize (method) cv::viz::Viz3d . getWindowSize
+PORTED: cv::viz::Viz3d::setWindowSize (method) cv::viz::Viz3d . setWindowSize
+PORTED: cv::viz::Viz3d::getWindowName (method) cv::viz::Viz3d . getWindowName
+PORTED: cv::viz::Viz3d::getScreenshot (method) cv::viz::Viz3d . getScreenshot
+PORTED: cv::viz::Viz3d::saveScreenshot (method) cv::viz::Viz3d . saveScreenshot
+PORTED: cv::viz::Viz3d::setWindowPosition (method) cv::viz::Viz3d . setWindowPosition
+PORTED: cv::viz::Viz3d::setFullScreen (method) cv::viz::Viz3d . setFullScreen
+PORTED: cv::viz::Viz3d::setBackgroundColor (method) cv::viz::Viz3d . setBackgroundColor
+PORTED: cv::viz::Viz3d::setBackgroundTexture (method) cv::viz::Viz3d . setBackgroundTexture
+PORTED: cv::viz::Viz3d::setBackgroundMeshLab (method) cv::viz::Viz3d . setBackgroundMeshLab
+PORTED: cv::viz::Viz3d::spin (method) cv::viz::Viz3d . spin
+PORTED: cv::viz::Viz3d::spinOnce (method) cv::viz::Viz3d . spinOnce
+PORTED: cv::viz::Viz3d::setOffScreenRendering (method) cv::viz::Viz3d . setOffScreenRendering
+PORTED: cv::viz::Viz3d::removeAllLights (method) cv::viz::Viz3d . removeAllLights
+PORTED: cv::viz::Viz3d::addLight (method) cv::viz::Viz3d . addLight
+PORTED: cv::viz::Viz3d::wasStopped (method) cv::viz::Viz3d . wasStopped
+PORTED: cv::viz::Viz3d::close (method) cv::viz::Viz3d . close
+PORTED: cv::viz::Viz3d::setRenderingProperty (method) cv::viz::Viz3d . setRenderingProperty
+PORTED: cv::viz::Viz3d::getRenderingProperty (method) cv::viz::Viz3d . getRenderingProperty
+PORTED: cv::viz::Viz3d::setRepresentation (method) cv::viz::Viz3d . setRepresentation
+PORTED: cv::viz::Viz3d::setGlobalWarnings (method) cv::viz::Viz3d . setGlobalWarnings
+PORTED: cv::viz::WArrow::WArrow (constructor) cv::viz::WArrow . new
+PORTED: cv::viz::WCameraPosition::WCameraPosition (constructor) cv::viz::WCameraPosition . new
+PORTED: cv::viz::WCameraPosition::WCameraPosition (constructor) cv::viz::WCameraPosition . new
+PORTED: cv::viz::WCameraPosition::WCameraPosition (constructor) cv::viz::WCameraPosition . new
+PORTED: cv::viz::WCircle::WCircle (constructor) cv::viz::WCircle . new
+PORTED: cv::viz::WCircle::WCircle (constructor) cv::viz::WCircle . new
+PORTED: cv::viz::WCloud::WCloud (constructor) cv::viz::WCloud . new
+PORTED: cv::viz::WCloud::WCloud (constructor) cv::viz::WCloud . new
+PORTED: cv::viz::WCloud::WCloud (constructor) cv::viz::WCloud . new
+PORTED: cv::viz::WCloud::WCloud (constructor) cv::viz::WCloud . new
+PORTED: cv::viz::WCloudCollection::WCloudCollection (constructor) cv::viz::WCloudCollection . default
+PORTED: cv::viz::WCloudCollection::finalize (method) cv::viz::WCloudCollection . finalize
+PORTED: cv::viz::WCloudNormals::WCloudNormals (constructor) cv::viz::WCloudNormals . new
+PORTED: cv::viz::WCone::WCone (constructor) cv::viz::WCone . new
+PORTED: cv::viz::WCone::WCone (constructor) cv::viz::WCone . new
+PORTED: cv::viz::WCoordinateSystem::WCoordinateSystem (constructor) cv::viz::WCoordinateSystem . new
+PORTED: cv::viz::WCube::WCube (constructor) cv::viz::WCube . new
+PORTED: cv::viz::WCylinder::WCylinder (constructor) cv::viz::WCylinder . new
+PORTED: cv::viz::WGrid::WGrid (constructor) cv::viz::WGrid . new
+PORTED: cv::viz::WGrid::WGrid (constructor) cv::viz::WGrid . new
+PORTED: cv::viz::WImage3D::WImage3D (constructor) cv::viz::WImage3D . new
+PORTED: cv::viz::WImage3D::WImage3D (constructor) cv::viz::WImage3D . new
+PORTED: cv::viz::WImage3D::setImage (method) cv::viz::WImage3D . setImage
+PORTED: cv::viz::WImage3D::setSize (method) cv::viz::WImage3D . setSize
+PORTED: cv::viz::WImageOverlay::WImageOverlay (constructor) cv::viz::WImageOverlay . new
+PORTED: cv::viz::WImageOverlay::setImage (method) cv::viz::WImageOverlay . setImage
+PORTED: cv::viz::WLine::WLine (constructor) cv::viz::WLine . new
+PORTED: cv::viz::WMesh::WMesh (constructor) cv::viz::WMesh . new
+PORTED: cv::viz::WMesh::WMesh (constructor) cv::viz::WMesh . new
+PORTED: cv::viz::WPaintedCloud::WPaintedCloud (constructor) cv::viz::WPaintedCloud . new
+PORTED: cv::viz::WPaintedCloud::WPaintedCloud (constructor) cv::viz::WPaintedCloud . new
+PORTED: cv::viz::WPaintedCloud::WPaintedCloud (constructor) cv::viz::WPaintedCloud . new
+PORTED: cv::viz::WPlane::WPlane (constructor) cv::viz::WPlane . new
+PORTED: cv::viz::WPlane::WPlane (constructor) cv::viz::WPlane . new
+PORTED: cv::viz::WPolyLine::WPolyLine (constructor) cv::viz::WPolyLine . new
+PORTED: cv::viz::WPolyLine::WPolyLine (constructor) cv::viz::WPolyLine . new
+PORTED: cv::viz::WSphere::WSphere (constructor) cv::viz::WSphere . new
+PORTED: cv::viz::WText::WText (constructor) cv::viz::WText . new
+PORTED: cv::viz::WText::setText (method) cv::viz::WText . setText
+PORTED: cv::viz::WText::getText (method) cv::viz::WText . getText
+PORTED: cv::viz::WText3D::WText3D (constructor) cv::viz::WText3D . new
+PORTED: cv::viz::WText3D::setText (method) cv::viz::WText3D . setText
+PORTED: cv::viz::WText3D::getText (method) cv::viz::WText3D . getText
+PORTED: cv::viz::WTrajectory::WTrajectory (constructor) cv::viz::WTrajectory . new
+PORTED: cv::viz::WTrajectoryFrustums::WTrajectoryFrustums (constructor) cv::viz::WTrajectoryFrustums . new
+PORTED: cv::viz::WTrajectorySpheres::WTrajectorySpheres (constructor) cv::viz::WTrajectorySpheres . new
+PORTED: cv::viz::WWidgetMerger::WWidgetMerger (constructor) cv::viz::WWidgetMerger . default
+PORTED: cv::viz::WWidgetMerger::finalize (method) cv::viz::WWidgetMerger . finalize
+PORTED: cv::viz::Widget::setRenderingProperty (method) cv::viz::Widget (trait) . setRenderingProperty
+PORTED: cv::viz::Widget::getRenderingProperty (method) cv::viz::Widget (trait) . getRenderingProperty
+PORTED: cv::viz::Widget::Widget (constructor) cv::viz::Widget (trait) . default
+PORTED: cv::viz::Widget::Widget (constructor) cv::viz::Widget (trait) . copy
+PORTED: cv::viz::Widget::fromPlyFile (method) cv::viz::Widget (trait) . fromPlyFile
+PORTED: cv::viz::Widget2D::setColor (method) cv::viz::Widget2D (trait) . setColor
+PORTED: cv::viz::Widget2D::Widget2D (constructor) cv::viz::Widget2D (trait) . default
+PORTED: cv::viz::Widget3D::setColor (method) cv::viz::Widget3D (trait) . setColor
+PORTED: cv::viz::Widget3D::Widget3D (constructor) cv::viz::Widget3D (trait) . default
+
+
+SKIPPED FUNCs: 129
+
+SKIPPED: cv::viz::isNan (function)
+   return type class Unknown[template<typename _Tp> bool] is ignored
+
+SKIPPED: cv::viz::makeCameraPose (function)
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::makeTransformToGlobal (function)
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::readPose (function)
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::writePose (function)
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Camera::Camera (constructor) cv::viz::Camera . new
+   can not map type Unknown[Matx33d] yet
+
+SKIPPED: cv::viz::Camera::Camera (constructor) cv::viz::Camera . new
+   can not map type Unknown[Matx44d] yet
+
+SKIPPED: cv::viz::Camera::computeProjectionMatrix (method) cv::viz::Camera . computeProjectionMatrix
+   can not map type Unknown[Matx44d] yet
+
+SKIPPED: cv::viz::Color::Color (constructor) cv::viz::Color . default
+   already there
+
+SKIPPED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+   already there
+
+SKIPPED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+   already there
+
+SKIPPED: cv::viz::Color::Color (constructor) cv::viz::Color . new
+   already there
+
+SKIPPED: cv::viz::Color::black (method) cv::viz::Color . black
+   already there
+
+SKIPPED: cv::viz::Color::green (method) cv::viz::Color . green
+   already there
+
+SKIPPED: cv::viz::Color::blue (method) cv::viz::Color . blue
+   already there
+
+SKIPPED: cv::viz::Color::cyan (method) cv::viz::Color . cyan
+   already there
+
+SKIPPED: cv::viz::Color::red (method) cv::viz::Color . red
+   already there
+
+SKIPPED: cv::viz::Color::yellow (method) cv::viz::Color . yellow
+   already there
+
+SKIPPED: cv::viz::Color::magenta (method) cv::viz::Color . magenta
+   already there
+
+SKIPPED: cv::viz::Color::white (method) cv::viz::Color . white
+   already there
+
+SKIPPED: cv::viz::Color::gray (method) cv::viz::Color . gray
+   already there
+
+SKIPPED: cv::viz::Color::mlab (method) cv::viz::Color . mlab
+   already there
+
+SKIPPED: cv::viz::Color::navy (method) cv::viz::Color . navy
+   already there
+
+SKIPPED: cv::viz::Color::olive (method) cv::viz::Color . olive
+   already there
+
+SKIPPED: cv::viz::Color::maroon (method) cv::viz::Color . maroon
+   already there
+
+SKIPPED: cv::viz::Color::teal (method) cv::viz::Color . teal
+   already there
+
+SKIPPED: cv::viz::Color::rose (method) cv::viz::Color . rose
+   already there
+
+SKIPPED: cv::viz::Color::azure (method) cv::viz::Color . azure
+   already there
+
+SKIPPED: cv::viz::Color::lime (method) cv::viz::Color . lime
+   already there
+
+SKIPPED: cv::viz::Color::gold (method) cv::viz::Color . gold
+   already there
+
+SKIPPED: cv::viz::Color::brown (method) cv::viz::Color . brown
+   already there
+
+SKIPPED: cv::viz::Color::orange (method) cv::viz::Color . orange
+   already there
+
+SKIPPED: cv::viz::Color::chartreuse (method) cv::viz::Color . chartreuse
+   already there
+
+SKIPPED: cv::viz::Color::orange_red (method) cv::viz::Color . orange_red
+   already there
+
+SKIPPED: cv::viz::Color::purple (method) cv::viz::Color . purple
+   already there
+
+SKIPPED: cv::viz::Color::indigo (method) cv::viz::Color . indigo
+   already there
+
+SKIPPED: cv::viz::Color::pink (method) cv::viz::Color . pink
+   already there
+
+SKIPPED: cv::viz::Color::cherry (method) cv::viz::Color . cherry
+   already there
+
+SKIPPED: cv::viz::Color::bluberry (method) cv::viz::Color . bluberry
+   already there
+
+SKIPPED: cv::viz::Color::raspberry (method) cv::viz::Color . raspberry
+   already there
+
+SKIPPED: cv::viz::Color::silver (method) cv::viz::Color . silver
+   already there
+
+SKIPPED: cv::viz::Color::violet (method) cv::viz::Color . violet
+   already there
+
+SKIPPED: cv::viz::Color::apricot (method) cv::viz::Color . apricot
+   already there
+
+SKIPPED: cv::viz::Color::turquoise (method) cv::viz::Color . turquoise
+   already there
+
+SKIPPED: cv::viz::Color::celestial_blue (method) cv::viz::Color . celestial_blue
+   already there
+
+SKIPPED: cv::viz::Color::amethyst (method) cv::viz::Color . amethyst
+   already there
+
+SKIPPED: cv::viz::Color::not_set (method) cv::viz::Color . not_set
+   already there
+
+SKIPPED: cv::viz::KeyboardEvent::KeyboardEvent (constructor) cv::viz::KeyboardEvent . new
+   can not map type Unknown[Action] yet
+
+SKIPPED: cv::viz::MouseEvent::MouseEvent (constructor) cv::viz::MouseEvent . new
+   can not map type Unknown[Type] yet
+
+SKIPPED: cv::viz::Viz3d::showWidget (method) cv::viz::Viz3d . showWidget
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Viz3d::setWidgetPose (method) cv::viz::Viz3d . setWidgetPose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Viz3d::updateWidgetPose (method) cv::viz::Viz3d . updateWidgetPose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Viz3d::getWidgetPose (method) cv::viz::Viz3d . getWidgetPose
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::Viz3d::getViewerPose (method) cv::viz::Viz3d . getViewerPose
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::Viz3d::setViewerPose (method) cv::viz::Viz3d . setViewerPose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::WCameraPosition::WCameraPosition (constructor) cv::viz::WCameraPosition . new
+   can not map type Unknown[Matx33d] yet
+
+SKIPPED: cv::viz::WCameraPosition::WCameraPosition (constructor) cv::viz::WCameraPosition . new
+   can not map type Unknown[Matx33d] yet
+
+SKIPPED: cv::viz::WCloudCollection::addCloud (method) cv::viz::WCloudCollection . addCloud
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::WCloudCollection::addCloud (method) cv::viz::WCloudCollection . addCloud
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::WTrajectoryFrustums::WTrajectoryFrustums (constructor) cv::viz::WTrajectoryFrustums . new
+   can not map type Unknown[Matx33d] yet
+
+SKIPPED: cv::viz::WWidgetMerger::addWidget (method) cv::viz::WWidgetMerger . addWidget
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget::cast (method) cv::viz::Widget (trait) . cast
+   return type class Unknown[template<typename _W> _W] is ignored
+
+SKIPPED: cv::viz::Widget::cast < Widget2D > (method) cv::viz::Widget (trait) . cast < Widget2D >
+   return type class Unknown[template<> Widget2D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < Widget3D > (method) cv::viz::Widget (trait) . cast < Widget3D >
+   return type class Unknown[template<> Widget3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WLine > (method) cv::viz::Widget (trait) . cast < WLine >
+   return type class Unknown[template<> WLine] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPlane > (method) cv::viz::Widget (trait) . cast < WPlane >
+   return type class Unknown[template<> WPlane] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WSphere > (method) cv::viz::Widget (trait) . cast < WSphere >
+   return type class Unknown[template<> WSphere] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCylinder > (method) cv::viz::Widget (trait) . cast < WCylinder >
+   return type class Unknown[template<> WCylinder] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WArrow > (method) cv::viz::Widget (trait) . cast < WArrow >
+   return type class Unknown[template<> WArrow] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCircle > (method) cv::viz::Widget (trait) . cast < WCircle >
+   return type class Unknown[template<> WCircle] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCone > (method) cv::viz::Widget (trait) . cast < WCone >
+   return type class Unknown[template<> WCone] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCube > (method) cv::viz::Widget (trait) . cast < WCube >
+   return type class Unknown[template<> WCube] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCoordinateSystem > (method) cv::viz::Widget (trait) . cast < WCoordinateSystem >
+   return type class Unknown[template<> WCoordinateSystem] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPolyLine > (method) cv::viz::Widget (trait) . cast < WPolyLine >
+   return type class Unknown[template<> WPolyLine] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WGrid > (method) cv::viz::Widget (trait) . cast < WGrid >
+   return type class Unknown[template<> WGrid] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WText3D > (method) cv::viz::Widget (trait) . cast < WText3D >
+   return type class Unknown[template<> WText3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WText > (method) cv::viz::Widget (trait) . cast < WText >
+   return type class Unknown[template<> WText] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WImageOverlay > (method) cv::viz::Widget (trait) . cast < WImageOverlay >
+   return type class Unknown[template<> WImageOverlay] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WImage3D > (method) cv::viz::Widget (trait) . cast < WImage3D >
+   return type class Unknown[template<> WImage3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCameraPosition > (method) cv::viz::Widget (trait) . cast < WCameraPosition >
+   return type class Unknown[template<> WCameraPosition] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectory > (method) cv::viz::Widget (trait) . cast < WTrajectory >
+   return type class Unknown[template<> WTrajectory] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectoryFrustums > (method) cv::viz::Widget (trait) . cast < WTrajectoryFrustums >
+   return type class Unknown[template<> WTrajectoryFrustums] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectorySpheres > (method) cv::viz::Widget (trait) . cast < WTrajectorySpheres >
+   return type class Unknown[template<> WTrajectorySpheres] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloud > (method) cv::viz::Widget (trait) . cast < WCloud >
+   return type class Unknown[template<> WCloud] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPaintedCloud > (method) cv::viz::Widget (trait) . cast < WPaintedCloud >
+   return type class Unknown[template<> WPaintedCloud] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloudCollection > (method) cv::viz::Widget (trait) . cast < WCloudCollection >
+   return type class Unknown[template<> WCloudCollection] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloudNormals > (method) cv::viz::Widget (trait) . cast < WCloudNormals >
+   return type class Unknown[template<> WCloudNormals] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WMesh > (method) cv::viz::Widget (trait) . cast < WMesh >
+   return type class Unknown[template<> WMesh] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WWidgetMerger > (method) cv::viz::Widget (trait) . cast < WWidgetMerger >
+   return type class Unknown[template<> WWidgetMerger] is ignored
+
+SKIPPED: cv::viz::Widget::setRenderingProperty (method) cv::viz::Widget (trait) . setRenderingProperty
+   already there
+
+SKIPPED: cv::viz::Widget::getRenderingProperty (method) cv::viz::Widget (trait) . getRenderingProperty
+   already there
+
+SKIPPED: cv::viz::Widget::cast (method) cv::viz::Widget (trait) . cast
+   return type class Unknown[template<typename _W> _W] is ignored
+
+SKIPPED: cv::viz::Widget::cast < Widget2D > (method) cv::viz::Widget (trait) . cast < Widget2D >
+   return type class Unknown[template<> Widget2D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < Widget3D > (method) cv::viz::Widget (trait) . cast < Widget3D >
+   return type class Unknown[template<> Widget3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WLine > (method) cv::viz::Widget (trait) . cast < WLine >
+   return type class Unknown[template<> WLine] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPlane > (method) cv::viz::Widget (trait) . cast < WPlane >
+   return type class Unknown[template<> WPlane] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WSphere > (method) cv::viz::Widget (trait) . cast < WSphere >
+   return type class Unknown[template<> WSphere] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCylinder > (method) cv::viz::Widget (trait) . cast < WCylinder >
+   return type class Unknown[template<> WCylinder] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WArrow > (method) cv::viz::Widget (trait) . cast < WArrow >
+   return type class Unknown[template<> WArrow] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCircle > (method) cv::viz::Widget (trait) . cast < WCircle >
+   return type class Unknown[template<> WCircle] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCone > (method) cv::viz::Widget (trait) . cast < WCone >
+   return type class Unknown[template<> WCone] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCube > (method) cv::viz::Widget (trait) . cast < WCube >
+   return type class Unknown[template<> WCube] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCoordinateSystem > (method) cv::viz::Widget (trait) . cast < WCoordinateSystem >
+   return type class Unknown[template<> WCoordinateSystem] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPolyLine > (method) cv::viz::Widget (trait) . cast < WPolyLine >
+   return type class Unknown[template<> WPolyLine] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WGrid > (method) cv::viz::Widget (trait) . cast < WGrid >
+   return type class Unknown[template<> WGrid] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WText3D > (method) cv::viz::Widget (trait) . cast < WText3D >
+   return type class Unknown[template<> WText3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WText > (method) cv::viz::Widget (trait) . cast < WText >
+   return type class Unknown[template<> WText] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WImageOverlay > (method) cv::viz::Widget (trait) . cast < WImageOverlay >
+   return type class Unknown[template<> WImageOverlay] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WImage3D > (method) cv::viz::Widget (trait) . cast < WImage3D >
+   return type class Unknown[template<> WImage3D] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCameraPosition > (method) cv::viz::Widget (trait) . cast < WCameraPosition >
+   return type class Unknown[template<> WCameraPosition] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectory > (method) cv::viz::Widget (trait) . cast < WTrajectory >
+   return type class Unknown[template<> WTrajectory] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectoryFrustums > (method) cv::viz::Widget (trait) . cast < WTrajectoryFrustums >
+   return type class Unknown[template<> WTrajectoryFrustums] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WTrajectorySpheres > (method) cv::viz::Widget (trait) . cast < WTrajectorySpheres >
+   return type class Unknown[template<> WTrajectorySpheres] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloud > (method) cv::viz::Widget (trait) . cast < WCloud >
+   return type class Unknown[template<> WCloud] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WPaintedCloud > (method) cv::viz::Widget (trait) . cast < WPaintedCloud >
+   return type class Unknown[template<> WPaintedCloud] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloudCollection > (method) cv::viz::Widget (trait) . cast < WCloudCollection >
+   return type class Unknown[template<> WCloudCollection] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WCloudNormals > (method) cv::viz::Widget (trait) . cast < WCloudNormals >
+   return type class Unknown[template<> WCloudNormals] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WMesh > (method) cv::viz::Widget (trait) . cast < WMesh >
+   return type class Unknown[template<> WMesh] is ignored
+
+SKIPPED: cv::viz::Widget::cast < WWidgetMerger > (method) cv::viz::Widget (trait) . cast < WWidgetMerger >
+   return type class Unknown[template<> WWidgetMerger] is ignored
+
+SKIPPED: cv::viz::Widget2D::setColor (method) cv::viz::Widget2D (trait) . setColor
+   already there
+
+SKIPPED: cv::viz::Widget3D::setPose (method) cv::viz::Widget3D (trait) . setPose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::updatePose (method) cv::viz::Widget3D (trait) . updatePose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::getPose (method) cv::viz::Widget3D (trait) . getPose
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::Widget3D::applyTransform (method) cv::viz::Widget3D (trait) . applyTransform
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::setPose (method) cv::viz::Widget3D (trait) . setPose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::updatePose (method) cv::viz::Widget3D (trait) . updatePose
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::getPose (method) cv::viz::Widget3D (trait) . getPose
+   return type class Unknown[Affine3d] is ignored
+
+SKIPPED: cv::viz::Widget3D::applyTransform (method) cv::viz::Widget3D (trait) . applyTransform
+   can not map type Unknown[Affine3d] yet
+
+SKIPPED: cv::viz::Widget3D::setColor (method) cv::viz::Widget3D (trait) . setColor
+   already there
+

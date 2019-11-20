@@ -1,0 +1,10 @@
+[package]
+name = "loadFrame"
+version = "0.1.0"
+authors = ["Murray Dunne <mrmurraydunne@gmail.com> Calum Bruton <calumbruton@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}

@@ -8,8 +8,5 @@ edition = "2018"
 
 [dependencies]
 timely = { path = "../timely/timely" }
-<<<<<<< HEAD
 pyo3 = "0.8.2"
-=======
 opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}
->>>>>>> Frame retrieval operator

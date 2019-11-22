@@ -8,4 +8,6 @@ edition = "2018"
 
 [dependencies]
 timely = { path = "../timely/timely" }
-pyo3 = "0.8.2"
+pyo3 = { path = "../pyo3" }
+lazy_static = "*"
+atomic_refcell = "*"

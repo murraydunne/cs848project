@@ -55,6 +55,11 @@ def main(inp):
     return pyresult;
 }
 
+use opencv::prelude::*;
+use opencv::core;
+use opencv::videoio;
+use opencv::highgui;
+
 fn main() {
 
     /*lazy_static! {
@@ -63,6 +68,7 @@ fn main() {
 
     // construct and execute a timely dataflow
     timely::execute_from_args(std::env::args(), |worker| {
+
 
         // add an input and base computation off of it
         let mut input = worker.dataflow(|scope| {
@@ -78,6 +84,24 @@ fn main() {
                                     if datum.1 == index as u64 {
                                         session.give(datum);
                                     }
+                                }
+                            }
+                        }
+                    })
+                    .unary(Pipeline, "Frame", |_, _| {
+                        let mut vector : Vec<(u64, u64)> = Vec::new();
+                        let mut cam = videoio::VideoCapture::new_from_file_with_backend("../video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
+                        let mut frame = core::Mat::default().unwrap();
+                        move |input, output| {
+                            while let Some((time, data)) = input.next() {
+                                data.swap(&mut vector);
+                                let mut session = output.session(&time);
+                                for datum in vector.drain(..) {
+                                    cam.read(&mut frame);
+                                    println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
+                                    // let first = frame.at<double>(i,j);
+                                    // const double* Mi = frame.ptr<double>(0);
+                                    session.give(datum);
                                 }
                             }
                         }
@@ -143,4 +167,5 @@ def main(inp):
 
         
     }).ok();
+
 }

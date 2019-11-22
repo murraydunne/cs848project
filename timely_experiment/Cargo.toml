@@ -1,7 +1,7 @@
 [package]
 name = "timely_experiment"
 version = "0.1.0"
-authors = ["Murray Dunne <mrmurraydunne@gmail.com>"]
+authors = ["Murray Dunne <mrmurraydunne@gmail.com> Calum Bruton <calumbruton@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,3 +11,4 @@ timely = { path = "../timely/timely" }
 pyo3 = { path = "../pyo3" }
 lazy_static = "*"
 atomic_refcell = "*"
+opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}

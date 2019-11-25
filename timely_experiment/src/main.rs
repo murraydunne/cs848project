@@ -116,13 +116,13 @@ fn main() {
                         }
                     })
                     .exchange(|x: &(u64, u64, Vec<u8>)| (*x).1)
-                    //.map(|x| x * 2)
+                    
                     .inspect(move |x: &(u64, u64, Vec<u8>)| println!("node {:?} pipeline {:?} frame {:?} - done first (size {:?})", index, (*x).1, (*x).0, (*x).2.len()))
-                    //.exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
-                    .exchange(|x: &(u64, u64, Vec<u8>)| 5)
+                    
+                    .exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
 
                     .map(move |x: (u64, u64, Vec<u8>)| (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2))))
-                    //.map(|x| x * 3)
+                    
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).2))
 
                     .map(|x: (u64, u64, String)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned()))
@@ -137,7 +137,7 @@ fn main() {
         let pnum = command_line_args[index + 1].parse::<i32>().unwrap();
 
 
-        if pnum == 0 {
+        if pnum < 5 {
             for video_frame_index in 0..23 {
                 for pipeline in 0..5 {
                     input.send((video_frame_index, pipeline));

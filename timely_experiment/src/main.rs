@@ -90,7 +90,7 @@ fn main() {
                     })
                     .unary(Pipeline, "Frame", |_, _| {
                         let mut vector : Vec<(u64, u64)> = Vec::new();
-                        let mut cam = videoio::VideoCapture::new_from_file_with_backend("../video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
+                        let mut cam = videoio::VideoCapture::new_from_file_with_backend("video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
                         let mut frame = core::Mat::default().unwrap();
                         move |input, output| {
                             while let Some((time, data)) = input.next() {

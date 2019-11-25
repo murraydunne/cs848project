@@ -11,4 +11,4 @@ timely = { path = "../timely/timely" }
 pyo3 = { path = "../pyo3" }
 lazy_static = "*"
 atomic_refcell = "*"
-opencv = {version = "0.26.6", default-features = false, features = ["opencv-32"]}
+opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}

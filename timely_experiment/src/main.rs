@@ -1,12 +1,9 @@
 use timely::dataflow::operators::*;
 use timely::dataflow::channels::pact::Pipeline;
 use std::{thread, time};
-use pyo3::{prelude::*, types::{IntoPyDict, PyModule, PyByteArray}};
-use std::boxed::Box;
-use opencv::prelude::*;
+use pyo3::{prelude::*, types::{PyModule, PyByteArray}};
 use opencv::core;
 use opencv::videoio;
-use opencv::highgui;
 use std::ptr;
 
 
@@ -89,14 +86,24 @@ fn main() {
                                 data.swap(&mut vector);
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
-                                    if datum.1 == index as u64 {
-                                        session.give(datum);
+                                    if datum.1 == index as u64 || ((index == 15 || index == 16) && datum.1 == 0) {
+                                        session.give((datum.0, index as u64));
                                     }
                                 }
                             }
                         }
                     })
+
+                    .exchange(move |x: &(u64, u64)| {
+                        if index == 15 || index == 16 {
+                            index as u64
+                        } else {
+                            (*x).1
+                        }
+                    })
+
                     .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - pre first", index, (*x).1, (*x).0))
+
                     .unary(Pipeline, "Frame", |_, _| {
                         let mut vector : Vec<(u64, u64)> = Vec::new();
                         let mut cam = videoio::VideoCapture::new_from_file_with_backend("video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
@@ -106,26 +113,49 @@ fn main() {
                                 data.swap(&mut vector);
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
-                                    cam.read(&mut frame);
-                                    let framesize = frame.size().unwrap().width * frame.size().unwrap().height * 3;
-                                    //println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
-                                    // let first = frame.at<double>(i,j);
-                                    unsafe { session.give((datum.0, datum.1, from_buf_raw(frame.ptr(0).unwrap(), framesize as usize))); }
+                                    if index == 15 || index == 16 {
+                                        session.give((datum.0, datum.1, Vec::<u8>::new()));
+                                    } else {
+                                        cam.read(&mut frame);
+                                        let framesize = frame.size().unwrap().width * frame.size().unwrap().height * 3;
+                                        //println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
+                                        // let first = frame.at<double>(i,j);
+                                        unsafe { session.give((datum.0, datum.1, from_buf_raw(frame.ptr(0).unwrap(), framesize as usize))); }
+                                    }
                                 }
                             }
                         }
                     })
-                    .exchange(|x: &(u64, u64, Vec<u8>)| (*x).1)
                     
                     .inspect(move |x: &(u64, u64, Vec<u8>)| println!("node {:?} pipeline {:?} frame {:?} - done first (size {:?})", index, (*x).1, (*x).0, (*x).2.len()))
                     
-                    .exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
+                    //.exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
+                    .exchange(move |x: &(u64, u64, Vec<u8>)| {
+                        if index == 15 || index == 16 {
+                            index as u64
+                        } else {
+                            (*x).1 + 5
+                        }
+                    })
 
-                    .map(move |x: (u64, u64, Vec<u8>)| (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2))))
+                    .map(move |x: (u64, u64, Vec<u8>)| {
+                        if index == 15 || index == 16 {
+                            (x.0, x.1, ":".to_owned())
+                        } else {
+                            (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2)))
+                        }
+                    })
                     
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).2))
 
-                    .exchange(|x: &(u64, u64, String)| (*x).1 + 10)
+                    //.exchange(|x: &(u64, u64, String)| (*x).1 + 10)
+                    .exchange(move |x: &(u64, u64, String)| {
+                        if index == 15 || index == 16 {
+                            index as u64
+                        } else {
+                            (*x).1 + 10
+                        }
+                    })
 
                     .map(|x: (u64, u64, String)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned()))
 
@@ -139,7 +169,7 @@ fn main() {
         let pnum = command_line_args[index + 1].parse::<i32>().unwrap();
 
 
-        if pnum < 5 {
+        if pnum < 5 || pnum == 15 || pnum == 16 {
             for video_frame_index in 0..23 {
                 for pipeline in 0..5 {
                     input.send((video_frame_index, pipeline));

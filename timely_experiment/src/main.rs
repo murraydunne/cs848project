@@ -5,6 +5,7 @@ use pyo3::{prelude::*, types::{PyModule, PyByteArray}};
 use opencv::core;
 use opencv::videoio;
 use std::ptr;
+use std::time::{Duration, Instant};
 
 
 #[macro_use]
@@ -104,8 +105,10 @@ fn main() {
 
                     .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - pre first", index, (*x).1, (*x).0))
 
+                    .map(move |x: (u64, u64)| (x.0, x.1, Instant::now()))
+
                     .unary(Pipeline, "Frame", |_, _| {
-                        let mut vector : Vec<(u64, u64)> = Vec::new();
+                        let mut vector : Vec<(u64, u64, Instant)> = Vec::new();
                         let mut cam = videoio::VideoCapture::new_from_file_with_backend("video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
                         let mut frame : core::Mat = core::Mat::default().unwrap();
                         move |input, output| {
@@ -114,17 +117,22 @@ fn main() {
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
                                     if index == 15 || index == 16 {
-                                        session.give((datum.0, datum.1, Vec::<u8>::new()));
+                                        session.give((datum.0, datum.1, Vec::<u8>::new(), datum.2));
                                     } else {
                                         cam.read(&mut frame);
                                         let framesize = frame.size().unwrap().width * frame.size().unwrap().height * 3;
                                         //println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
                                         // let first = frame.at<double>(i,j);
-                                        unsafe { session.give((datum.0, datum.1, from_buf_raw(frame.ptr(0).unwrap(), framesize as usize))); }
+                                        unsafe { session.give((datum.0, datum.1, from_buf_raw(frame.ptr(0).unwrap(), framesize as usize), datum.2)); }
                                     }
                                 }
                             }
                         }
+                    })
+
+                    .map(move |x: (u64, u64, Vec<u8>, Instant)| {
+                        println!("Time to load frame {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        (x.0, x.1, x.2)
                     })
                     
                     .inspect(move |x: &(u64, u64, Vec<u8>)| println!("node {:?} pipeline {:?} frame {:?} - done first (size {:?})", index, (*x).1, (*x).0, (*x).2.len()))
@@ -138,12 +146,19 @@ fn main() {
                         }
                     })
 
-                    .map(move |x: (u64, u64, Vec<u8>)| {
+                    .map(move |x: (u64, u64, Vec<u8>)| (x.0, x.1, x.2, Instant::now()))
+
+                    .map(move |x: (u64, u64, Vec<u8>, Instant)| {
                         if index == 15 || index == 16 {
-                            (x.0, x.1, ":".to_owned())
+                            (x.0, x.1, ":".to_owned(), x.3)
                         } else {
-                            (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2)))
+                            (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2)), x.3)
                         }
+                    })
+
+                    .map(move |x: (u64, u64, String, Instant)| {
+                        println!("Time to run ML {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        (x.0, x.1, x.2)
                     })
                     
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).2))
@@ -157,7 +172,14 @@ fn main() {
                         }
                     })
 
-                    .map(|x: (u64, u64, String)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned()))
+                    .map(move |x: (u64, u64, String)| (x.0, x.1, x.2, Instant::now()))
+
+                    .map(|x: (u64, u64, String, Instant)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned(), x.3))
+
+                    .map(move |x: (u64, u64, String, Instant)| {
+                        println!("Time to decide object {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        (x.0, x.1, x.2)
+                    })
 
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - final (choice {:?})", index, (*x).1, (*x).0, (*x).2));
             input

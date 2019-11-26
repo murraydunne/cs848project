@@ -125,6 +125,8 @@ fn main() {
                     
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).2))
 
+                    .exchange(|x: &(u64, u64, String)| (*x).1 + 10)
+
                     .map(|x: (u64, u64, String)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned()))
 
                     .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - final (choice {:?})", index, (*x).1, (*x).0, (*x).2));

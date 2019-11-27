@@ -109,7 +109,7 @@ fn main() {
 
                     .unary(Pipeline, "Frame", |_, _| {
                         let mut vector : Vec<(u64, u64, Instant)> = Vec::new();
-                        let mut cam = videoio::VideoCapture::new_from_file_with_backend("video-data/policeChase.mp4",videoio::CAP_ANY).unwrap();
+                        let mut cam = videoio::VideoCapture::new_from_file_with_backend("video-data/test-video.mp4",videoio::CAP_ANY).unwrap();
                         let mut frame : core::Mat = core::Mat::default().unwrap();
                         move |input, output| {
                             while let Some((time, data)) = input.next() {
@@ -117,13 +117,21 @@ fn main() {
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
                                     if index == 15 || index == 16 {
-                                        session.give((datum.0, datum.1, Vec::<u8>::new(), datum.2));
+                                        for pipeline in 0..5 {
+                                            session.give((datum.0, pipeline, Vec::<u8>::new(), datum.2));
+                                        }
+                                        session.give((datum.0, index as u64, Vec::<u8>::new(), datum.2));
                                     } else {
+                                        thread::sleep(time::Duration::from_millis(2000));
                                         cam.read(&mut frame);
                                         let framesize = frame.size().unwrap().width * frame.size().unwrap().height * 3;
                                         //println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
                                         // let first = frame.at<double>(i,j);
-                                        unsafe { session.give((datum.0, datum.1, from_buf_raw(frame.ptr(0).unwrap(), framesize as usize), datum.2)); }
+                                        let buff : Vec::<u8> = unsafe { from_buf_raw(frame.ptr(0).unwrap(), framesize as usize).to_owned() };
+
+                                        for pipeline in 0..5 {
+                                            session.give((datum.0, pipeline, buff.to_owned(), datum.2));
+                                        }
                                     }
                                 }
                             }
@@ -131,18 +139,67 @@ fn main() {
                     })
 
                     .map(move |x: (u64, u64, Vec<u8>, Instant)| {
-                        println!("Time to load frame {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        if x.1 == index as u64 {
+                            println!("Time to load frame {:?} was {:?} at node {:?}", x.0, x.3.elapsed().as_nanos(), index);
+                        }
                         (x.0, x.1, x.2)
                     })
                     
-                    .inspect(move |x: &(u64, u64, Vec<u8>)| println!("node {:?} pipeline {:?} frame {:?} - done first (size {:?})", index, (*x).1, (*x).0, (*x).2.len()))
+                    .inspect(move |x: &(u64, u64, Vec<u8>)| {
+                        if (*x).1 == index as u64 {
+                            println!("node {:?} pipeline {:?} frame {:?} - done first (size {:?})", index, (*x).1, (*x).0, (*x).2.len());
+                        }
+                    })
                     
                     //.exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
                     .exchange(move |x: &(u64, u64, Vec<u8>)| {
-                        if index == 15 || index == 16 {
-                            index as u64
+                        if (index == 15 || index == 16) && (*x).1 == index as u64 {
+                            (*x).1
                         } else {
                             (*x).1 + 5
+                        }
+                    })
+
+                    .unary(Pipeline, "WaitForGo1", |_, _| {
+                        let mut vector : Vec<(u64, u64, Vec<u8>)> = Vec::new();
+                        let mut keep : Vec<(u64, u64, Vec<u8>)> = Vec::new();
+                        let mut last_sent_frame_number : u64 = 0;
+
+                        move |input, output| {
+                            while let Some((time, data)) = input.next() {
+                                data.swap(&mut vector);
+                                let mut session = output.session(&time);
+
+                                for datum in vector.drain(..) {
+                                    println!("node {:?} - SEEN pipeline {:?} frame {:?} vec len {:?} last frame {:?} keep len {:?}", 
+                                            index, datum.1, datum.0, datum.2.len(), last_sent_frame_number, keep.len());
+
+                                    if index == 15 || index == 16 {
+                                        if datum.1 == index as u64 {
+                                            session.give((datum.0, datum.1, datum.2));
+                                            println!("node {:?} keeping pipeline {:?} frame {:?} because master", index, datum.1, datum.0);
+                                        }
+                                        keep.clear(); // doesn't matter, will never actually put anything in keep for 15/16
+                                    } else if datum.1 + 5 == index as u64 && datum.2.len() > 0 && datum.0 > last_sent_frame_number {
+                                        session.give((datum.0, datum.1, datum.2));
+                                        last_sent_frame_number = datum.0;
+                                        keep.clear();
+                                        println!("node {:?} sending expected input - pipeline {:?} frame {:?}", index, datum.1, datum.0);
+                                    } else if datum.2.len() == 0 && datum.0 > last_sent_frame_number {
+                                        if keep.len() == 0 {
+                                            println!("node {:?} marker occured before ANY inputs, failure case pipeline {:?} frame {:?}", index, datum.1, datum.0);
+                                            last_sent_frame_number = datum.0;
+                                        } else {
+                                            session.give(keep[0].clone());
+                                            last_sent_frame_number = datum.0;
+                                            keep.clear();
+                                            println!("node {:?} sending other input (got marker) - pipeline {:?} frame {:?}", index, datum.1, datum.0);
+                                        }
+                                    } else if datum.0 > last_sent_frame_number {
+                                        keep.push(datum)
+                                    }
+                                }
+                            }
                         }
                     })
 
@@ -157,7 +214,7 @@ fn main() {
                     })
 
                     .map(move |x: (u64, u64, String, Instant)| {
-                        println!("Time to run ML {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        println!("Time to run ML on frame {:?} was {:?} at node {:?}", x.0, x.3.elapsed().as_nanos(), index);
                         (x.0, x.1, x.2)
                     })
                     
@@ -177,7 +234,7 @@ fn main() {
                     .map(|x: (u64, u64, String, Instant)| (x.0, x.1, x.2.split(":").next().unwrap().to_owned(), x.3))
 
                     .map(move |x: (u64, u64, String, Instant)| {
-                        println!("Time to decide object {:?} at index {:?}", x.3.elapsed().as_nanos(), index);
+                        println!("Time to decide object on frame {:?} was {:?} at node {:?}", x.0, x.3.elapsed().as_nanos(), index);
                         (x.0, x.1, x.2)
                     })
 
@@ -192,7 +249,7 @@ fn main() {
 
 
         if pnum < 5 || pnum == 15 || pnum == 16 {
-            for video_frame_index in 0..23 {
+            for video_frame_index in 1..23 {
                 for pipeline in 0..5 {
                     input.send((video_frame_index, pipeline));
                 }

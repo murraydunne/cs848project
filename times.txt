@@ -1,0 +1,2119 @@
+worker 4:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 4:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 12:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 6:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 4:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 3:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 12:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 6:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 8:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 9:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 4:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 3:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 12:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 6:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 11:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 0: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 8:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 9:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 4:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 5:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 3:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 12:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 6:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 11:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 15:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 8:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 9:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 7:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 4:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 5:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 3:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 12:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 6:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 16:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 11:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 10:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 2:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 15:	error connecting to worker 1: Connection refused (os error 111); retrying
+worker 14:	error connecting to worker 13: Connection refused (os error 111); retrying
+node 0 pipeline 0 frame 1 - pre first
+Time to load frame 1 was 6229209 at node 0
+node 0 pipeline 0 frame 1 - done first (size 691200)
+node 16 pipeline 16 frame 1 - pre first
+node 1 pipeline 1 frame 1 - pre first
+node 15 pipeline 15 frame 1 - pre first
+node 3 pipeline 3 frame 1 - pre first
+node 4 pipeline 4 frame 1 - pre first
+Time to load frame 1 was 21779819 at node 3
+node 3 pipeline 3 frame 1 - done first (size 691200)
+node 2 pipeline 2 frame 1 - pre first
+Time to load frame 1 was 43810350 at node 1
+node 1 pipeline 1 frame 1 - done first (size 691200)
+node 8 - SEEN pipeline 3 frame 1 vec len 691200 last frame 0 keep len 0
+node 8 sending expected input - pipeline 3 frame 1
+Time to load frame 1 was 33069562 at node 4
+node 4 pipeline 4 frame 1 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 1 vec len 691200 last frame 0 keep len 0
+node 5 sending expected input - pipeline 0 frame 1
+Time to load frame 1 was 35561912 at node 2
+node 2 pipeline 2 frame 1 - done first (size 691200)
+node 6 - SEEN pipeline 1 frame 1 vec len 691200 last frame 0 keep len 0
+node 6 sending expected input - pipeline 1 frame 1
+node 7 - SEEN pipeline 2 frame 1 vec len 691200 last frame 0 keep len 0
+node 7 sending expected input - pipeline 2 frame 1
+node 9 - SEEN pipeline 4 frame 1 vec len 691200 last frame 0 keep len 0
+node 9 sending expected input - pipeline 4 frame 1
+node 0 pipeline 0 frame 2 - pre first
+Time to load frame 2 was 1766235 at node 0
+node 0 pipeline 0 frame 2 - done first (size 691200)
+node 1 pipeline 1 frame 2 - pre first
+Time to load frame 2 was 1862630 at node 1
+node 1 pipeline 1 frame 2 - done first (size 691200)
+node 3 pipeline 3 frame 2 - pre first
+Time to load frame 2 was 3233401 at node 3
+node 3 pipeline 3 frame 2 - done first (size 691200)
+node 2 pipeline 2 frame 2 - pre first
+Time to load frame 2 was 1771304 at node 2
+node 2 pipeline 2 frame 2 - done first (size 691200)
+node 4 pipeline 4 frame 2 - pre first
+Time to load frame 2 was 1637389 at node 4
+node 4 pipeline 4 frame 2 - done first (size 691200)
+Creation context
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+ 8192/35363 [=====>........................] - ETA: 0s
+40960/35363 [==================================] - 0s 0us/step
+Time to run ML on frame 1 was 6794654560 at node 8
+node 8 pipeline 3 frame 1 - done second (result "window_shade:0.09943599:window_screen:0.04627719:doormat:0.032283016:picket_fence:0.02571161:park_bench:0.019864159:")
+Time to decide object on frame 1 was 107121 at node 13
+node 13 pipeline 3 frame 1 - final (choice "window_shade")
+Creation context
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+ 8192/35363 [=====>........................] - ETA: 0s
+40960/35363 [==================================] - 0s 0us/step
+Time to run ML on frame 1 was 6805205486 at node 7
+node 7 pipeline 2 frame 1 - done second (result "window_shade:0.09943599:window_screen:0.04627719:doormat:0.032283016:picket_fence:0.02571161:park_bench:0.019864159:")
+Time to decide object on frame 1 was 106696 at node 12
+node 12 pipeline 2 frame 1 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 2 vec len 691200 last frame 1 keep len 0
+node 8 sending expected input - pipeline 3 frame 2
+node 8 - SEEN pipeline 3 frame 1 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 2 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 1 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 2 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 1 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 2 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 1 vec len 691200 last frame 2 keep len 0
+node 8 - SEEN pipeline 3 frame 2 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 691200 last frame 1 keep len 0
+node 7 sending expected input - pipeline 2 frame 2
+node 7 - SEEN pipeline 2 frame 1 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 1 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 1 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 1 vec len 691200 last frame 2 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 691200 last frame 2 keep len 0
+Creation context
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+ 8192/35363 [=====>........................] - ETA: 0s
+40960/35363 [==================================] - 0s 0us/step
+Time to run ML on frame 1 was 8329171132 at node 9
+node 9 pipeline 4 frame 1 - done second (result "window_shade:0.09943599:window_screen:0.04627719:doormat:0.032283016:picket_fence:0.02571161:park_bench:0.019864159:")
+Time to decide object on frame 1 was 129242 at node 14
+node 14 pipeline 4 frame 1 - final (choice "window_shade")
+Creation context
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+ 8192/35363 [=====>........................] - ETA: 0sTime to run ML on frame 2 was 1427797837 at node 8
+node 8 pipeline 3 frame 2 - done second (result "window_shade:0.069765404:window_screen:0.047351606:doormat:0.033800256:picket_fence:0.031076517:boathouse:0.019868704:")
+Time to decide object on frame 2 was 78764 at node 13
+node 13 pipeline 3 frame 2 - final (choice "window_shade")
+
+40960/35363 [==================================] - 0s 0us/step
+Time to run ML on frame 1 was 8391372741 at node 6
+node 6 pipeline 1 frame 1 - done second (result "window_shade:0.09943599:window_screen:0.04627719:doormat:0.032283016:picket_fence:0.02571161:park_bench:0.019864159:")
+Time to decide object on frame 1 was 137583 at node 11
+node 11 pipeline 1 frame 1 - final (choice "window_shade")
+Time to run ML on frame 2 was 1248505628 at node 7
+node 7 pipeline 2 frame 2 - done second (result "window_shade:0.069765404:window_screen:0.047351606:doormat:0.033800256:picket_fence:0.031076517:boathouse:0.019868704:")
+Time to decide object on frame 2 was 99331 at node 12
+node 12 pipeline 2 frame 2 - final (choice "window_shade")
+Creation context
+Downloading data from https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+ 8192/35363 [=====>........................] - ETA: 0s
+40960/35363 [==================================] - 0s 0us/step
+Time to run ML on frame 1 was 8444684653 at node 5
+node 5 pipeline 0 frame 1 - done second (result "window_shade:0.09943599:window_screen:0.04627719:doormat:0.032283016:picket_fence:0.02571161:park_bench:0.019864159:")
+Time to decide object on frame 1 was 103265 at node 10
+node 10 pipeline 0 frame 1 - final (choice "window_shade")
+node 9 - SEEN pipeline 4 frame 2 vec len 691200 last frame 1 keep len 0
+node 9 sending expected input - pipeline 4 frame 2
+node 9 - SEEN pipeline 4 frame 1 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 2 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 1 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 2 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 1 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 2 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 1 vec len 691200 last frame 2 keep len 0
+node 9 - SEEN pipeline 4 frame 2 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 691200 last frame 1 keep len 0
+node 6 sending expected input - pipeline 1 frame 2
+node 6 - SEEN pipeline 1 frame 1 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 1 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 1 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 1 vec len 691200 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 691200 last frame 1 keep len 0
+node 5 sending expected input - pipeline 0 frame 2
+node 5 - SEEN pipeline 0 frame 1 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 1 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 1 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 1 vec len 691200 last frame 2 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 691200 last frame 2 keep len 0
+Time to run ML on frame 2 was 790379495 at node 6
+node 6 pipeline 1 frame 2 - done second (result "window_shade:0.069765404:window_screen:0.047351606:doormat:0.033800256:picket_fence:0.031076517:boathouse:0.019868704:")
+Time to decide object on frame 2 was 136697 at node 11
+node 11 pipeline 1 frame 2 - final (choice "window_shade")
+Time to run ML on frame 2 was 751888866 at node 5
+node 5 pipeline 0 frame 2 - done second (result "window_shade:0.069765404:window_screen:0.047351606:doormat:0.033800256:picket_fence:0.031076517:boathouse:0.019868704:")
+Time to decide object on frame 2 was 112391 at node 10
+node 10 pipeline 0 frame 2 - final (choice "window_shade")
+Time to run ML on frame 2 was 883407535 at node 9
+node 9 pipeline 4 frame 2 - done second (result "window_shade:0.069765404:window_screen:0.047351606:doormat:0.033800256:picket_fence:0.031076517:boathouse:0.019868704:")
+Time to decide object on frame 2 was 90170 at node 14
+node 14 pipeline 4 frame 2 - final (choice "window_shade")
+node 0 pipeline 0 frame 3 - pre first
+Time to load frame 3 was 3137153 at node 0
+node 0 pipeline 0 frame 3 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 3 vec len 691200 last frame 2 keep len 0
+node 5 sending expected input - pipeline 0 frame 3
+Time to load frame 1 was 10000268502 at node 16
+node 16 pipeline 16 frame 1 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 1 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 1 because master
+Time to run ML on frame 1 was 183716 at node 16
+node 16 pipeline 16 frame 1 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 1 vec len 0 last frame 2 keep len 0
+Time to decide object on frame 1 was 128488 at node 16
+node 9 - SEEN pipeline 4 frame 1 vec len 0 last frame 2 keep len 0
+node 16 pipeline 16 frame 1 - final (choice "")
+node 8 - SEEN pipeline 3 frame 1 vec len 0 last frame 2 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 691200 last frame 2 keep len 0
+node 6 sending expected input - pipeline 1 frame 3
+node 7 - SEEN pipeline 2 frame 3 vec len 691200 last frame 2 keep len 0
+node 7 sending expected input - pipeline 2 frame 3
+node 8 - SEEN pipeline 3 frame 3 vec len 691200 last frame 2 keep len 0
+node 8 sending expected input - pipeline 3 frame 3
+node 9 - SEEN pipeline 4 frame 3 vec len 691200 last frame 2 keep len 0
+node 9 sending expected input - pipeline 4 frame 3
+Time to load frame 1 was 10000258169 at node 15
+node 15 pipeline 15 frame 1 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 1 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 1 because master
+Time to run ML on frame 1 was 182556 at node 15
+node 15 pipeline 15 frame 1 - done second (result ":")
+Time to decide object on frame 1 was 103958 at node 15
+node 15 pipeline 15 frame 1 - final (choice "")
+node 3 pipeline 3 frame 3 - pre first
+Time to load frame 3 was 2785164 at node 3
+node 3 pipeline 3 frame 3 - done first (size 691200)
+node 1 pipeline 1 frame 3 - pre first
+Time to load frame 3 was 3718630 at node 1
+node 1 pipeline 1 frame 3 - done first (size 691200)
+node 4 pipeline 4 frame 3 - pre first
+Time to load frame 3 was 2342455 at node 4
+node 4 pipeline 4 frame 3 - done first (size 691200)
+node 2 pipeline 2 frame 3 - pre first
+Time to load frame 3 was 2694300 at node 2
+node 2 pipeline 2 frame 3 - done first (size 691200)
+Time to run ML on frame 3 was 1402734414 at node 5
+node 5 pipeline 0 frame 3 - done second (result "window_shade:0.094013564:window_screen:0.053694513:doormat:0.04508141:picket_fence:0.027239213:park_bench:0.016560335:")
+Time to decide object on frame 3 was 117622 at node 10
+node 10 pipeline 0 frame 3 - final (choice "window_shade")
+Time to run ML on frame 3 was 1384334740 at node 7
+node 7 pipeline 2 frame 3 - done second (result "window_shade:0.094013564:window_screen:0.053694513:doormat:0.04508141:picket_fence:0.027239213:park_bench:0.016560335:")
+Time to decide object on frame 3 was 116036 at node 12
+node 12 pipeline 2 frame 3 - final (choice "window_shade")
+Time to run ML on frame 3 was 1459771315 at node 6
+node 6 pipeline 1 frame 3 - done second (result "window_shade:0.094013564:window_screen:0.053694513:doormat:0.04508141:picket_fence:0.027239213:park_bench:0.016560335:")
+Time to decide object on frame 3 was 155115 at node 11
+node 11 pipeline 1 frame 3 - final (choice "window_shade")
+Time to run ML on frame 3 was 1341433451 at node 9
+node 9 pipeline 4 frame 3 - done second (result "window_shade:0.094013564:window_screen:0.053694513:doormat:0.04508141:picket_fence:0.027239213:park_bench:0.016560335:")
+Time to decide object on frame 3 was 112434 at node 14
+node 14 pipeline 4 frame 3 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 3 vec len 691200 last frame 3 keep len 0
+node 5 - SEEN pipeline 0 frame 3 vec len 691200 last frame 3 keep len 0
+node 5 - SEEN pipeline 0 frame 3 vec len 691200 last frame 3 keep len 0
+node 5 - SEEN pipeline 0 frame 3 vec len 691200 last frame 3 keep len 0
+node 5 - SEEN pipeline 0 frame 1 vec len 0 last frame 3 keep len 0
+node 5 - SEEN pipeline 0 frame 1 vec len 0 last frame 3 keep len 0
+Time to run ML on frame 3 was 1408179029 at node 8
+node 8 pipeline 3 frame 3 - done second (result "window_shade:0.094013564:window_screen:0.053694513:doormat:0.04508141:picket_fence:0.027239213:park_bench:0.016560335:")
+Time to decide object on frame 3 was 109700 at node 13
+node 13 pipeline 3 frame 3 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 3 vec len 691200 last frame 3 keep len 0
+node 7 - SEEN pipeline 2 frame 3 vec len 691200 last frame 3 keep len 0
+node 7 - SEEN pipeline 2 frame 3 vec len 691200 last frame 3 keep len 0
+node 7 - SEEN pipeline 2 frame 3 vec len 691200 last frame 3 keep len 0
+node 7 - SEEN pipeline 2 frame 1 vec len 0 last frame 3 keep len 0
+node 9 - SEEN pipeline 4 frame 3 vec len 691200 last frame 3 keep len 0
+node 9 - SEEN pipeline 4 frame 3 vec len 691200 last frame 3 keep len 0
+node 9 - SEEN pipeline 4 frame 3 vec len 691200 last frame 3 keep len 0
+node 9 - SEEN pipeline 4 frame 3 vec len 691200 last frame 3 keep len 0
+node 9 - SEEN pipeline 4 frame 1 vec len 0 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 691200 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 691200 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 691200 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 691200 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 1 vec len 0 last frame 3 keep len 0
+node 6 - SEEN pipeline 1 frame 1 vec len 0 last frame 3 keep len 0
+node 8 - SEEN pipeline 3 frame 3 vec len 691200 last frame 3 keep len 0
+node 8 - SEEN pipeline 3 frame 3 vec len 691200 last frame 3 keep len 0
+node 8 - SEEN pipeline 3 frame 3 vec len 691200 last frame 3 keep len 0
+node 8 - SEEN pipeline 3 frame 3 vec len 691200 last frame 3 keep len 0
+node 8 - SEEN pipeline 3 frame 1 vec len 0 last frame 3 keep len 0
+node 16 pipeline 16 frame 2 - pre first
+node 0 pipeline 0 frame 4 - pre first
+Time to load frame 4 was 3721613 at node 0
+node 0 pipeline 0 frame 4 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 4 vec len 691200 last frame 3 keep len 0
+node 5 sending expected input - pipeline 0 frame 4
+node 6 - SEEN pipeline 1 frame 4 vec len 691200 last frame 3 keep len 0
+node 6 sending expected input - pipeline 1 frame 4
+node 7 - SEEN pipeline 2 frame 4 vec len 691200 last frame 3 keep len 0
+node 7 sending expected input - pipeline 2 frame 4
+node 15 pipeline 15 frame 2 - pre first
+node 8 - SEEN pipeline 3 frame 4 vec len 691200 last frame 3 keep len 0
+node 8 sending expected input - pipeline 3 frame 4
+node 9 - SEEN pipeline 4 frame 4 vec len 691200 last frame 3 keep len 0
+node 9 sending expected input - pipeline 4 frame 4
+node 1 pipeline 1 frame 4 - pre first
+Time to load frame 4 was 2737585 at node 1
+node 1 pipeline 1 frame 4 - done first (size 691200)
+node 3 pipeline 3 frame 4 - pre first
+Time to load frame 4 was 2745636 at node 3
+node 3 pipeline 3 frame 4 - done first (size 691200)
+node 4 pipeline 4 frame 4 - pre first
+node 2 pipeline 2 frame 4 - pre first
+Time to load frame 4 was 8724770 at node 4
+Time to load frame 4 was 2928099 at node 2
+node 2 pipeline 2 frame 4 - done first (size 691200)
+node 4 pipeline 4 frame 4 - done first (size 691200)
+Time to run ML on frame 4 was 1401922772 at node 5
+node 5 pipeline 0 frame 4 - done second (result "window_shade:0.08865008:window_screen:0.04758699:doormat:0.040939186:picket_fence:0.027855402:park_bench:0.020530628:")
+Time to decide object on frame 4 was 99822 at node 10
+node 10 pipeline 0 frame 4 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 4 vec len 691200 last frame 4 keep len 0
+node 5 - SEEN pipeline 0 frame 4 vec len 691200 last frame 4 keep len 0
+node 5 - SEEN pipeline 0 frame 4 vec len 691200 last frame 4 keep len 0
+node 5 - SEEN pipeline 0 frame 4 vec len 691200 last frame 4 keep len 0
+Time to run ML on frame 4 was 1459935722 at node 6
+node 6 pipeline 1 frame 4 - done second (result "window_shade:0.08865008:window_screen:0.04758699:doormat:0.040939186:picket_fence:0.027855402:park_bench:0.020530628:")
+Time to decide object on frame 4 was 105690 at node 11
+node 11 pipeline 1 frame 4 - final (choice "window_shade")
+Time to run ML on frame 4 was 1380027353 at node 9
+node 9 pipeline 4 frame 4 - done second (result "window_shade:0.08865008:window_screen:0.04758699:doormat:0.040939186:picket_fence:0.027855402:park_bench:0.020530628:")
+Time to decide object on frame 4 was 131486 at node 14
+node 14 pipeline 4 frame 4 - final (choice "window_shade")
+Time to run ML on frame 4 was 1479814329 at node 7
+node 7 pipeline 2 frame 4 - done second (result "window_shade:0.08865008:window_screen:0.04758699:doormat:0.040939186:picket_fence:0.027855402:park_bench:0.020530628:")
+Time to decide object on frame 4 was 118269 at node 12
+node 12 pipeline 2 frame 4 - final (choice "window_shade")
+Time to run ML on frame 4 was 1448912297 at node 8
+node 8 pipeline 3 frame 4 - done second (result "window_shade:0.08865008:window_screen:0.04758699:doormat:0.040939186:picket_fence:0.027855402:park_bench:0.020530628:")
+Time to decide object on frame 4 was 63980 at node 13
+node 13 pipeline 3 frame 4 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 4 vec len 691200 last frame 4 keep len 0
+node 6 - SEEN pipeline 1 frame 4 vec len 691200 last frame 4 keep len 0
+node 6 - SEEN pipeline 1 frame 4 vec len 691200 last frame 4 keep len 0
+node 6 - SEEN pipeline 1 frame 4 vec len 691200 last frame 4 keep len 0
+node 9 - SEEN pipeline 4 frame 4 vec len 691200 last frame 4 keep len 0
+node 9 - SEEN pipeline 4 frame 4 vec len 691200 last frame 4 keep len 0
+node 9 - SEEN pipeline 4 frame 4 vec len 691200 last frame 4 keep len 0
+node 9 - SEEN pipeline 4 frame 4 vec len 691200 last frame 4 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 691200 last frame 4 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 691200 last frame 4 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 691200 last frame 4 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 691200 last frame 4 keep len 0
+node 8 - SEEN pipeline 3 frame 4 vec len 691200 last frame 4 keep len 0
+node 8 - SEEN pipeline 3 frame 4 vec len 691200 last frame 4 keep len 0
+node 8 - SEEN pipeline 3 frame 4 vec len 691200 last frame 4 keep len 0
+node 8 - SEEN pipeline 3 frame 4 vec len 691200 last frame 4 keep len 0
+node 0 pipeline 0 frame 5 - pre first
+Time to load frame 5 was 4915838 at node 0
+node 0 pipeline 0 frame 5 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 5 vec len 691200 last frame 4 keep len 0
+node 5 sending expected input - pipeline 0 frame 5
+node 6 - SEEN pipeline 1 frame 5 vec len 691200 last frame 4 keep len 0
+node 6 sending expected input - pipeline 1 frame 5
+node 7 - SEEN pipeline 2 frame 5 vec len 691200 last frame 4 keep len 0
+node 7 sending expected input - pipeline 2 frame 5
+node 8 - SEEN pipeline 3 frame 5 vec len 691200 last frame 4 keep len 0
+node 8 sending expected input - pipeline 3 frame 5
+node 9 - SEEN pipeline 4 frame 5 vec len 691200 last frame 4 keep len 0
+node 9 sending expected input - pipeline 4 frame 5
+node 1 pipeline 1 frame 5 - pre first
+Time to load frame 5 was 5295372 at node 1
+node 1 pipeline 1 frame 5 - done first (size 691200)
+node 4 pipeline 4 frame 5 - pre first
+Time to load frame 5 was 2698793 at node 4
+node 4 pipeline 4 frame 5 - done first (size 691200)
+node 3 pipeline 3 frame 5 - pre first
+Time to load frame 5 was 2751981 at node 3
+node 3 pipeline 3 frame 5 - done first (size 691200)
+node 2 pipeline 2 frame 5 - pre first
+Time to load frame 5 was 3929222 at node 2
+node 2 pipeline 2 frame 5 - done first (size 691200)
+Time to run ML on frame 5 was 1429244936 at node 5
+node 5 pipeline 0 frame 5 - done second (result "window_shade:0.114322394:window_screen:0.059833337:doormat:0.0512591:picket_fence:0.020275464:park_bench:0.016810298:")
+Time to decide object on frame 5 was 121080 at node 10
+node 10 pipeline 0 frame 5 - final (choice "window_shade")
+Time to run ML on frame 5 was 1331716641 at node 8
+node 8 pipeline 3 frame 5 - done second (result "window_shade:0.114322394:window_screen:0.059833337:doormat:0.0512591:picket_fence:0.020275464:park_bench:0.016810298:")
+Time to decide object on frame 5 was 109473 at node 13
+node 13 pipeline 3 frame 5 - final (choice "window_shade")
+Time to run ML on frame 5 was 1361192831 at node 9
+node 9 pipeline 4 frame 5 - done second (result "window_shade:0.114322394:window_screen:0.059833337:doormat:0.0512591:picket_fence:0.020275464:park_bench:0.016810298:")
+node 5 - SEEN pipeline 0 frame 5 vec len 691200 last frame 5 keep len 0
+node 5 - SEEN pipeline 0 frame 5 vec len 691200 last frame 5 keep len 0
+node 5 - SEEN pipeline 0 frame 5 vec len 691200 last frame 5 keep len 0
+node 5 - SEEN pipeline 0 frame 5 vec len 691200 last frame 5 keep len 0
+Time to decide object on frame 5 was 91766 at node 14
+node 14 pipeline 4 frame 5 - final (choice "window_shade")
+Time to run ML on frame 5 was 1465421434 at node 7
+node 7 pipeline 2 frame 5 - done second (result "window_shade:0.114322394:window_screen:0.059833337:doormat:0.0512591:picket_fence:0.020275464:park_bench:0.016810298:")
+Time to decide object on frame 5 was 83148 at node 12
+node 12 pipeline 2 frame 5 - final (choice "window_shade")
+Time to run ML on frame 5 was 1517005728 at node 6
+node 6 pipeline 1 frame 5 - done second (result "window_shade:0.114322394:window_screen:0.059833337:doormat:0.0512591:picket_fence:0.020275464:park_bench:0.016810298:")
+Time to decide object on frame 5 was 78610 at node 11
+node 11 pipeline 1 frame 5 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 5 vec len 691200 last frame 5 keep len 0
+node 8 - SEEN pipeline 3 frame 5 vec len 691200 last frame 5 keep len 0
+node 8 - SEEN pipeline 3 frame 5 vec len 691200 last frame 5 keep len 0
+node 8 - SEEN pipeline 3 frame 5 vec len 691200 last frame 5 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 691200 last frame 5 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 691200 last frame 5 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 691200 last frame 5 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 691200 last frame 5 keep len 0
+node 7 - SEEN pipeline 2 frame 5 vec len 691200 last frame 5 keep len 0
+node 7 - SEEN pipeline 2 frame 5 vec len 691200 last frame 5 keep len 0
+node 7 - SEEN pipeline 2 frame 5 vec len 691200 last frame 5 keep len 0
+node 7 - SEEN pipeline 2 frame 5 vec len 691200 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 5 vec len 691200 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 5 vec len 691200 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 5 vec len 691200 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 5 vec len 691200 last frame 5 keep len 0
+Time to load frame 2 was 10000321551 at node 16
+node 16 pipeline 16 frame 2 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 2 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 2 because master
+Time to run ML on frame 2 was 108414 at node 16
+node 16 pipeline 16 frame 2 - done second (result ":")
+Time to decide object on frame 2 was 132850 at node 16
+node 16 pipeline 16 frame 2 - final (choice "")
+node 8 - SEEN pipeline 3 frame 2 vec len 0 last frame 5 keep len 0
+node 9 - SEEN pipeline 4 frame 2 vec len 0 last frame 5 keep len 0
+node 7 - SEEN pipeline 2 frame 2 vec len 0 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 0 last frame 5 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 0 last frame 5 keep len 0
+Time to load frame 2 was 10000297931 at node 15
+node 15 pipeline 15 frame 2 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 2 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 2 because master
+node 9 - SEEN pipeline 4 frame 2 vec len 0 last frame 5 keep len 0
+Time to run ML on frame 2 was 212337 at node 15
+node 15 pipeline 15 frame 2 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 2 vec len 0 last frame 5 keep len 0
+node 6 - SEEN pipeline 1 frame 2 vec len 0 last frame 5 keep len 0
+Time to decide object on frame 2 was 228471 at node 15
+node 15 pipeline 15 frame 2 - final (choice "")
+node 8 - SEEN pipeline 3 frame 2 vec len 0 last frame 5 keep len 0
+node 5 - SEEN pipeline 0 frame 2 vec len 0 last frame 5 keep len 0
+node 0 pipeline 0 frame 6 - pre first
+Time to load frame 6 was 3910496 at node 0
+node 0 pipeline 0 frame 6 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 6 vec len 691200 last frame 5 keep len 0
+node 5 sending expected input - pipeline 0 frame 6
+node 6 - SEEN pipeline 1 frame 6 vec len 691200 last frame 5 keep len 0
+node 6 sending expected input - pipeline 1 frame 6
+node 7 - SEEN pipeline 2 frame 6 vec len 691200 last frame 5 keep len 0
+node 7 sending expected input - pipeline 2 frame 6
+node 8 - SEEN pipeline 3 frame 6 vec len 691200 last frame 5 keep len 0
+node 8 sending expected input - pipeline 3 frame 6
+node 9 - SEEN pipeline 4 frame 6 vec len 691200 last frame 5 keep len 0
+node 9 sending expected input - pipeline 4 frame 6
+node 1 pipeline 1 frame 6 - pre first
+Time to load frame 6 was 4251092 at node 1
+node 1 pipeline 1 frame 6 - done first (size 691200)
+node 4 pipeline 4 frame 6 - pre first
+Time to load frame 6 was 2761141 at node 4
+node 4 pipeline 4 frame 6 - done first (size 691200)
+node 2 pipeline 2 frame 6 - pre first
+Time to load frame 6 was 4128884 at node 2
+node 3 pipeline 3 frame 6 - pre first
+node 2 pipeline 2 frame 6 - done first (size 691200)
+Time to load frame 6 was 2784202 at node 3
+node 3 pipeline 3 frame 6 - done first (size 691200)
+Time to run ML on frame 6 was 1175694974 at node 5
+node 5 pipeline 0 frame 6 - done second (result "window_shade:0.12336297:doormat:0.07561764:window_screen:0.05553314:picket_fence:0.025926832:park_bench:0.020884294:")
+Time to decide object on frame 6 was 85891 at node 10
+node 10 pipeline 0 frame 6 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 6 vec len 691200 last frame 6 keep len 0
+node 5 - SEEN pipeline 0 frame 6 vec len 691200 last frame 6 keep len 0
+node 5 - SEEN pipeline 0 frame 6 vec len 691200 last frame 6 keep len 0
+node 5 - SEEN pipeline 0 frame 6 vec len 691200 last frame 6 keep len 0
+Time to run ML on frame 6 was 1411762314 at node 6
+node 6 pipeline 1 frame 6 - done second (result "window_shade:0.12336297:doormat:0.07561764:window_screen:0.05553314:picket_fence:0.025926832:park_bench:0.020884294:")
+Time to decide object on frame 6 was 117770 at node 11
+node 11 pipeline 1 frame 6 - final (choice "window_shade")
+Time to run ML on frame 6 was 1408329998 at node 7
+node 7 pipeline 2 frame 6 - done second (result "window_shade:0.12336297:doormat:0.07561764:window_screen:0.05553314:picket_fence:0.025926832:park_bench:0.020884294:")
+Time to decide object on frame 6 was 104263 at node 12
+node 12 pipeline 2 frame 6 - final (choice "window_shade")
+Time to run ML on frame 6 was 1410598479 at node 8
+node 8 pipeline 3 frame 6 - done second (result "window_shade:0.12336297:doormat:0.07561764:window_screen:0.05553314:picket_fence:0.025926832:park_bench:0.020884294:")
+Time to decide object on frame 6 was 114133 at node 13
+node 13 pipeline 3 frame 6 - final (choice "window_shade")
+Time to run ML on frame 6 was 1369522147 at node 9
+node 9 pipeline 4 frame 6 - done second (result "window_shade:0.12336297:doormat:0.07561764:window_screen:0.05553314:picket_fence:0.025926832:park_bench:0.020884294:")
+Time to decide object on frame 6 was 94884 at node 14
+node 14 pipeline 4 frame 6 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 6 vec len 691200 last frame 6 keep len 0
+node 7 - SEEN pipeline 2 frame 6 vec len 691200 last frame 6 keep len 0
+node 7 - SEEN pipeline 2 frame 6 vec len 691200 last frame 6 keep len 0
+node 7 - SEEN pipeline 2 frame 6 vec len 691200 last frame 6 keep len 0
+node 6 - SEEN pipeline 1 frame 6 vec len 691200 last frame 6 keep len 0
+node 6 - SEEN pipeline 1 frame 6 vec len 691200 last frame 6 keep len 0
+node 6 - SEEN pipeline 1 frame 6 vec len 691200 last frame 6 keep len 0
+node 6 - SEEN pipeline 1 frame 6 vec len 691200 last frame 6 keep len 0
+node 8 - SEEN pipeline 3 frame 6 vec len 691200 last frame 6 keep len 0
+node 8 - SEEN pipeline 3 frame 6 vec len 691200 last frame 6 keep len 0
+node 8 - SEEN pipeline 3 frame 6 vec len 691200 last frame 6 keep len 0
+node 8 - SEEN pipeline 3 frame 6 vec len 691200 last frame 6 keep len 0
+node 9 - SEEN pipeline 4 frame 6 vec len 691200 last frame 6 keep len 0
+node 9 - SEEN pipeline 4 frame 6 vec len 691200 last frame 6 keep len 0
+node 9 - SEEN pipeline 4 frame 6 vec len 691200 last frame 6 keep len 0
+node 9 - SEEN pipeline 4 frame 6 vec len 691200 last frame 6 keep len 0
+node 16 pipeline 16 frame 3 - pre first
+node 15 pipeline 15 frame 3 - pre first
+node 0 pipeline 0 frame 7 - pre first
+Time to load frame 7 was 3222719 at node 0
+node 0 pipeline 0 frame 7 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 7 vec len 691200 last frame 6 keep len 0
+node 5 sending expected input - pipeline 0 frame 7
+node 6 - SEEN pipeline 1 frame 7 vec len 691200 last frame 6 keep len 0
+node 6 sending expected input - pipeline 1 frame 7
+node 7 - SEEN pipeline 2 frame 7 vec len 691200 last frame 6 keep len 0
+node 7 sending expected input - pipeline 2 frame 7
+node 8 - SEEN pipeline 3 frame 7 vec len 691200 last frame 6 keep len 0
+node 8 sending expected input - pipeline 3 frame 7
+node 9 - SEEN pipeline 4 frame 7 vec len 691200 last frame 6 keep len 0
+node 9 sending expected input - pipeline 4 frame 7
+node 4 pipeline 4 frame 7 - pre first
+node 1 pipeline 1 frame 7 - pre first
+Time to load frame 7 was 2677076 at node 1
+Time to load frame 7 was 2842389 at node 4
+node 1 pipeline 1 frame 7 - done first (size 691200)
+node 4 pipeline 4 frame 7 - done first (size 691200)
+node 3 pipeline 3 frame 7 - pre first
+Time to load frame 7 was 3579508 at node 3
+node 3 pipeline 3 frame 7 - done first (size 691200)
+node 2 pipeline 2 frame 7 - pre first
+Time to load frame 7 was 2507221 at node 2
+node 2 pipeline 2 frame 7 - done first (size 691200)
+Time to run ML on frame 7 was 1365702877 at node 5
+node 5 pipeline 0 frame 7 - done second (result "window_shade:0.0834341:doormat:0.06834868:window_screen:0.02932401:park_bench:0.028664174:picket_fence:0.02079475:")
+Time to decide object on frame 7 was 117645 at node 10
+node 10 pipeline 0 frame 7 - final (choice "window_shade")
+Time to run ML on frame 7 was 1399036139 at node 6
+node 6 pipeline 1 frame 7 - done second (result "window_shade:0.0834341:doormat:0.06834868:window_screen:0.02932401:park_bench:0.028664174:picket_fence:0.02079475:")
+Time to decide object on frame 7 was 140098 at node 11
+node 11 pipeline 1 frame 7 - final (choice "window_shade")
+Time to run ML on frame 7 was 1320608663 at node 9
+node 9 pipeline 4 frame 7 - done second (result "window_shade:0.0834341:doormat:0.06834868:window_screen:0.02932401:park_bench:0.028664174:picket_fence:0.02079475:")
+Time to decide object on frame 7 was 93585 at node 14
+node 14 pipeline 4 frame 7 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 7 vec len 691200 last frame 7 keep len 0
+node 5 - SEEN pipeline 0 frame 7 vec len 691200 last frame 7 keep len 0
+node 5 - SEEN pipeline 0 frame 7 vec len 691200 last frame 7 keep len 0
+node 5 - SEEN pipeline 0 frame 7 vec len 691200 last frame 7 keep len 0
+Time to run ML on frame 7 was 1407617018 at node 8
+node 8 pipeline 3 frame 7 - done second (result "window_shade:0.0834341:doormat:0.06834868:window_screen:0.02932401:park_bench:0.028664174:picket_fence:0.02079475:")
+Time to run ML on frame 7 was 1447990365 at node 7
+node 7 pipeline 2 frame 7 - done second (result "window_shade:0.0834341:doormat:0.06834868:window_screen:0.02932401:park_bench:0.028664174:picket_fence:0.02079475:")
+Time to decide object on frame 7 was 96956 at node 13
+node 13 pipeline 3 frame 7 - final (choice "window_shade")
+Time to decide object on frame 7 was 63495 at node 12
+node 12 pipeline 2 frame 7 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 7 vec len 691200 last frame 7 keep len 0
+node 6 - SEEN pipeline 1 frame 7 vec len 691200 last frame 7 keep len 0
+node 6 - SEEN pipeline 1 frame 7 vec len 691200 last frame 7 keep len 0
+node 6 - SEEN pipeline 1 frame 7 vec len 691200 last frame 7 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 691200 last frame 7 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 691200 last frame 7 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 691200 last frame 7 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 691200 last frame 7 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 691200 last frame 7 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 691200 last frame 7 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 691200 last frame 7 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 691200 last frame 7 keep len 0
+node 7 - SEEN pipeline 2 frame 7 vec len 691200 last frame 7 keep len 0
+node 7 - SEEN pipeline 2 frame 7 vec len 691200 last frame 7 keep len 0
+node 7 - SEEN pipeline 2 frame 7 vec len 691200 last frame 7 keep len 0
+node 7 - SEEN pipeline 2 frame 7 vec len 691200 last frame 7 keep len 0
+node 0 pipeline 0 frame 8 - pre first
+Time to load frame 8 was 3281952 at node 0
+node 0 pipeline 0 frame 8 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 8 vec len 691200 last frame 7 keep len 0
+node 5 sending expected input - pipeline 0 frame 8
+node 6 - SEEN pipeline 1 frame 8 vec len 691200 last frame 7 keep len 0
+node 6 sending expected input - pipeline 1 frame 8
+node 7 - SEEN pipeline 2 frame 8 vec len 691200 last frame 7 keep len 0
+node 7 sending expected input - pipeline 2 frame 8
+node 8 - SEEN pipeline 3 frame 8 vec len 691200 last frame 7 keep len 0
+node 8 sending expected input - pipeline 3 frame 8
+node 9 - SEEN pipeline 4 frame 8 vec len 691200 last frame 7 keep len 0
+node 9 sending expected input - pipeline 4 frame 8
+node 4 pipeline 4 frame 8 - pre first
+Time to load frame 8 was 3030058 at node 4
+node 4 pipeline 4 frame 8 - done first (size 691200)
+node 3 pipeline 3 frame 8 - pre first
+Time to load frame 8 was 4181458 at node 3
+node 3 pipeline 3 frame 8 - done first (size 691200)
+node 1 pipeline 1 frame 8 - pre first
+Time to load frame 8 was 3898287 at node 1
+node 1 pipeline 1 frame 8 - done first (size 691200)
+node 2 pipeline 2 frame 8 - pre first
+Time to load frame 8 was 2776911 at node 2
+node 2 pipeline 2 frame 8 - done first (size 691200)
+Time to run ML on frame 8 was 1377056808 at node 5
+node 5 pipeline 0 frame 8 - done second (result "window_shade:0.06726679:doormat:0.065827005:park_bench:0.03371548:picket_fence:0.030314865:window_screen:0.029925205:")
+Time to decide object on frame 8 was 90953 at node 10
+node 10 pipeline 0 frame 8 - final (choice "window_shade")
+Time to run ML on frame 8 was 1286204948 at node 9
+node 9 pipeline 4 frame 8 - done second (result "window_shade:0.06726679:doormat:0.065827005:park_bench:0.03371548:picket_fence:0.030314865:window_screen:0.029925205:")
+Time to decide object on frame 8 was 124837 at node 14
+node 14 pipeline 4 frame 8 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 8 vec len 691200 last frame 8 keep len 0
+node 5 - SEEN pipeline 0 frame 8 vec len 691200 last frame 8 keep len 0
+node 5 - SEEN pipeline 0 frame 8 vec len 691200 last frame 8 keep len 0
+node 5 - SEEN pipeline 0 frame 8 vec len 691200 last frame 8 keep len 0
+Time to run ML on frame 8 was 1414473595 at node 7
+node 7 pipeline 2 frame 8 - done second (result "window_shade:0.06726679:doormat:0.065827005:park_bench:0.03371548:picket_fence:0.030314865:window_screen:0.029925205:")
+Time to decide object on frame 8 was 76327 at node 12
+node 12 pipeline 2 frame 8 - final (choice "window_shade")
+Time to run ML on frame 8 was 1477236839 at node 6
+node 6 pipeline 1 frame 8 - done second (result "window_shade:0.06726679:doormat:0.065827005:park_bench:0.03371548:picket_fence:0.030314865:window_screen:0.029925205:")
+Time to decide object on frame 8 was 81770 at node 11
+node 11 pipeline 1 frame 8 - final (choice "window_shade")
+Time to run ML on frame 8 was 1428015068 at node 8
+node 8 pipeline 3 frame 8 - done second (result "window_shade:0.06726679:doormat:0.065827005:park_bench:0.03371548:picket_fence:0.030314865:window_screen:0.029925205:")
+Time to decide object on frame 8 was 64101 at node 13
+node 13 pipeline 3 frame 8 - final (choice "window_shade")
+node 9 - SEEN pipeline 4 frame 8 vec len 691200 last frame 8 keep len 0
+node 9 - SEEN pipeline 4 frame 8 vec len 691200 last frame 8 keep len 0
+node 9 - SEEN pipeline 4 frame 8 vec len 691200 last frame 8 keep len 0
+node 9 - SEEN pipeline 4 frame 8 vec len 691200 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 691200 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 691200 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 691200 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 691200 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 8 vec len 691200 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 8 vec len 691200 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 8 vec len 691200 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 8 vec len 691200 last frame 8 keep len 0
+node 8 - SEEN pipeline 3 frame 8 vec len 691200 last frame 8 keep len 0
+node 8 - SEEN pipeline 3 frame 8 vec len 691200 last frame 8 keep len 0
+node 8 - SEEN pipeline 3 frame 8 vec len 691200 last frame 8 keep len 0
+node 8 - SEEN pipeline 3 frame 8 vec len 691200 last frame 8 keep len 0
+Time to load frame 3 was 10000260631 at node 16
+node 16 pipeline 16 frame 3 - done first (size 0)
+node 9 - SEEN pipeline 4 frame 3 vec len 0 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 0 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 3 vec len 0 last frame 8 keep len 0
+node 5 - SEEN pipeline 0 frame 3 vec len 0 last frame 8 keep len 0
+node 8 - SEEN pipeline 3 frame 3 vec len 0 last frame 8 keep len 0
+node 16 - SEEN pipeline 16 frame 3 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 3 because master
+Time to run ML on frame 3 was 221316 at node 16
+node 16 pipeline 16 frame 3 - done second (result ":")
+Time to decide object on frame 3 was 230971 at node 16
+node 16 pipeline 16 frame 3 - final (choice "")
+Time to load frame 3 was 10000312997 at node 15
+node 15 pipeline 15 frame 3 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 3 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 3 because master
+Time to run ML on frame 3 was 220021 at node 15
+node 15 pipeline 15 frame 3 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 3 vec len 0 last frame 8 keep len 0
+node 9 - SEEN pipeline 4 frame 3 vec len 0 last frame 8 keep len 0
+node 7 - SEEN pipeline 2 frame 3 vec len 0 last frame 8 keep len 0
+node 6 - SEEN pipeline 1 frame 3 vec len 0 last frame 8 keep len 0
+node 5 - SEEN pipeline 0 frame 3 vec len 0 last frame 8 keep len 0
+Time to decide object on frame 3 was 270143 at node 15
+node 15 pipeline 15 frame 3 - final (choice "")
+node 0 pipeline 0 frame 9 - pre first
+Time to load frame 9 was 3215980 at node 0
+node 0 pipeline 0 frame 9 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 9 vec len 691200 last frame 8 keep len 0
+node 5 sending expected input - pipeline 0 frame 9
+node 6 - SEEN pipeline 1 frame 9 vec len 691200 last frame 8 keep len 0
+node 6 sending expected input - pipeline 1 frame 9
+node 7 - SEEN pipeline 2 frame 9 vec len 691200 last frame 8 keep len 0
+node 7 sending expected input - pipeline 2 frame 9
+node 8 - SEEN pipeline 3 frame 9 vec len 691200 last frame 8 keep len 0
+node 8 sending expected input - pipeline 3 frame 9
+node 9 - SEEN pipeline 4 frame 9 vec len 691200 last frame 8 keep len 0
+node 9 sending expected input - pipeline 4 frame 9
+node 4 pipeline 4 frame 9 - pre first
+Time to load frame 9 was 2778757 at node 4
+node 4 pipeline 4 frame 9 - done first (size 691200)
+node 3 pipeline 3 frame 9 - pre first
+Time to load frame 9 was 4001586 at node 3
+node 3 pipeline 3 frame 9 - done first (size 691200)
+node 1 pipeline 1 frame 9 - pre first
+Time to load frame 9 was 2720666 at node 1
+node 1 pipeline 1 frame 9 - done first (size 691200)
+node 2 pipeline 2 frame 9 - pre first
+Time to load frame 9 was 3123428 at node 2
+node 2 pipeline 2 frame 9 - done first (size 691200)
+Time to run ML on frame 9 was 1307998399 at node 5
+node 5 pipeline 0 frame 9 - done second (result "window_shade:0.0613755:doormat:0.05514891:park_bench:0.030216532:picket_fence:0.02866568:window_screen:0.027035639:")
+Time to decide object on frame 9 was 116179 at node 10
+node 10 pipeline 0 frame 9 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 9 vec len 691200 last frame 9 keep len 0
+node 5 - SEEN pipeline 0 frame 9 vec len 691200 last frame 9 keep len 0
+node 5 - SEEN pipeline 0 frame 9 vec len 691200 last frame 9 keep len 0
+Time to run ML on frame 9 was 1404431361 at node 6
+node 6 pipeline 1 frame 9 - done second (result "window_shade:0.0613755:doormat:0.05514891:park_bench:0.030216532:picket_fence:0.02866568:window_screen:0.027035639:")
+Time to decide object on frame 9 was 120938 at node 11
+node 11 pipeline 1 frame 9 - final (choice "window_shade")
+Time to run ML on frame 9 was 1371492873 at node 7
+node 7 pipeline 2 frame 9 - done second (result "window_shade:0.0613755:doormat:0.05514891:park_bench:0.030216532:picket_fence:0.02866568:window_screen:0.027035639:")
+Time to decide object on frame 9 was 97963 at node 12
+node 12 pipeline 2 frame 9 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 9 vec len 691200 last frame 9 keep len 0
+node 6 - SEEN pipeline 1 frame 9 vec len 691200 last frame 9 keep len 0
+node 6 - SEEN pipeline 1 frame 9 vec len 691200 last frame 9 keep len 0
+node 6 - SEEN pipeline 1 frame 9 vec len 691200 last frame 9 keep len 0
+node 6 - SEEN pipeline 1 frame 9 vec len 691200 last frame 9 keep len 0
+Time to run ML on frame 9 was 1345127004 at node 9
+node 9 pipeline 4 frame 9 - done second (result "window_shade:0.0613755:doormat:0.05514891:park_bench:0.030216532:picket_fence:0.02866568:window_screen:0.027035639:")
+Time to decide object on frame 9 was 121173 at node 14
+node 14 pipeline 4 frame 9 - final (choice "window_shade")
+Time to run ML on frame 9 was 1404217575 at node 8
+node 8 pipeline 3 frame 9 - done second (result "window_shade:0.0613755:doormat:0.05514891:park_bench:0.030216532:picket_fence:0.02866568:window_screen:0.027035639:")
+Time to decide object on frame 9 was 59531 at node 13
+node 13 pipeline 3 frame 9 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 9 vec len 691200 last frame 9 keep len 0
+node 7 - SEEN pipeline 2 frame 9 vec len 691200 last frame 9 keep len 0
+node 7 - SEEN pipeline 2 frame 9 vec len 691200 last frame 9 keep len 0
+node 7 - SEEN pipeline 2 frame 9 vec len 691200 last frame 9 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 691200 last frame 9 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 691200 last frame 9 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 691200 last frame 9 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 691200 last frame 9 keep len 0
+node 8 - SEEN pipeline 3 frame 9 vec len 691200 last frame 9 keep len 0
+node 8 - SEEN pipeline 3 frame 9 vec len 691200 last frame 9 keep len 0
+node 8 - SEEN pipeline 3 frame 9 vec len 691200 last frame 9 keep len 0
+node 8 - SEEN pipeline 3 frame 9 vec len 691200 last frame 9 keep len 0
+node 16 pipeline 16 frame 4 - pre first
+node 15 pipeline 15 frame 4 - pre first
+node 0 pipeline 0 frame 10 - pre first
+Time to load frame 10 was 3054524 at node 0
+node 0 pipeline 0 frame 10 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 10 vec len 691200 last frame 9 keep len 0
+node 5 sending expected input - pipeline 0 frame 10
+node 6 - SEEN pipeline 1 frame 10 vec len 691200 last frame 9 keep len 0
+node 6 sending expected input - pipeline 1 frame 10
+node 7 - SEEN pipeline 2 frame 10 vec len 691200 last frame 9 keep len 0
+node 7 sending expected input - pipeline 2 frame 10
+node 8 - SEEN pipeline 3 frame 10 vec len 691200 last frame 9 keep len 0
+node 8 sending expected input - pipeline 3 frame 10
+node 9 - SEEN pipeline 4 frame 10 vec len 691200 last frame 9 keep len 0
+node 9 sending expected input - pipeline 4 frame 10
+node 4 pipeline 4 frame 10 - pre first
+Time to load frame 10 was 2643552 at node 4
+node 4 pipeline 4 frame 10 - done first (size 691200)
+node 3 pipeline 3 frame 10 - pre first
+Time to load frame 10 was 2594318 at node 3
+node 3 pipeline 3 frame 10 - done first (size 691200)
+node 1 pipeline 1 frame 10 - pre first
+Time to load frame 10 was 2720701 at node 1
+node 1 pipeline 1 frame 10 - done first (size 691200)
+node 2 pipeline 2 frame 10 - pre first
+Time to load frame 10 was 2726789 at node 2
+node 2 pipeline 2 frame 10 - done first (size 691200)
+Time to run ML on frame 10 was 1371181133 at node 5
+node 5 pipeline 0 frame 10 - done second (result "window_shade:0.07039508:doormat:0.03749443:window_screen:0.029077725:park_bench:0.020160375:picket_fence:0.01935157:")
+Time to decide object on frame 10 was 128917 at node 10
+node 10 pipeline 0 frame 10 - final (choice "window_shade")
+Time to run ML on frame 10 was 1370302338 at node 7
+node 7 pipeline 2 frame 10 - done second (result "window_shade:0.07039508:doormat:0.03749443:window_screen:0.029077725:park_bench:0.020160375:picket_fence:0.01935157:")
+Time to decide object on frame 10 was 118400 at node 12
+node 12 pipeline 2 frame 10 - final (choice "window_shade")
+Time to run ML on frame 10 was 1354898917 at node 8
+node 8 pipeline 3 frame 10 - done second (result "window_shade:0.07039508:doormat:0.03749443:window_screen:0.029077725:park_bench:0.020160375:picket_fence:0.01935157:")
+Time to decide object on frame 10 was 94532 at node 13
+node 13 pipeline 3 frame 10 - final (choice "window_shade")
+Time to run ML on frame 10 was 1442063786 at node 6
+node 6 pipeline 1 frame 10 - done second (result "window_shade:0.07039508:doormat:0.03749443:window_screen:0.029077725:park_bench:0.020160375:picket_fence:0.01935157:")
+Time to decide object on frame 10 was 95446 at node 11
+node 11 pipeline 1 frame 10 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 10 vec len 691200 last frame 10 keep len 0
+node 5 - SEEN pipeline 0 frame 10 vec len 691200 last frame 10 keep len 0
+node 5 - SEEN pipeline 0 frame 10 vec len 691200 last frame 10 keep len 0
+node 5 - SEEN pipeline 0 frame 10 vec len 691200 last frame 10 keep len 0
+Time to run ML on frame 10 was 1354142808 at node 9
+node 9 pipeline 4 frame 10 - done second (result "window_shade:0.07039508:doormat:0.03749443:window_screen:0.029077725:park_bench:0.020160375:picket_fence:0.01935157:")
+Time to decide object on frame 10 was 77314 at node 14
+node 14 pipeline 4 frame 10 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 10 vec len 691200 last frame 10 keep len 0
+node 7 - SEEN pipeline 2 frame 10 vec len 691200 last frame 10 keep len 0
+node 7 - SEEN pipeline 2 frame 10 vec len 691200 last frame 10 keep len 0
+node 7 - SEEN pipeline 2 frame 10 vec len 691200 last frame 10 keep len 0
+node 8 - SEEN pipeline 3 frame 10 vec len 691200 last frame 10 keep len 0
+node 8 - SEEN pipeline 3 frame 10 vec len 691200 last frame 10 keep len 0
+node 8 - SEEN pipeline 3 frame 10 vec len 691200 last frame 10 keep len 0
+node 8 - SEEN pipeline 3 frame 10 vec len 691200 last frame 10 keep len 0
+node 6 - SEEN pipeline 1 frame 10 vec len 691200 last frame 10 keep len 0
+node 6 - SEEN pipeline 1 frame 10 vec len 691200 last frame 10 keep len 0
+node 6 - SEEN pipeline 1 frame 10 vec len 691200 last frame 10 keep len 0
+node 6 - SEEN pipeline 1 frame 10 vec len 691200 last frame 10 keep len 0
+node 9 - SEEN pipeline 4 frame 10 vec len 691200 last frame 10 keep len 0
+node 9 - SEEN pipeline 4 frame 10 vec len 691200 last frame 10 keep len 0
+node 9 - SEEN pipeline 4 frame 10 vec len 691200 last frame 10 keep len 0
+node 9 - SEEN pipeline 4 frame 10 vec len 691200 last frame 10 keep len 0
+node 0 pipeline 0 frame 11 - pre first
+Time to load frame 11 was 2989475 at node 0
+node 0 pipeline 0 frame 11 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 11 vec len 691200 last frame 10 keep len 0
+node 5 sending expected input - pipeline 0 frame 11
+node 6 - SEEN pipeline 1 frame 11 vec len 691200 last frame 10 keep len 0
+node 6 sending expected input - pipeline 1 frame 11
+node 7 - SEEN pipeline 2 frame 11 vec len 691200 last frame 10 keep len 0
+node 7 sending expected input - pipeline 2 frame 11
+node 8 - SEEN pipeline 3 frame 11 vec len 691200 last frame 10 keep len 0
+node 8 sending expected input - pipeline 3 frame 11
+node 9 - SEEN pipeline 4 frame 11 vec len 691200 last frame 10 keep len 0
+node 9 sending expected input - pipeline 4 frame 11
+node 4 pipeline 4 frame 11 - pre first
+Time to load frame 11 was 2565475 at node 4
+node 4 pipeline 4 frame 11 - done first (size 691200)
+node 3 pipeline 3 frame 11 - pre first
+Time to load frame 11 was 2590872 at node 3
+node 3 pipeline 3 frame 11 - done first (size 691200)
+node 1 pipeline 1 frame 11 - pre first
+Time to load frame 11 was 3798273 at node 1
+node 1 pipeline 1 frame 11 - done first (size 691200)
+node 2 pipeline 2 frame 11 - pre first
+Time to load frame 11 was 2551454 at node 2
+node 2 pipeline 2 frame 11 - done first (size 691200)
+Time to run ML on frame 11 was 1321814504 at node 6
+node 6 pipeline 1 frame 11 - done second (result "window_shade:0.07565705:doormat:0.03966169:window_screen:0.03652531:park_bench:0.019993527:picket_fence:0.019115763:")
+Time to decide object on frame 11 was 89092 at node 11
+node 11 pipeline 1 frame 11 - final (choice "window_shade")
+Time to run ML on frame 11 was 1444107042 at node 5
+node 5 pipeline 0 frame 11 - done second (result "window_shade:0.07565705:doormat:0.03966169:window_screen:0.03652531:park_bench:0.019993527:picket_fence:0.019115763:")
+Time to decide object on frame 11 was 112638 at node 10
+node 10 pipeline 0 frame 11 - final (choice "window_shade")
+Time to run ML on frame 11 was 1361708920 at node 8
+node 8 pipeline 3 frame 11 - done second (result "window_shade:0.07565705:doormat:0.03966169:window_screen:0.03652531:park_bench:0.019993527:picket_fence:0.019115763:")
+Time to decide object on frame 11 was 112661 at node 13
+node 13 pipeline 3 frame 11 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 11 vec len 691200 last frame 11 keep len 0
+node 6 - SEEN pipeline 1 frame 11 vec len 691200 last frame 11 keep len 0
+node 6 - SEEN pipeline 1 frame 11 vec len 691200 last frame 11 keep len 0
+Time to run ML on frame 11 was 1328293106 at node 9
+node 9 pipeline 4 frame 11 - done second (result "window_shade:0.07565705:doormat:0.03966169:window_screen:0.03652531:park_bench:0.019993527:picket_fence:0.019115763:")
+Time to decide object on frame 11 was 118539 at node 14
+node 14 pipeline 4 frame 11 - final (choice "window_shade")
+Time to run ML on frame 11 was 1441589039 at node 7
+node 7 pipeline 2 frame 11 - done second (result "window_shade:0.07565705:doormat:0.03966169:window_screen:0.03652531:park_bench:0.019993527:picket_fence:0.019115763:")
+Time to decide object on frame 11 was 79206 at node 12
+node 12 pipeline 2 frame 11 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 11 vec len 691200 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 691200 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 691200 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 691200 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 691200 last frame 11 keep len 0
+node 9 - SEEN pipeline 4 frame 11 vec len 691200 last frame 11 keep len 0
+node 9 - SEEN pipeline 4 frame 11 vec len 691200 last frame 11 keep len 0
+node 9 - SEEN pipeline 4 frame 11 vec len 691200 last frame 11 keep len 0
+node 9 - SEEN pipeline 4 frame 11 vec len 691200 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 11 vec len 691200 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 11 vec len 691200 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 11 vec len 691200 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 11 vec len 691200 last frame 11 keep len 0
+node 8 - SEEN pipeline 3 frame 11 vec len 691200 last frame 11 keep len 0
+node 8 - SEEN pipeline 3 frame 11 vec len 691200 last frame 11 keep len 0
+node 8 - SEEN pipeline 3 frame 11 vec len 691200 last frame 11 keep len 0
+node 8 - SEEN pipeline 3 frame 11 vec len 691200 last frame 11 keep len 0
+Time to load frame 4 was 10000314570 at node 16
+node 16 pipeline 16 frame 4 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 4 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 4 because master
+Time to run ML on frame 4 was 169991 at node 16
+node 16 pipeline 16 frame 4 - done second (result ":")
+Time to decide object on frame 4 was 178478 at node 16
+node 16 pipeline 16 frame 4 - final (choice "")
+node 8 - SEEN pipeline 3 frame 4 vec len 0 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 4 vec len 0 last frame 11 keep len 0
+node 9 - SEEN pipeline 4 frame 4 vec len 0 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 0 last frame 11 keep len 0
+node 6 - SEEN pipeline 1 frame 4 vec len 0 last frame 11 keep len 0
+Time to load frame 4 was 10000346004 at node 15
+node 15 pipeline 15 frame 4 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 4 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 4 because master
+Time to run ML on frame 4 was 170872 at node 15
+node 15 pipeline 15 frame 4 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 4 vec len 0 last frame 11 keep len 0
+node 7 - SEEN pipeline 2 frame 4 vec len 0 last frame 11 keep len 0
+node 6 - SEEN pipeline 1 frame 4 vec len 0 last frame 11 keep len 0
+node 5 - SEEN pipeline 0 frame 4 vec len 0 last frame 11 keep len 0
+Time to decide object on frame 4 was 193132 at node 15
+node 15 pipeline 15 frame 4 - final (choice "")
+node 9 - SEEN pipeline 4 frame 4 vec len 0 last frame 11 keep len 0
+node 0 pipeline 0 frame 12 - pre first
+Time to load frame 12 was 2821329 at node 0
+node 0 pipeline 0 frame 12 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 12 vec len 691200 last frame 11 keep len 0
+node 5 sending expected input - pipeline 0 frame 12
+node 6 - SEEN pipeline 1 frame 12 vec len 691200 last frame 11 keep len 0
+node 6 sending expected input - pipeline 1 frame 12
+node 7 - SEEN pipeline 2 frame 12 vec len 691200 last frame 11 keep len 0
+node 7 sending expected input - pipeline 2 frame 12
+node 8 - SEEN pipeline 3 frame 12 vec len 691200 last frame 11 keep len 0
+node 8 sending expected input - pipeline 3 frame 12
+node 9 - SEEN pipeline 4 frame 12 vec len 691200 last frame 11 keep len 0
+node 9 sending expected input - pipeline 4 frame 12
+Time to run ML on frame 12 was 1092260703 at node 5
+node 5 pipeline 0 frame 12 - done second (result "window_shade:0.08845355:doormat:0.041240525:window_screen:0.031366296:park_bench:0.021479582:picket_fence:0.019945458:")
+Time to decide object on frame 12 was 110962 at node 10
+node 10 pipeline 0 frame 12 - final (choice "window_shade")
+node 4 pipeline 4 frame 12 - pre first
+node 3 pipeline 3 frame 12 - pre first
+Time to load frame 12 was 2593311 at node 4
+node 4 pipeline 4 frame 12 - done first (size 691200)
+Time to load frame 12 was 3044177 at node 3
+node 3 pipeline 3 frame 12 - done first (size 691200)
+node 1 pipeline 1 frame 12 - pre first
+Time to load frame 12 was 2567462 at node 1
+node 1 pipeline 1 frame 12 - done first (size 691200)
+node 2 pipeline 2 frame 12 - pre first
+Time to load frame 12 was 3358866 at node 2
+node 2 pipeline 2 frame 12 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 12 vec len 691200 last frame 12 keep len 0
+Time to run ML on frame 12 was 1318569479 at node 6
+node 6 pipeline 1 frame 12 - done second (result "window_shade:0.08845355:doormat:0.041240525:window_screen:0.031366296:park_bench:0.021479582:picket_fence:0.019945458:")
+Time to decide object on frame 12 was 100030 at node 11
+node 11 pipeline 1 frame 12 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 12 vec len 691200 last frame 12 keep len 0
+node 5 - SEEN pipeline 0 frame 12 vec len 691200 last frame 12 keep len 0
+node 5 - SEEN pipeline 0 frame 12 vec len 691200 last frame 12 keep len 0
+node 6 - SEEN pipeline 1 frame 12 vec len 691200 last frame 12 keep len 0
+node 6 - SEEN pipeline 1 frame 12 vec len 691200 last frame 12 keep len 0
+node 6 - SEEN pipeline 1 frame 12 vec len 691200 last frame 12 keep len 0
+Time to run ML on frame 12 was 1439154493 at node 7
+node 7 pipeline 2 frame 12 - done second (result "window_shade:0.08845355:doormat:0.041240525:window_screen:0.031366296:park_bench:0.021479582:picket_fence:0.019945458:")
+Time to decide object on frame 12 was 135125 at node 12
+node 12 pipeline 2 frame 12 - final (choice "window_shade")
+Time to run ML on frame 12 was 1391182188 at node 8
+node 8 pipeline 3 frame 12 - done second (result "window_shade:0.08845355:doormat:0.041240525:window_screen:0.031366296:park_bench:0.021479582:picket_fence:0.019945458:")
+Time to decide object on frame 12 was 353330 at node 13
+node 13 pipeline 3 frame 12 - final (choice "window_shade")
+Time to run ML on frame 12 was 1349027659 at node 9
+node 9 pipeline 4 frame 12 - done second (result "window_shade:0.08845355:doormat:0.041240525:window_screen:0.031366296:park_bench:0.021479582:picket_fence:0.019945458:")
+Time to decide object on frame 12 was 61165 at node 14
+node 14 pipeline 4 frame 12 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 12 vec len 691200 last frame 12 keep len 0
+node 7 - SEEN pipeline 2 frame 12 vec len 691200 last frame 12 keep len 0
+node 7 - SEEN pipeline 2 frame 12 vec len 691200 last frame 12 keep len 0
+node 7 - SEEN pipeline 2 frame 12 vec len 691200 last frame 12 keep len 0
+node 7 - SEEN pipeline 2 frame 12 vec len 691200 last frame 12 keep len 0
+node 8 - SEEN pipeline 3 frame 12 vec len 691200 last frame 12 keep len 0
+node 8 - SEEN pipeline 3 frame 12 vec len 691200 last frame 12 keep len 0
+node 8 - SEEN pipeline 3 frame 12 vec len 691200 last frame 12 keep len 0
+node 8 - SEEN pipeline 3 frame 12 vec len 691200 last frame 12 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 691200 last frame 12 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 691200 last frame 12 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 691200 last frame 12 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 691200 last frame 12 keep len 0
+node 16 pipeline 16 frame 5 - pre first
+node 15 pipeline 15 frame 5 - pre first
+node 0 pipeline 0 frame 13 - pre first
+Time to load frame 13 was 3535750 at node 0
+node 0 pipeline 0 frame 13 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 13 vec len 691200 last frame 12 keep len 0
+node 5 sending expected input - pipeline 0 frame 13
+node 6 - SEEN pipeline 1 frame 13 vec len 691200 last frame 12 keep len 0
+node 6 sending expected input - pipeline 1 frame 13
+node 7 - SEEN pipeline 2 frame 13 vec len 691200 last frame 12 keep len 0
+node 7 sending expected input - pipeline 2 frame 13
+node 8 - SEEN pipeline 3 frame 13 vec len 691200 last frame 12 keep len 0
+node 8 sending expected input - pipeline 3 frame 13
+node 9 - SEEN pipeline 4 frame 13 vec len 691200 last frame 12 keep len 0
+node 9 sending expected input - pipeline 4 frame 13
+node 3 pipeline 3 frame 13 - pre first
+Time to load frame 13 was 2837063 at node 3
+node 3 pipeline 3 frame 13 - done first (size 691200)
+node 4 pipeline 4 frame 13 - pre first
+Time to load frame 13 was 2729643 at node 4
+node 4 pipeline 4 frame 13 - done first (size 691200)
+node 1 pipeline 1 frame 13 - pre first
+Time to load frame 13 was 2473887 at node 1
+node 1 pipeline 1 frame 13 - done first (size 691200)
+node 2 pipeline 2 frame 13 - pre first
+Time to load frame 13 was 2829614 at node 2
+node 2 pipeline 2 frame 13 - done first (size 691200)
+Time to run ML on frame 13 was 1384618681 at node 5
+node 5 pipeline 0 frame 13 - done second (result "window_shade:0.06378771:doormat:0.037672456:window_screen:0.028487802:park_bench:0.026572194:picket_fence:0.024577336:")
+Time to decide object on frame 13 was 117475 at node 10
+node 10 pipeline 0 frame 13 - final (choice "window_shade")
+Time to run ML on frame 13 was 1255897916 at node 8
+node 8 pipeline 3 frame 13 - done second (result "window_shade:0.06378771:doormat:0.037672456:window_screen:0.028487802:park_bench:0.026572194:picket_fence:0.024577336:")
+Time to decide object on frame 13 was 96505 at node 13
+node 13 pipeline 3 frame 13 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 13 vec len 691200 last frame 13 keep len 0
+node 8 - SEEN pipeline 3 frame 13 vec len 691200 last frame 13 keep len 0
+Time to run ML on frame 13 was 1381934754 at node 7
+node 7 pipeline 2 frame 13 - done second (result "window_shade:0.06378771:doormat:0.037672456:window_screen:0.028487802:park_bench:0.026572194:picket_fence:0.024577336:")
+Time to decide object on frame 13 was 99536 at node 12
+node 12 pipeline 2 frame 13 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 13 vec len 691200 last frame 13 keep len 0
+Time to run ML on frame 13 was 1467623207 at node 6
+node 6 pipeline 1 frame 13 - done second (result "window_shade:0.06378771:doormat:0.037672456:window_screen:0.028487802:park_bench:0.026572194:picket_fence:0.024577336:")
+Time to decide object on frame 13 was 98703 at node 11
+node 11 pipeline 1 frame 13 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 13 vec len 691200 last frame 13 keep len 0
+Time to run ML on frame 13 was 1358942193 at node 9
+node 9 pipeline 4 frame 13 - done second (result "window_shade:0.06378771:doormat:0.037672456:window_screen:0.028487802:park_bench:0.026572194:picket_fence:0.024577336:")
+Time to decide object on frame 13 was 78967 at node 14
+node 14 pipeline 4 frame 13 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 13 vec len 691200 last frame 13 keep len 0
+node 5 - SEEN pipeline 0 frame 13 vec len 691200 last frame 13 keep len 0
+node 5 - SEEN pipeline 0 frame 13 vec len 691200 last frame 13 keep len 0
+node 5 - SEEN pipeline 0 frame 13 vec len 691200 last frame 13 keep len 0
+node 7 - SEEN pipeline 2 frame 13 vec len 691200 last frame 13 keep len 0
+node 7 - SEEN pipeline 2 frame 13 vec len 691200 last frame 13 keep len 0
+node 7 - SEEN pipeline 2 frame 13 vec len 691200 last frame 13 keep len 0
+node 7 - SEEN pipeline 2 frame 13 vec len 691200 last frame 13 keep len 0
+node 9 - SEEN pipeline 4 frame 13 vec len 691200 last frame 13 keep len 0
+node 9 - SEEN pipeline 4 frame 13 vec len 691200 last frame 13 keep len 0
+node 9 - SEEN pipeline 4 frame 13 vec len 691200 last frame 13 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 691200 last frame 13 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 691200 last frame 13 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 691200 last frame 13 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 691200 last frame 13 keep len 0
+node 9 - SEEN pipeline 4 frame 13 vec len 691200 last frame 13 keep len 0
+node 0 pipeline 0 frame 14 - pre first
+Time to load frame 14 was 3578062 at node 0
+node 0 pipeline 0 frame 14 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 14 vec len 691200 last frame 13 keep len 0
+node 5 sending expected input - pipeline 0 frame 14
+node 6 - SEEN pipeline 1 frame 14 vec len 691200 last frame 13 keep len 0
+node 6 sending expected input - pipeline 1 frame 14
+node 7 - SEEN pipeline 2 frame 14 vec len 691200 last frame 13 keep len 0
+node 7 sending expected input - pipeline 2 frame 14
+node 8 - SEEN pipeline 3 frame 14 vec len 691200 last frame 13 keep len 0
+node 8 sending expected input - pipeline 3 frame 14
+node 9 - SEEN pipeline 4 frame 14 vec len 691200 last frame 13 keep len 0
+node 9 sending expected input - pipeline 4 frame 14
+Time to run ML on frame 14 was 1155932642 at node 6
+node 6 pipeline 1 frame 14 - done second (result "window_shade:0.10910276:window_screen:0.054539833:doormat:0.048537795:park_bench:0.02656051:picket_fence:0.022089928:")
+Time to decide object on frame 14 was 107858 at node 11
+node 11 pipeline 1 frame 14 - final (choice "window_shade")
+node 3 pipeline 3 frame 14 - pre first
+Time to load frame 14 was 2402318 at node 3
+node 3 pipeline 3 frame 14 - done first (size 691200)
+node 4 pipeline 4 frame 14 - pre first
+Time to load frame 14 was 2738413 at node 4
+node 4 pipeline 4 frame 14 - done first (size 691200)
+node 1 pipeline 1 frame 14 - pre first
+Time to load frame 14 was 2491423 at node 1
+node 1 pipeline 1 frame 14 - done first (size 691200)
+Time to run ML on frame 14 was 1286910743 at node 5
+node 5 pipeline 0 frame 14 - done second (result "window_shade:0.10910276:window_screen:0.054539833:doormat:0.048537795:park_bench:0.02656051:picket_fence:0.022089928:")
+Time to decide object on frame 14 was 93606 at node 10
+node 10 pipeline 0 frame 14 - final (choice "window_shade")
+node 2 pipeline 2 frame 14 - pre first
+Time to load frame 14 was 2420997 at node 2
+node 2 pipeline 2 frame 14 - done first (size 691200)
+node 6 - SEEN pipeline 1 frame 14 vec len 691200 last frame 14 keep len 0
+node 6 - SEEN pipeline 1 frame 14 vec len 691200 last frame 14 keep len 0
+Time to run ML on frame 14 was 1288668386 at node 7
+node 7 pipeline 2 frame 14 - done second (result "window_shade:0.10910276:window_screen:0.054539833:doormat:0.048537795:park_bench:0.02656051:picket_fence:0.022089928:")
+Time to decide object on frame 14 was 79015 at node 12
+node 12 pipeline 2 frame 14 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 14 vec len 691200 last frame 14 keep len 0
+node 5 - SEEN pipeline 0 frame 14 vec len 691200 last frame 14 keep len 0
+node 6 - SEEN pipeline 1 frame 14 vec len 691200 last frame 14 keep len 0
+node 5 - SEEN pipeline 0 frame 14 vec len 691200 last frame 14 keep len 0
+node 5 - SEEN pipeline 0 frame 14 vec len 691200 last frame 14 keep len 0
+node 7 - SEEN pipeline 2 frame 14 vec len 691200 last frame 14 keep len 0
+node 6 - SEEN pipeline 1 frame 14 vec len 691200 last frame 14 keep len 0
+Time to run ML on frame 14 was 1365633372 at node 9
+node 9 pipeline 4 frame 14 - done second (result "window_shade:0.10910276:window_screen:0.054539833:doormat:0.048537795:park_bench:0.02656051:picket_fence:0.022089928:")
+Time to decide object on frame 14 was 67490 at node 14
+node 14 pipeline 4 frame 14 - final (choice "window_shade")
+Time to run ML on frame 14 was 1427253931 at node 8
+node 8 pipeline 3 frame 14 - done second (result "window_shade:0.10910276:window_screen:0.054539833:doormat:0.048537795:park_bench:0.02656051:picket_fence:0.022089928:")
+Time to decide object on frame 14 was 57481 at node 13
+node 13 pipeline 3 frame 14 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 14 vec len 691200 last frame 14 keep len 0
+node 7 - SEEN pipeline 2 frame 14 vec len 691200 last frame 14 keep len 0
+node 7 - SEEN pipeline 2 frame 14 vec len 691200 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 14 vec len 691200 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 14 vec len 691200 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 14 vec len 691200 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 14 vec len 691200 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 691200 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 691200 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 691200 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 691200 last frame 14 keep len 0
+Time to load frame 5 was 10000275764 at node 16
+node 16 pipeline 16 frame 5 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 5 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 5 because master
+Time to run ML on frame 5 was 140305 at node 16
+node 16 pipeline 16 frame 5 - done second (result ":")
+Time to decide object on frame 5 was 257618 at node 16
+node 16 pipeline 16 frame 5 - final (choice "")
+node 6 - SEEN pipeline 1 frame 5 vec len 0 last frame 14 keep len 0
+node 5 - SEEN pipeline 0 frame 5 vec len 0 last frame 14 keep len 0
+node 7 - SEEN pipeline 2 frame 5 vec len 0 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 0 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 5 vec len 0 last frame 14 keep len 0
+Time to load frame 5 was 10000314369 at node 15
+node 15 pipeline 15 frame 5 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 5 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 5 because master
+node 6 - SEEN pipeline 1 frame 5 vec len 0 last frame 14 keep len 0
+node 8 - SEEN pipeline 3 frame 5 vec len 0 last frame 14 keep len 0
+Time to run ML on frame 5 was 291780 at node 15
+node 15 pipeline 15 frame 5 - done second (result ":")
+node 5 - SEEN pipeline 0 frame 5 vec len 0 last frame 14 keep len 0
+node 9 - SEEN pipeline 4 frame 5 vec len 0 last frame 14 keep len 0
+Time to decide object on frame 5 was 281353 at node 15
+node 15 pipeline 15 frame 5 - final (choice "")
+node 7 - SEEN pipeline 2 frame 5 vec len 0 last frame 14 keep len 0
+node 0 pipeline 0 frame 15 - pre first
+Time to load frame 15 was 3293765 at node 0
+node 0 pipeline 0 frame 15 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 15 vec len 691200 last frame 14 keep len 0
+node 5 sending expected input - pipeline 0 frame 15
+node 6 - SEEN pipeline 1 frame 15 vec len 691200 last frame 14 keep len 0
+node 6 sending expected input - pipeline 1 frame 15
+node 7 - SEEN pipeline 2 frame 15 vec len 691200 last frame 14 keep len 0
+node 7 sending expected input - pipeline 2 frame 15
+node 8 - SEEN pipeline 3 frame 15 vec len 691200 last frame 14 keep len 0
+node 8 sending expected input - pipeline 3 frame 15
+node 9 - SEEN pipeline 4 frame 15 vec len 691200 last frame 14 keep len 0
+node 9 sending expected input - pipeline 4 frame 15
+node 3 pipeline 3 frame 15 - pre first
+Time to load frame 15 was 3257648 at node 3
+node 3 pipeline 3 frame 15 - done first (size 691200)
+node 4 pipeline 4 frame 15 - pre first
+Time to load frame 15 was 2362976 at node 4
+node 4 pipeline 4 frame 15 - done first (size 691200)
+node 1 pipeline 1 frame 15 - pre first
+Time to load frame 15 was 2785081 at node 1
+node 1 pipeline 1 frame 15 - done first (size 691200)
+Time to run ML on frame 15 was 1285240876 at node 5
+node 5 pipeline 0 frame 15 - done second (result "window_shade:0.10258035:doormat:0.06223679:window_screen:0.046177585:park_bench:0.028229378:picket_fence:0.02751411:")
+Time to decide object on frame 15 was 87543 at node 10
+node 10 pipeline 0 frame 15 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 15 vec len 691200 last frame 15 keep len 0
+node 2 pipeline 2 frame 15 - pre first
+Time to load frame 15 was 3475706 at node 2
+node 2 pipeline 2 frame 15 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 15 vec len 691200 last frame 15 keep len 0
+node 5 - SEEN pipeline 0 frame 15 vec len 691200 last frame 15 keep len 0
+Time to run ML on frame 15 was 1316951796 at node 7
+node 7 pipeline 2 frame 15 - done second (result "window_shade:0.10258035:doormat:0.06223679:window_screen:0.046177585:park_bench:0.028229378:picket_fence:0.02751411:")
+Time to decide object on frame 15 was 79140 at node 12
+node 12 pipeline 2 frame 15 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 15 vec len 691200 last frame 15 keep len 0
+Time to run ML on frame 15 was 1414392939 at node 6
+node 6 pipeline 1 frame 15 - done second (result "window_shade:0.10258035:doormat:0.06223679:window_screen:0.046177585:park_bench:0.028229378:picket_fence:0.02751411:")
+Time to decide object on frame 15 was 77948 at node 11
+node 11 pipeline 1 frame 15 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 15 vec len 691200 last frame 15 keep len 0
+node 7 - SEEN pipeline 2 frame 15 vec len 691200 last frame 15 keep len 0
+Time to run ML on frame 15 was 1395155122 at node 8
+node 8 pipeline 3 frame 15 - done second (result "window_shade:0.10258035:doormat:0.06223679:window_screen:0.046177585:park_bench:0.028229378:picket_fence:0.02751411:")
+Time to decide object on frame 15 was 102537 at node 13
+node 13 pipeline 3 frame 15 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 15 vec len 691200 last frame 15 keep len 0
+node 7 - SEEN pipeline 2 frame 15 vec len 691200 last frame 15 keep len 0
+Time to run ML on frame 15 was 1377148214 at node 9
+node 9 pipeline 4 frame 15 - done second (result "window_shade:0.10258035:doormat:0.06223679:window_screen:0.046177585:park_bench:0.028229378:picket_fence:0.02751411:")
+Time to decide object on frame 15 was 77179 at node 14
+node 14 pipeline 4 frame 15 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 15 vec len 691200 last frame 15 keep len 0
+node 6 - SEEN pipeline 1 frame 15 vec len 691200 last frame 15 keep len 0
+node 6 - SEEN pipeline 1 frame 15 vec len 691200 last frame 15 keep len 0
+node 6 - SEEN pipeline 1 frame 15 vec len 691200 last frame 15 keep len 0
+node 8 - SEEN pipeline 3 frame 15 vec len 691200 last frame 15 keep len 0
+node 8 - SEEN pipeline 3 frame 15 vec len 691200 last frame 15 keep len 0
+node 8 - SEEN pipeline 3 frame 15 vec len 691200 last frame 15 keep len 0
+node 8 - SEEN pipeline 3 frame 15 vec len 691200 last frame 15 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 691200 last frame 15 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 691200 last frame 15 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 691200 last frame 15 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 691200 last frame 15 keep len 0
+node 16 pipeline 16 frame 6 - pre first
+node 15 pipeline 15 frame 6 - pre first
+node 0 pipeline 0 frame 16 - pre first
+Time to load frame 16 was 3540465 at node 0
+node 0 pipeline 0 frame 16 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 16 vec len 691200 last frame 15 keep len 0
+node 5 sending expected input - pipeline 0 frame 16
+node 6 - SEEN pipeline 1 frame 16 vec len 691200 last frame 15 keep len 0
+node 6 sending expected input - pipeline 1 frame 16
+node 7 - SEEN pipeline 2 frame 16 vec len 691200 last frame 15 keep len 0
+node 7 sending expected input - pipeline 2 frame 16
+node 8 - SEEN pipeline 3 frame 16 vec len 691200 last frame 15 keep len 0
+node 8 sending expected input - pipeline 3 frame 16
+node 9 - SEEN pipeline 4 frame 16 vec len 691200 last frame 15 keep len 0
+node 9 sending expected input - pipeline 4 frame 16
+Time to run ML on frame 16 was 1083955540 at node 5
+node 5 pipeline 0 frame 16 - done second (result "window_shade:0.06792596:doormat:0.0630805:park_bench:0.049225163:window_screen:0.0334953:solar_dish:0.026934657:")
+Time to decide object on frame 16 was 101235 at node 10
+node 10 pipeline 0 frame 16 - final (choice "window_shade")
+node 3 pipeline 3 frame 16 - pre first
+Time to load frame 16 was 2569634 at node 3
+node 3 pipeline 3 frame 16 - done first (size 691200)
+node 4 pipeline 4 frame 16 - pre first
+Time to load frame 16 was 2611260 at node 4
+node 4 pipeline 4 frame 16 - done first (size 691200)
+node 1 pipeline 1 frame 16 - pre first
+Time to load frame 16 was 2552326 at node 1
+node 1 pipeline 1 frame 16 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 16 vec len 691200 last frame 16 keep len 0
+node 2 pipeline 2 frame 16 - pre first
+Time to load frame 16 was 2397224 at node 2
+node 2 pipeline 2 frame 16 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 16 vec len 691200 last frame 16 keep len 0
+node 5 - SEEN pipeline 0 frame 16 vec len 691200 last frame 16 keep len 0
+Time to run ML on frame 16 was 1373905115 at node 6
+node 6 pipeline 1 frame 16 - done second (result "window_shade:0.06792596:doormat:0.0630805:park_bench:0.049225163:window_screen:0.0334953:solar_dish:0.026934657:")
+Time to decide object on frame 16 was 116299 at node 11
+node 11 pipeline 1 frame 16 - final (choice "window_shade")
+Time to run ML on frame 16 was 1339813801 at node 7
+node 7 pipeline 2 frame 16 - done second (result "window_shade:0.06792596:doormat:0.0630805:park_bench:0.049225163:window_screen:0.0334953:solar_dish:0.026934657:")
+Time to decide object on frame 16 was 93035 at node 12
+node 12 pipeline 2 frame 16 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 16 vec len 691200 last frame 16 keep len 0
+Time to run ML on frame 16 was 1346242038 at node 8
+node 8 pipeline 3 frame 16 - done second (result "window_shade:0.06792596:doormat:0.0630805:park_bench:0.049225163:window_screen:0.0334953:solar_dish:0.026934657:")
+Time to decide object on frame 16 was 87735 at node 13
+node 13 pipeline 3 frame 16 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 16 vec len 691200 last frame 16 keep len 0
+node 7 - SEEN pipeline 2 frame 16 vec len 691200 last frame 16 keep len 0
+node 7 - SEEN pipeline 2 frame 16 vec len 691200 last frame 16 keep len 0
+Time to run ML on frame 16 was 1351040072 at node 9
+node 9 pipeline 4 frame 16 - done second (result "window_shade:0.06792596:doormat:0.0630805:park_bench:0.049225163:window_screen:0.0334953:solar_dish:0.026934657:")
+Time to decide object on frame 16 was 77513 at node 14
+node 14 pipeline 4 frame 16 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 16 vec len 691200 last frame 16 keep len 0
+node 6 - SEEN pipeline 1 frame 16 vec len 691200 last frame 16 keep len 0
+node 6 - SEEN pipeline 1 frame 16 vec len 691200 last frame 16 keep len 0
+node 6 - SEEN pipeline 1 frame 16 vec len 691200 last frame 16 keep len 0
+node 6 - SEEN pipeline 1 frame 16 vec len 691200 last frame 16 keep len 0
+node 8 - SEEN pipeline 3 frame 16 vec len 691200 last frame 16 keep len 0
+node 8 - SEEN pipeline 3 frame 16 vec len 691200 last frame 16 keep len 0
+node 8 - SEEN pipeline 3 frame 16 vec len 691200 last frame 16 keep len 0
+node 9 - SEEN pipeline 4 frame 16 vec len 691200 last frame 16 keep len 0
+node 9 - SEEN pipeline 4 frame 16 vec len 691200 last frame 16 keep len 0
+node 9 - SEEN pipeline 4 frame 16 vec len 691200 last frame 16 keep len 0
+node 8 - SEEN pipeline 3 frame 16 vec len 691200 last frame 16 keep len 0
+node 9 - SEEN pipeline 4 frame 16 vec len 691200 last frame 16 keep len 0
+node 0 pipeline 0 frame 17 - pre first
+Time to load frame 17 was 3324721 at node 0
+node 0 pipeline 0 frame 17 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 17 vec len 691200 last frame 16 keep len 0
+node 5 sending expected input - pipeline 0 frame 17
+node 6 - SEEN pipeline 1 frame 17 vec len 691200 last frame 16 keep len 0
+node 6 sending expected input - pipeline 1 frame 17
+node 7 - SEEN pipeline 2 frame 17 vec len 691200 last frame 16 keep len 0
+node 7 sending expected input - pipeline 2 frame 17
+node 8 - SEEN pipeline 3 frame 17 vec len 691200 last frame 16 keep len 0
+node 8 sending expected input - pipeline 3 frame 17
+node 9 - SEEN pipeline 4 frame 17 vec len 691200 last frame 16 keep len 0
+node 9 sending expected input - pipeline 4 frame 17
+node 3 pipeline 3 frame 17 - pre first
+Time to load frame 17 was 2760543 at node 3
+node 3 pipeline 3 frame 17 - done first (size 691200)
+Time to run ML on frame 17 was 1244195358 at node 5
+node 5 pipeline 0 frame 17 - done second (result "doormat:0.063161395:window_shade:0.04650645:solar_dish:0.04441197:park_bench:0.04184545:window_screen:0.02771007:")
+Time to decide object on frame 17 was 94290 at node 10
+node 10 pipeline 0 frame 17 - final (choice "doormat")
+node 4 pipeline 4 frame 17 - pre first
+Time to load frame 17 was 4265180 at node 4
+node 4 pipeline 4 frame 17 - done first (size 691200)
+node 1 pipeline 1 frame 17 - pre first
+Time to load frame 17 was 4040404 at node 1
+node 1 pipeline 1 frame 17 - done first (size 691200)
+node 2 pipeline 2 frame 17 - pre first
+Time to load frame 17 was 2494777 at node 2
+node 2 pipeline 2 frame 17 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 17 vec len 691200 last frame 17 keep len 0
+Time to run ML on frame 17 was 1186189834 at node 9
+node 9 pipeline 4 frame 17 - done second (result "doormat:0.063161395:window_shade:0.04650645:solar_dish:0.04441197:park_bench:0.04184545:window_screen:0.02771007:")
+Time to decide object on frame 17 was 126147 at node 14
+node 14 pipeline 4 frame 17 - final (choice "doormat")
+node 5 - SEEN pipeline 0 frame 17 vec len 691200 last frame 17 keep len 0
+Time to run ML on frame 17 was 1391316535 at node 6
+node 6 pipeline 1 frame 17 - done second (result "doormat:0.063161395:window_shade:0.04650645:solar_dish:0.04441197:park_bench:0.04184545:window_screen:0.02771007:")
+Time to decide object on frame 17 was 79007 at node 11
+node 11 pipeline 1 frame 17 - final (choice "doormat")
+node 9 - SEEN pipeline 4 frame 17 vec len 691200 last frame 17 keep len 0
+node 5 - SEEN pipeline 0 frame 17 vec len 691200 last frame 17 keep len 0
+node 5 - SEEN pipeline 0 frame 17 vec len 691200 last frame 17 keep len 0
+node 9 - SEEN pipeline 4 frame 17 vec len 691200 last frame 17 keep len 0
+Time to run ML on frame 17 was 1418563446 at node 7
+node 7 pipeline 2 frame 17 - done second (result "doormat:0.063161395:window_shade:0.04650645:solar_dish:0.04441197:park_bench:0.04184545:window_screen:0.02771007:")
+Time to decide object on frame 17 was 68798 at node 12
+node 12 pipeline 2 frame 17 - final (choice "doormat")
+Time to run ML on frame 17 was 1379250605 at node 8
+node 8 pipeline 3 frame 17 - done second (result "doormat:0.063161395:window_shade:0.04650645:solar_dish:0.04441197:park_bench:0.04184545:window_screen:0.02771007:")
+Time to decide object on frame 17 was 97922 at node 13
+node 13 pipeline 3 frame 17 - final (choice "doormat")
+node 9 - SEEN pipeline 4 frame 17 vec len 691200 last frame 17 keep len 0
+node 6 - SEEN pipeline 1 frame 17 vec len 691200 last frame 17 keep len 0
+node 6 - SEEN pipeline 1 frame 17 vec len 691200 last frame 17 keep len 0
+node 6 - SEEN pipeline 1 frame 17 vec len 691200 last frame 17 keep len 0
+node 6 - SEEN pipeline 1 frame 17 vec len 691200 last frame 17 keep len 0
+node 9 - SEEN pipeline 4 frame 17 vec len 691200 last frame 17 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 691200 last frame 17 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 691200 last frame 17 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 691200 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 17 vec len 691200 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 17 vec len 691200 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 17 vec len 691200 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 17 vec len 691200 last frame 17 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 691200 last frame 17 keep len 0
+Time to load frame 6 was 10000275222 at node 16
+node 16 pipeline 16 frame 6 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 6 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 6 because master
+Time to run ML on frame 6 was 119627 at node 16
+node 16 pipeline 16 frame 6 - done second (result ":")
+Time to decide object on frame 6 was 157242 at node 16
+node 8 - SEEN pipeline 3 frame 6 vec len 0 last frame 17 keep len 0
+node 16 pipeline 16 frame 6 - final (choice "")
+node 9 - SEEN pipeline 4 frame 6 vec len 0 last frame 17 keep len 0
+node 6 - SEEN pipeline 1 frame 6 vec len 0 last frame 17 keep len 0
+node 5 - SEEN pipeline 0 frame 6 vec len 0 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 6 vec len 0 last frame 17 keep len 0
+Time to load frame 6 was 10000283863 at node 15
+node 15 pipeline 15 frame 6 - done first (size 0)
+node 5 - SEEN pipeline 0 frame 6 vec len 0 last frame 17 keep len 0
+node 8 - SEEN pipeline 3 frame 6 vec len 0 last frame 17 keep len 0
+node 9 - SEEN pipeline 4 frame 6 vec len 0 last frame 17 keep len 0
+node 15 - SEEN pipeline 15 frame 6 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 6 because master
+Time to run ML on frame 6 was 510638 at node 15
+node 15 pipeline 15 frame 6 - done second (result ":")
+Time to decide object on frame 6 was 337457 at node 15
+node 15 pipeline 15 frame 6 - final (choice "")
+node 6 - SEEN pipeline 1 frame 6 vec len 0 last frame 17 keep len 0
+node 7 - SEEN pipeline 2 frame 6 vec len 0 last frame 17 keep len 0
+node 0 pipeline 0 frame 18 - pre first
+Time to load frame 18 was 3281406 at node 0
+node 0 pipeline 0 frame 18 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 18 vec len 691200 last frame 17 keep len 0
+node 5 sending expected input - pipeline 0 frame 18
+node 6 - SEEN pipeline 1 frame 18 vec len 691200 last frame 17 keep len 0
+node 6 sending expected input - pipeline 1 frame 18
+node 7 - SEEN pipeline 2 frame 18 vec len 691200 last frame 17 keep len 0
+node 7 sending expected input - pipeline 2 frame 18
+node 8 - SEEN pipeline 3 frame 18 vec len 691200 last frame 17 keep len 0
+node 8 sending expected input - pipeline 3 frame 18
+node 9 - SEEN pipeline 4 frame 18 vec len 691200 last frame 17 keep len 0
+node 9 sending expected input - pipeline 4 frame 18
+node 3 pipeline 3 frame 18 - pre first
+Time to load frame 18 was 2684913 at node 3
+node 3 pipeline 3 frame 18 - done first (size 691200)
+node 4 pipeline 4 frame 18 - pre first
+Time to load frame 18 was 4190758 at node 4
+node 4 pipeline 4 frame 18 - done first (size 691200)
+Time to run ML on frame 18 was 1291354965 at node 5
+node 5 pipeline 0 frame 18 - done second (result "window_shade:0.08974231:doormat:0.04746293:window_screen:0.043362517:park_bench:0.024155024:solar_dish:0.021768795:")
+Time to decide object on frame 18 was 111479 at node 10
+node 10 pipeline 0 frame 18 - final (choice "window_shade")
+node 1 pipeline 1 frame 18 - pre first
+Time to load frame 18 was 3132102 at node 1
+node 1 pipeline 1 frame 18 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 18 vec len 691200 last frame 18 keep len 0
+node 2 pipeline 2 frame 18 - pre first
+Time to load frame 18 was 2630603 at node 2
+node 2 pipeline 2 frame 18 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 18 vec len 691200 last frame 18 keep len 0
+Time to run ML on frame 18 was 1276282927 at node 8
+node 8 pipeline 3 frame 18 - done second (result "window_shade:0.08974231:doormat:0.04746293:window_screen:0.043362517:park_bench:0.024155024:solar_dish:0.021768795:")
+Time to decide object on frame 18 was 126532 at node 13
+node 13 pipeline 3 frame 18 - final (choice "window_shade")
+Time to run ML on frame 18 was 1358243300 at node 7
+node 7 pipeline 2 frame 18 - done second (result "window_shade:0.08974231:doormat:0.04746293:window_screen:0.043362517:park_bench:0.024155024:solar_dish:0.021768795:")
+Time to run ML on frame 18 was 1408519087 at node 6
+node 6 pipeline 1 frame 18 - done second (result "window_shade:0.08974231:doormat:0.04746293:window_screen:0.043362517:park_bench:0.024155024:solar_dish:0.021768795:")
+Time to decide object on frame 18 was 102082 at node 12
+node 12 pipeline 2 frame 18 - final (choice "window_shade")
+Time to decide object on frame 18 was 74206 at node 11
+node 11 pipeline 1 frame 18 - final (choice "window_shade")
+node 5 - SEEN pipeline 0 frame 18 vec len 691200 last frame 18 keep len 0
+node 8 - SEEN pipeline 3 frame 18 vec len 691200 last frame 18 keep len 0
+node 5 - SEEN pipeline 0 frame 18 vec len 691200 last frame 18 keep len 0
+Time to run ML on frame 18 was 1309457604 at node 9
+node 9 pipeline 4 frame 18 - done second (result "window_shade:0.08974231:doormat:0.04746293:window_screen:0.043362517:park_bench:0.024155024:solar_dish:0.021768795:")
+Time to decide object on frame 18 was 70905 at node 14
+node 14 pipeline 4 frame 18 - final (choice "window_shade")
+node 8 - SEEN pipeline 3 frame 18 vec len 691200 last frame 18 keep len 0
+node 7 - SEEN pipeline 2 frame 18 vec len 691200 last frame 18 keep len 0
+node 7 - SEEN pipeline 2 frame 18 vec len 691200 last frame 18 keep len 0
+node 9 - SEEN pipeline 4 frame 18 vec len 691200 last frame 18 keep len 0
+node 9 - SEEN pipeline 4 frame 18 vec len 691200 last frame 18 keep len 0
+node 8 - SEEN pipeline 3 frame 18 vec len 691200 last frame 18 keep len 0
+node 9 - SEEN pipeline 4 frame 18 vec len 691200 last frame 18 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 691200 last frame 18 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 691200 last frame 18 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 691200 last frame 18 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 691200 last frame 18 keep len 0
+node 8 - SEEN pipeline 3 frame 18 vec len 691200 last frame 18 keep len 0
+node 9 - SEEN pipeline 4 frame 18 vec len 691200 last frame 18 keep len 0
+node 7 - SEEN pipeline 2 frame 18 vec len 691200 last frame 18 keep len 0
+node 7 - SEEN pipeline 2 frame 18 vec len 691200 last frame 18 keep len 0
+node 16 pipeline 16 frame 7 - pre first
+node 15 pipeline 15 frame 7 - pre first
+node 0 pipeline 0 frame 19 - pre first
+Time to load frame 19 was 3256870 at node 0
+node 0 pipeline 0 frame 19 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 19 vec len 691200 last frame 18 keep len 0
+node 5 sending expected input - pipeline 0 frame 19
+node 6 - SEEN pipeline 1 frame 19 vec len 691200 last frame 18 keep len 0
+node 6 sending expected input - pipeline 1 frame 19
+node 7 - SEEN pipeline 2 frame 19 vec len 691200 last frame 18 keep len 0
+node 7 sending expected input - pipeline 2 frame 19
+node 8 - SEEN pipeline 3 frame 19 vec len 691200 last frame 18 keep len 0
+node 8 sending expected input - pipeline 3 frame 19
+node 9 - SEEN pipeline 4 frame 19 vec len 691200 last frame 18 keep len 0
+node 9 sending expected input - pipeline 4 frame 19
+Time to run ML on frame 19 was 1118528928 at node 5
+node 5 pipeline 0 frame 19 - done second (result "doormat:0.040314905:park_bench:0.037420683:window_shade:0.027724206:red-breasted_merganser:0.023930525:American_coot:0.021534156:")
+Time to decide object on frame 19 was 90363 at node 10
+node 10 pipeline 0 frame 19 - final (choice "doormat")
+node 3 pipeline 3 frame 19 - pre first
+Time to load frame 19 was 1823893 at node 3
+node 3 pipeline 3 frame 19 - done first (size 691200)
+node 4 pipeline 4 frame 19 - pre first
+Time to load frame 19 was 3795803 at node 4
+node 4 pipeline 4 frame 19 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 19 vec len 691200 last frame 19 keep len 0
+node 1 pipeline 1 frame 19 - pre first
+Time to load frame 19 was 2485407 at node 1
+node 1 pipeline 1 frame 19 - done first (size 691200)
+node 2 pipeline 2 frame 19 - pre first
+node 5 - SEEN pipeline 0 frame 19 vec len 691200 last frame 19 keep len 0
+Time to load frame 19 was 3101600 at node 2
+node 2 pipeline 2 frame 19 - done first (size 691200)
+Time to run ML on frame 19 was 1286725449 at node 7
+node 7 pipeline 2 frame 19 - done second (result "doormat:0.040314905:park_bench:0.037420683:window_shade:0.027724206:red-breasted_merganser:0.023930525:American_coot:0.021534156:")
+Time to decide object on frame 19 was 112931 at node 12
+node 12 pipeline 2 frame 19 - final (choice "doormat")
+node 5 - SEEN pipeline 0 frame 19 vec len 691200 last frame 19 keep len 0
+Time to run ML on frame 19 was 1366232643 at node 6
+node 6 pipeline 1 frame 19 - done second (result "doormat:0.040314905:park_bench:0.037420683:window_shade:0.027724206:red-breasted_merganser:0.023930525:American_coot:0.021534156:")
+Time to decide object on frame 19 was 98741 at node 11
+node 11 pipeline 1 frame 19 - final (choice "doormat")
+node 7 - SEEN pipeline 2 frame 19 vec len 691200 last frame 19 keep len 0
+node 5 - SEEN pipeline 0 frame 19 vec len 691200 last frame 19 keep len 0
+Time to run ML on frame 19 was 1327708111 at node 8
+node 8 pipeline 3 frame 19 - done second (result "doormat:0.040314905:park_bench:0.037420683:window_shade:0.027724206:red-breasted_merganser:0.023930525:American_coot:0.021534156:")
+Time to decide object on frame 19 was 94872 at node 13
+node 13 pipeline 3 frame 19 - final (choice "doormat")
+node 7 - SEEN pipeline 2 frame 19 vec len 691200 last frame 19 keep len 0
+node 7 - SEEN pipeline 2 frame 19 vec len 691200 last frame 19 keep len 0
+node 8 - SEEN pipeline 3 frame 19 vec len 691200 last frame 19 keep len 0
+node 8 - SEEN pipeline 3 frame 19 vec len 691200 last frame 19 keep len 0
+node 6 - SEEN pipeline 1 frame 19 vec len 691200 last frame 19 keep len 0
+node 6 - SEEN pipeline 1 frame 19 vec len 691200 last frame 19 keep len 0
+node 6 - SEEN pipeline 1 frame 19 vec len 691200 last frame 19 keep len 0
+node 8 - SEEN pipeline 3 frame 19 vec len 691200 last frame 19 keep len 0
+Time to run ML on frame 19 was 1367193392 at node 9
+node 9 pipeline 4 frame 19 - done second (result "doormat:0.040314905:park_bench:0.037420683:window_shade:0.027724206:red-breasted_merganser:0.023930525:American_coot:0.021534156:")
+Time to decide object on frame 19 was 69293 at node 14
+node 14 pipeline 4 frame 19 - final (choice "doormat")
+node 7 - SEEN pipeline 2 frame 19 vec len 691200 last frame 19 keep len 0
+node 6 - SEEN pipeline 1 frame 19 vec len 691200 last frame 19 keep len 0
+node 8 - SEEN pipeline 3 frame 19 vec len 691200 last frame 19 keep len 0
+node 9 - SEEN pipeline 4 frame 19 vec len 691200 last frame 19 keep len 0
+node 9 - SEEN pipeline 4 frame 19 vec len 691200 last frame 19 keep len 0
+node 9 - SEEN pipeline 4 frame 19 vec len 691200 last frame 19 keep len 0
+node 9 - SEEN pipeline 4 frame 19 vec len 691200 last frame 19 keep len 0
+node 0 pipeline 0 frame 20 - pre first
+Time to load frame 20 was 2938294 at node 0
+node 0 pipeline 0 frame 20 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 20 vec len 691200 last frame 19 keep len 0
+node 5 sending expected input - pipeline 0 frame 20
+node 6 - SEEN pipeline 1 frame 20 vec len 691200 last frame 19 keep len 0
+node 6 sending expected input - pipeline 1 frame 20
+node 7 - SEEN pipeline 2 frame 20 vec len 691200 last frame 19 keep len 0
+node 7 sending expected input - pipeline 2 frame 20
+node 8 - SEEN pipeline 3 frame 20 vec len 691200 last frame 19 keep len 0
+node 8 sending expected input - pipeline 3 frame 20
+node 9 - SEEN pipeline 4 frame 20 vec len 691200 last frame 19 keep len 0
+node 9 sending expected input - pipeline 4 frame 20
+node 3 pipeline 3 frame 20 - pre first
+Time to load frame 20 was 3293645 at node 3
+node 3 pipeline 3 frame 20 - done first (size 691200)
+Time to run ML on frame 20 was 1284014473 at node 5
+node 5 pipeline 0 frame 20 - done second (result "solar_dish:0.04288056:doormat:0.04058505:window_shade:0.034726482:park_bench:0.027551113:window_screen:0.02510465:")
+Time to decide object on frame 20 was 235725 at node 10
+node 10 pipeline 0 frame 20 - final (choice "solar_dish")
+node 4 pipeline 4 frame 20 - pre first
+Time to load frame 20 was 3491351 at node 4
+node 4 pipeline 4 frame 20 - done first (size 691200)
+Time to run ML on frame 20 was 1269086989 at node 6
+node 6 pipeline 1 frame 20 - done second (result "solar_dish:0.04288056:doormat:0.04058505:window_shade:0.034726482:park_bench:0.027551113:window_screen:0.02510465:")
+Time to decide object on frame 20 was 97957 at node 11
+node 11 pipeline 1 frame 20 - final (choice "solar_dish")
+node 1 pipeline 1 frame 20 - pre first
+Time to load frame 20 was 2386845 at node 1
+node 1 pipeline 1 frame 20 - done first (size 691200)
+Time to load frame 7 was 10000232464 at node 16
+node 16 pipeline 16 frame 7 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 7 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 7 because master
+Time to run ML on frame 7 was 107861 at node 16
+node 16 pipeline 16 frame 7 - done second (result ":")
+Time to decide object on frame 7 was 133360 at node 16
+node 16 pipeline 16 frame 7 - final (choice "")
+node 5 - SEEN pipeline 0 frame 20 vec len 691200 last frame 20 keep len 0
+node 2 pipeline 2 frame 20 - pre first
+Time to load frame 20 was 2633109 at node 2
+node 2 pipeline 2 frame 20 - done first (size 691200)
+node 6 - SEEN pipeline 1 frame 20 vec len 691200 last frame 20 keep len 0
+node 6 - SEEN pipeline 1 frame 7 vec len 0 last frame 20 keep len 0
+node 5 - SEEN pipeline 0 frame 20 vec len 691200 last frame 20 keep len 0
+node 5 - SEEN pipeline 0 frame 7 vec len 0 last frame 20 keep len 0
+node 6 - SEEN pipeline 1 frame 20 vec len 691200 last frame 20 keep len 0
+node 5 - SEEN pipeline 0 frame 20 vec len 691200 last frame 20 keep len 0
+node 6 - SEEN pipeline 1 frame 20 vec len 691200 last frame 20 keep len 0
+Time to run ML on frame 20 was 1385367468 at node 7
+node 7 pipeline 2 frame 20 - done second (result "solar_dish:0.04288056:doormat:0.04058505:window_shade:0.034726482:park_bench:0.027551113:window_screen:0.02510465:")
+Time to decide object on frame 20 was 97310 at node 12
+node 5 - SEEN pipeline 0 frame 20 vec len 691200 last frame 20 keep len 0
+node 12 pipeline 2 frame 20 - final (choice "solar_dish")
+Time to run ML on frame 20 was 1337129602 at node 8
+node 8 pipeline 3 frame 20 - done second (result "solar_dish:0.04288056:doormat:0.04058505:window_shade:0.034726482:park_bench:0.027551113:window_screen:0.02510465:")
+Time to decide object on frame 20 was 94286 at node 13
+node 13 pipeline 3 frame 20 - final (choice "solar_dish")
+node 6 - SEEN pipeline 1 frame 20 vec len 691200 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 691200 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 691200 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 0 last frame 20 keep len 0
+Time to run ML on frame 20 was 1348590343 at node 9
+node 9 pipeline 4 frame 20 - done second (result "solar_dish:0.04288056:doormat:0.04058505:window_shade:0.034726482:park_bench:0.027551113:window_screen:0.02510465:")
+Time to decide object on frame 20 was 97205 at node 14
+node 14 pipeline 4 frame 20 - final (choice "solar_dish")
+node 7 - SEEN pipeline 2 frame 20 vec len 691200 last frame 20 keep len 0
+node 7 - SEEN pipeline 2 frame 20 vec len 691200 last frame 20 keep len 0
+node 7 - SEEN pipeline 2 frame 20 vec len 691200 last frame 20 keep len 0
+node 7 - SEEN pipeline 2 frame 7 vec len 0 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 691200 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 691200 last frame 20 keep len 0
+node 7 - SEEN pipeline 2 frame 20 vec len 691200 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 691200 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 691200 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 691200 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 0 last frame 20 keep len 0
+Time to load frame 7 was 10000184025 at node 15
+node 15 pipeline 15 frame 7 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 7 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 7 because master
+Time to run ML on frame 7 was 76485 at node 15
+node 15 pipeline 15 frame 7 - done second (result ":")
+Time to decide object on frame 7 was 78959 at node 15
+node 15 pipeline 15 frame 7 - final (choice "")
+node 7 - SEEN pipeline 2 frame 7 vec len 0 last frame 20 keep len 0
+node 8 - SEEN pipeline 3 frame 7 vec len 0 last frame 20 keep len 0
+node 5 - SEEN pipeline 0 frame 7 vec len 0 last frame 20 keep len 0
+node 6 - SEEN pipeline 1 frame 7 vec len 0 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 691200 last frame 20 keep len 0
+node 9 - SEEN pipeline 4 frame 7 vec len 0 last frame 20 keep len 0
+node 0 pipeline 0 frame 21 - pre first
+Time to load frame 21 was 3793389 at node 0
+node 0 pipeline 0 frame 21 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 21 vec len 691200 last frame 20 keep len 0
+node 5 sending expected input - pipeline 0 frame 21
+node 6 - SEEN pipeline 1 frame 21 vec len 691200 last frame 20 keep len 0
+node 6 sending expected input - pipeline 1 frame 21
+node 7 - SEEN pipeline 2 frame 21 vec len 691200 last frame 20 keep len 0
+node 7 sending expected input - pipeline 2 frame 21
+node 8 - SEEN pipeline 3 frame 21 vec len 691200 last frame 20 keep len 0
+node 8 sending expected input - pipeline 3 frame 21
+node 9 - SEEN pipeline 4 frame 21 vec len 691200 last frame 20 keep len 0
+node 9 sending expected input - pipeline 4 frame 21
+node 16 pipeline 16 frame 8 - pre first
+node 3 pipeline 3 frame 21 - pre first
+Time to load frame 21 was 2709795 at node 3
+node 3 pipeline 3 frame 21 - done first (size 691200)
+node 4 pipeline 4 frame 21 - pre first
+Time to load frame 21 was 5850813 at node 4
+node 4 pipeline 4 frame 21 - done first (size 691200)
+node 1 pipeline 1 frame 21 - pre first
+Time to load frame 21 was 4217334 at node 1
+node 1 pipeline 1 frame 21 - done first (size 691200)
+Time to run ML on frame 21 was 1310868751 at node 5
+node 5 pipeline 0 frame 21 - done second (result "window_shade:0.04363795:doormat:0.036844812:window_screen:0.027468499:red-breasted_merganser:0.020424053:mobile_home:0.020048203:")
+Time to decide object on frame 21 was 123859 at node 10
+node 10 pipeline 0 frame 21 - final (choice "window_shade")
+node 2 pipeline 2 frame 21 - pre first
+Time to load frame 21 was 2604037 at node 2
+node 2 pipeline 2 frame 21 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 21 vec len 691200 last frame 21 keep len 0
+Time to run ML on frame 21 was 1226171817 at node 8
+node 8 pipeline 3 frame 21 - done second (result "window_shade:0.04363795:doormat:0.036844812:window_screen:0.027468499:red-breasted_merganser:0.020424053:mobile_home:0.020048203:")
+Time to decide object on frame 21 was 106243 at node 13
+node 13 pipeline 3 frame 21 - final (choice "window_shade")
+Time to run ML on frame 21 was 1270980700 at node 7
+node 7 pipeline 2 frame 21 - done second (result "window_shade:0.04363795:doormat:0.036844812:window_screen:0.027468499:red-breasted_merganser:0.020424053:mobile_home:0.020048203:")
+Time to decide object on frame 21 was 79140 at node 12
+node 12 pipeline 2 frame 21 - final (choice "window_shade")
+node 15 pipeline 15 frame 8 - pre first
+node 5 - SEEN pipeline 0 frame 21 vec len 691200 last frame 21 keep len 0
+Time to run ML on frame 21 was 1386413841 at node 6
+node 6 pipeline 1 frame 21 - done second (result "window_shade:0.04363795:doormat:0.036844812:window_screen:0.027468499:red-breasted_merganser:0.020424053:mobile_home:0.020048203:")
+Time to decide object on frame 21 was 96879 at node 11
+node 11 pipeline 1 frame 21 - final (choice "window_shade")
+node 7 - SEEN pipeline 2 frame 21 vec len 691200 last frame 21 keep len 0
+node 5 - SEEN pipeline 0 frame 21 vec len 691200 last frame 21 keep len 0
+node 5 - SEEN pipeline 0 frame 21 vec len 691200 last frame 21 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 691200 last frame 21 keep len 0
+node 6 - SEEN pipeline 1 frame 21 vec len 691200 last frame 21 keep len 0
+node 6 - SEEN pipeline 1 frame 21 vec len 691200 last frame 21 keep len 0
+node 6 - SEEN pipeline 1 frame 21 vec len 691200 last frame 21 keep len 0
+node 7 - SEEN pipeline 2 frame 21 vec len 691200 last frame 21 keep len 0
+node 7 - SEEN pipeline 2 frame 21 vec len 691200 last frame 21 keep len 0
+node 6 - SEEN pipeline 1 frame 21 vec len 691200 last frame 21 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 691200 last frame 21 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 691200 last frame 21 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 691200 last frame 21 keep len 0
+node 7 - SEEN pipeline 2 frame 21 vec len 691200 last frame 21 keep len 0
+Time to run ML on frame 21 was 1424880902 at node 9
+node 9 pipeline 4 frame 21 - done second (result "window_shade:0.04363795:doormat:0.036844812:window_screen:0.027468499:red-breasted_merganser:0.020424053:mobile_home:0.020048203:")
+Time to decide object on frame 21 was 75014 at node 14
+node 14 pipeline 4 frame 21 - final (choice "window_shade")
+node 9 - SEEN pipeline 4 frame 21 vec len 691200 last frame 21 keep len 0
+node 9 - SEEN pipeline 4 frame 21 vec len 691200 last frame 21 keep len 0
+node 9 - SEEN pipeline 4 frame 21 vec len 691200 last frame 21 keep len 0
+node 9 - SEEN pipeline 4 frame 21 vec len 691200 last frame 21 keep len 0
+node 0 pipeline 0 frame 22 - pre first
+Time to load frame 22 was 3311051 at node 0
+node 0 pipeline 0 frame 22 - done first (size 691200)
+node 5 - SEEN pipeline 0 frame 22 vec len 691200 last frame 21 keep len 0
+node 5 sending expected input - pipeline 0 frame 22
+node 6 - SEEN pipeline 1 frame 22 vec len 691200 last frame 21 keep len 0
+node 6 sending expected input - pipeline 1 frame 22
+node 7 - SEEN pipeline 2 frame 22 vec len 691200 last frame 21 keep len 0
+node 7 sending expected input - pipeline 2 frame 22
+node 8 - SEEN pipeline 3 frame 22 vec len 691200 last frame 21 keep len 0
+node 8 sending expected input - pipeline 3 frame 22
+node 9 - SEEN pipeline 4 frame 22 vec len 691200 last frame 21 keep len 0
+node 9 sending expected input - pipeline 4 frame 22
+node 3 pipeline 3 frame 22 - pre first
+Time to load frame 22 was 2990601 at node 3
+node 3 pipeline 3 frame 22 - done first (size 691200)
+node 1 pipeline 1 frame 22 - pre first
+Time to load frame 22 was 2605710 at node 1
+node 1 pipeline 1 frame 22 - done first (size 691200)
+Time to run ML on frame 22 was 1247352907 at node 6
+node 6 pipeline 1 frame 22 - done second (result "window_shade:0.026197659:red-breasted_merganser:0.025413953:doormat:0.023102239:American_coot:0.0210481:little_blue_heron:0.020176917:")
+Time to decide object on frame 22 was 97347 at node 11
+node 11 pipeline 1 frame 22 - final (choice "window_shade")
+node 4 pipeline 4 frame 22 - pre first
+Time to load frame 22 was 2711743 at node 4
+node 4 pipeline 4 frame 22 - done first (size 691200)
+node 2 pipeline 2 frame 22 - pre first
+Time to load frame 22 was 2401622 at node 2
+node 2 pipeline 2 frame 22 - done first (size 691200)
+Time to run ML on frame 22 was 1380450360 at node 5
+node 5 pipeline 0 frame 22 - done second (result "window_shade:0.026197659:red-breasted_merganser:0.025413953:doormat:0.023102239:American_coot:0.0210481:little_blue_heron:0.020176917:")
+Time to decide object on frame 22 was 92483 at node 10
+node 10 pipeline 0 frame 22 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 22 vec len 691200 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 22 vec len 691200 last frame 22 keep len 0
+Time to run ML on frame 22 was 1278450799 at node 9
+node 9 pipeline 4 frame 22 - done second (result "window_shade:0.026197659:red-breasted_merganser:0.025413953:doormat:0.023102239:American_coot:0.0210481:little_blue_heron:0.020176917:")
+Time to decide object on frame 22 was 92525 at node 14
+node 14 pipeline 4 frame 22 - final (choice "window_shade")
+Time to run ML on frame 22 was 1360902791 at node 8
+node 8 pipeline 3 frame 22 - done second (result "window_shade:0.026197659:red-breasted_merganser:0.025413953:doormat:0.023102239:American_coot:0.0210481:little_blue_heron:0.020176917:")
+Time to decide object on frame 22 was 85264 at node 13
+node 13 pipeline 3 frame 22 - final (choice "window_shade")
+node 6 - SEEN pipeline 1 frame 22 vec len 691200 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 22 vec len 691200 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 22 vec len 691200 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 22 vec len 691200 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 22 vec len 691200 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 22 vec len 691200 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 22 vec len 691200 last frame 22 keep len 0
+Time to run ML on frame 22 was 1441753956 at node 7
+node 7 pipeline 2 frame 22 - done second (result "window_shade:0.026197659:red-breasted_merganser:0.025413953:doormat:0.023102239:American_coot:0.0210481:little_blue_heron:0.020176917:")
+Time to decide object on frame 22 was 94037 at node 12
+node 12 pipeline 2 frame 22 - final (choice "window_shade")
+node 9 - SEEN pipeline 4 frame 22 vec len 691200 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 22 vec len 691200 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 691200 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 691200 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 691200 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 22 vec len 691200 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 691200 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 691200 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 691200 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 691200 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 691200 last frame 22 keep len 0
+Time to load frame 8 was 10000267658 at node 16
+node 16 pipeline 16 frame 8 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 8 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 8 because master
+Time to run ML on frame 8 was 213694 at node 16
+node 8 - SEEN pipeline 3 frame 8 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 8 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 8 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 8 - done second (result ":")
+Time to decide object on frame 8 was 233857 at node 16
+node 16 pipeline 16 frame 8 - final (choice "")
+node 6 - SEEN pipeline 1 frame 8 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 0 last frame 22 keep len 0
+Time to load frame 8 was 10000259462 at node 15
+node 15 pipeline 15 frame 8 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 8 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 8 because master
+Time to run ML on frame 8 was 189375 at node 15
+node 15 pipeline 15 frame 8 - done second (result ":")
+Time to decide object on frame 8 was 381991 at node 15
+node 15 pipeline 15 frame 8 - final (choice "")
+node 6 - SEEN pipeline 1 frame 8 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 8 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 8 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 8 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 8 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 9 - pre first
+node 15 pipeline 15 frame 9 - pre first
+Time to load frame 9 was 10000315292 at node 16
+node 16 pipeline 16 frame 9 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 9 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 9 because master
+Time to run ML on frame 9 was 180857 at node 16
+node 16 pipeline 16 frame 9 - done second (result ":")
+node 6 - SEEN pipeline 1 frame 9 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 9 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 9 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 9 was 220605 at node 16
+node 16 pipeline 16 frame 9 - final (choice "")
+node 8 - SEEN pipeline 3 frame 9 vec len 0 last frame 22 keep len 0
+Time to load frame 9 was 10000272664 at node 15
+node 15 pipeline 15 frame 9 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 9 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 9 because master
+Time to run ML on frame 9 was 111864 at node 15
+node 15 pipeline 15 frame 9 - done second (result ":")
+Time to decide object on frame 9 was 172790 at node 15
+node 15 pipeline 15 frame 9 - final (choice "")
+node 5 - SEEN pipeline 0 frame 9 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 9 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 9 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 9 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 9 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 10 - pre first
+node 15 pipeline 15 frame 10 - pre first
+Time to load frame 10 was 10000318081 at node 16
+node 16 pipeline 16 frame 10 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 10 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 10 because master
+Time to run ML on frame 10 was 139515 at node 16
+node 16 pipeline 16 frame 10 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 10 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 10 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 10 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 10 was 318435 at node 16
+node 6 - SEEN pipeline 1 frame 10 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 10 - final (choice "")
+node 5 - SEEN pipeline 0 frame 10 vec len 0 last frame 22 keep len 0
+Time to load frame 10 was 10000256534 at node 15
+node 15 pipeline 15 frame 10 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 10 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 10 because master
+node 6 - SEEN pipeline 1 frame 10 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 10 was 179294 at node 15
+node 15 pipeline 15 frame 10 - done second (result ":")
+Time to decide object on frame 10 was 187993 at node 15
+node 5 - SEEN pipeline 0 frame 10 vec len 0 last frame 22 keep len 0
+node 15 pipeline 15 frame 10 - final (choice "")
+node 9 - SEEN pipeline 4 frame 10 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 10 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 10 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 11 - pre first
+node 15 pipeline 15 frame 11 - pre first
+Time to load frame 11 was 10000312085 at node 16
+node 16 pipeline 16 frame 11 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 11 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 11 because master
+node 8 - SEEN pipeline 3 frame 11 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 11 was 163589 at node 16
+node 7 - SEEN pipeline 2 frame 11 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 11 - done second (result ":")
+Time to decide object on frame 11 was 250089 at node 16
+node 16 pipeline 16 frame 11 - final (choice "")
+node 9 - SEEN pipeline 4 frame 11 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 11 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 0 last frame 22 keep len 0
+Time to load frame 11 was 10000282584 at node 15
+node 15 pipeline 15 frame 11 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 11 vec len 0 last frame 0 keep len 0
+node 6 - SEEN pipeline 1 frame 11 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 11 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 11 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 11 vec len 0 last frame 22 keep len 0
+node 15 keeping pipeline 15 frame 11 because master
+Time to run ML on frame 11 was 536448 at node 15
+node 15 pipeline 15 frame 11 - done second (result ":")
+Time to decide object on frame 11 was 297675 at node 15
+node 15 pipeline 15 frame 11 - final (choice "")
+node 9 - SEEN pipeline 4 frame 11 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 12 - pre first
+node 15 pipeline 15 frame 12 - pre first
+Time to load frame 12 was 10000321852 at node 16
+node 16 pipeline 16 frame 12 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 12 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 12 because master
+Time to run ML on frame 12 was 146183 at node 16
+node 16 pipeline 16 frame 12 - done second (result ":")
+Time to decide object on frame 12 was 138351 at node 16
+node 16 pipeline 16 frame 12 - final (choice "")
+node 7 - SEEN pipeline 2 frame 12 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 12 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 12 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 12 vec len 0 last frame 22 keep len 0
+Time to load frame 12 was 10000282786 at node 15
+node 15 pipeline 15 frame 12 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 12 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 12 because master
+node 7 - SEEN pipeline 2 frame 12 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 12 was 176511 at node 15
+node 6 - SEEN pipeline 1 frame 12 vec len 0 last frame 22 keep len 0
+node 15 pipeline 15 frame 12 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 12 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 12 was 155362 at node 15
+node 15 pipeline 15 frame 12 - final (choice "")
+node 5 - SEEN pipeline 0 frame 12 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 12 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 13 - pre first
+node 15 pipeline 15 frame 13 - pre first
+Time to load frame 13 was 10000262252 at node 16
+node 16 pipeline 16 frame 13 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 13 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 13 because master
+node 5 - SEEN pipeline 0 frame 13 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 13 was 117006 at node 16
+node 16 pipeline 16 frame 13 - done second (result ":")
+Time to decide object on frame 13 was 247694 at node 16
+node 8 - SEEN pipeline 3 frame 13 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 13 - final (choice "")
+node 7 - SEEN pipeline 2 frame 13 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 13 vec len 0 last frame 22 keep len 0
+Time to load frame 13 was 10000288279 at node 15
+node 15 pipeline 15 frame 13 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 13 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 13 because master
+Time to run ML on frame 13 was 201748 at node 15
+node 9 - SEEN pipeline 4 frame 13 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 13 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 13 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 13 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 13 vec len 0 last frame 22 keep len 0
+node 15 pipeline 15 frame 13 - done second (result ":")
+Time to decide object on frame 13 was 260499 at node 15
+node 15 pipeline 15 frame 13 - final (choice "")
+node 16 pipeline 16 frame 14 - pre first
+node 15 pipeline 15 frame 14 - pre first
+Time to load frame 14 was 10000296569 at node 16
+node 16 pipeline 16 frame 14 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 14 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 14 because master
+Time to run ML on frame 14 was 174990 at node 16
+node 16 pipeline 16 frame 14 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 14 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 14 was 210013 at node 16
+node 16 pipeline 16 frame 14 - final (choice "")
+node 7 - SEEN pipeline 2 frame 14 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 14 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 14 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 0 last frame 22 keep len 0
+Time to load frame 14 was 10000239928 at node 15
+node 15 pipeline 15 frame 14 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 14 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 14 because master
+Time to run ML on frame 14 was 110761 at node 15
+node 15 pipeline 15 frame 14 - done second (result ":")
+Time to decide object on frame 14 was 131130 at node 15
+node 15 pipeline 15 frame 14 - final (choice "")
+node 8 - SEEN pipeline 3 frame 14 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 14 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 14 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 14 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 14 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 15 - pre first
+node 15 pipeline 15 frame 15 - pre first
+Time to load frame 15 was 10000307677 at node 16
+node 16 pipeline 16 frame 15 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 15 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 15 because master
+Time to run ML on frame 15 was 128382 at node 16
+node 16 pipeline 16 frame 15 - done second (result ":")
+Time to decide object on frame 15 was 200063 at node 16
+node 6 - SEEN pipeline 1 frame 15 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 15 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 15 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 15 - final (choice "")
+node 8 - SEEN pipeline 3 frame 15 vec len 0 last frame 22 keep len 0
+Time to load frame 15 was 10000234835 at node 15
+node 15 pipeline 15 frame 15 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 15 vec len 0 last frame 0 keep len 0
+node 5 - SEEN pipeline 0 frame 15 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 15 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 15 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 15 vec len 0 last frame 22 keep len 0
+node 15 keeping pipeline 15 frame 15 because master
+Time to run ML on frame 15 was 182328 at node 15
+node 6 - SEEN pipeline 1 frame 15 vec len 0 last frame 22 keep len 0
+node 15 pipeline 15 frame 15 - done second (result ":")
+Time to decide object on frame 15 was 230501 at node 15
+node 15 pipeline 15 frame 15 - final (choice "")
+node 16 pipeline 16 frame 16 - pre first
+node 15 pipeline 15 frame 16 - pre first
+Time to load frame 16 was 10000344907 at node 16
+node 16 pipeline 16 frame 16 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 16 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 16 because master
+Time to run ML on frame 16 was 168357 at node 16
+node 16 pipeline 16 frame 16 - done second (result ":")
+Time to decide object on frame 16 was 213356 at node 16
+node 8 - SEEN pipeline 3 frame 16 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 16 - final (choice "")
+node 7 - SEEN pipeline 2 frame 16 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 16 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 16 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 16 vec len 0 last frame 22 keep len 0
+Time to load frame 16 was 10000286526 at node 15
+node 15 pipeline 15 frame 16 - done first (size 0)
+node 6 - SEEN pipeline 1 frame 16 vec len 0 last frame 22 keep len 0
+node 15 - SEEN pipeline 15 frame 16 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 16 because master
+Time to run ML on frame 16 was 119081 at node 15
+node 15 pipeline 15 frame 16 - done second (result ":")
+Time to decide object on frame 16 was 242475 at node 15
+node 15 pipeline 15 frame 16 - final (choice "")
+node 9 - SEEN pipeline 4 frame 16 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 16 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 16 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 16 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 17 - pre first
+node 15 pipeline 15 frame 17 - pre first
+Time to load frame 17 was 10000285084 at node 16
+node 16 pipeline 16 frame 17 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 17 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 17 because master
+Time to run ML on frame 17 was 132659 at node 16
+node 16 pipeline 16 frame 17 - done second (result ":")
+Time to decide object on frame 17 was 139740 at node 16
+node 16 pipeline 16 frame 17 - final (choice "")
+node 6 - SEEN pipeline 1 frame 17 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 17 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 17 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 17 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 0 last frame 22 keep len 0
+Time to load frame 17 was 10000255842 at node 15
+node 15 pipeline 15 frame 17 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 17 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 17 because master
+node 6 - SEEN pipeline 1 frame 17 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 17 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 17 was 179782 at node 15
+node 15 pipeline 15 frame 17 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 17 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 17 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 17 was 250445 at node 15
+node 15 pipeline 15 frame 17 - final (choice "")
+node 5 - SEEN pipeline 0 frame 17 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 18 - pre first
+node 15 pipeline 15 frame 18 - pre first
+Time to load frame 18 was 10000321539 at node 16
+node 16 pipeline 16 frame 18 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 18 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 18 because master
+Time to run ML on frame 18 was 236006 at node 16
+node 16 pipeline 16 frame 18 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 18 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 18 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 18 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 18 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 18 was 1152083 at node 16
+node 16 pipeline 16 frame 18 - final (choice "")
+Time to load frame 18 was 10000278271 at node 15
+node 15 pipeline 15 frame 18 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 18 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 18 because master
+Time to run ML on frame 18 was 119218 at node 15
+node 15 pipeline 15 frame 18 - done second (result ":")
+node 8 - SEEN pipeline 3 frame 18 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 18 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 18 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 18 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 18 was 228001 at node 15
+node 15 pipeline 15 frame 18 - final (choice "")
+node 9 - SEEN pipeline 4 frame 18 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 19 - pre first
+node 15 pipeline 15 frame 19 - pre first
+Time to load frame 19 was 10000273387 at node 16
+node 16 pipeline 16 frame 19 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 19 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 19 because master
+Time to run ML on frame 19 was 102199 at node 16
+node 16 pipeline 16 frame 19 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 19 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 19 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 19 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 19 was 203664 at node 16
+node 16 pipeline 16 frame 19 - final (choice "")
+node 6 - SEEN pipeline 1 frame 19 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 19 vec len 0 last frame 22 keep len 0
+Time to load frame 19 was 10000257782 at node 15
+node 15 pipeline 15 frame 19 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 19 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 19 because master
+Time to run ML on frame 19 was 111262 at node 15
+node 15 pipeline 15 frame 19 - done second (result ":")
+node 9 - SEEN pipeline 4 frame 19 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 19 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 19 was 236257 at node 15
+node 15 pipeline 15 frame 19 - final (choice "")
+node 8 - SEEN pipeline 3 frame 19 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 19 vec len 0 last frame 22 keep len 0
+node 6 - SEEN pipeline 1 frame 19 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 20 - pre first
+node 15 pipeline 15 frame 20 - pre first
+Time to load frame 20 was 10000294634 at node 16
+node 16 pipeline 16 frame 20 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 20 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 20 because master
+Time to run ML on frame 20 was 129484 at node 16
+node 16 pipeline 16 frame 20 - done second (result ":")
+Time to decide object on frame 20 was 153106 at node 16
+node 16 pipeline 16 frame 20 - final (choice "")
+node 6 - SEEN pipeline 1 frame 20 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 20 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 20 vec len 0 last frame 22 keep len 0
+Time to load frame 20 was 10000333851 at node 15
+node 15 pipeline 15 frame 20 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 20 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 20 because master
+Time to run ML on frame 20 was 201155 at node 15
+node 15 pipeline 15 frame 20 - done second (result ":")
+node 7 - SEEN pipeline 2 frame 20 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 20 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 20 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 20 was 197794 at node 15
+node 15 pipeline 15 frame 20 - final (choice "")
+node 6 - SEEN pipeline 1 frame 20 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 20 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 21 - pre first
+node 15 pipeline 15 frame 21 - pre first
+Time to load frame 21 was 10000256428 at node 16
+node 16 pipeline 16 frame 21 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 21 vec len 0 last frame 0 keep len 0
+node 16 keeping pipeline 16 frame 21 because master
+Time to run ML on frame 21 was 143656 at node 16
+node 16 pipeline 16 frame 21 - done second (result ":")
+Time to decide object on frame 21 was 139196 at node 16
+node 16 pipeline 16 frame 21 - final (choice "")
+node 6 - SEEN pipeline 1 frame 21 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 21 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 21 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 21 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 0 last frame 22 keep len 0
+Time to load frame 21 was 10000301047 at node 15
+node 15 pipeline 15 frame 21 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 21 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 21 because master
+Time to run ML on frame 21 was 112476 at node 15
+node 15 pipeline 15 frame 21 - done second (result ":")
+node 5 - SEEN pipeline 0 frame 21 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 21 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 21 was 224684 at node 15
+node 9 - SEEN pipeline 4 frame 21 vec len 0 last frame 22 keep len 0
+node 15 pipeline 15 frame 21 - final (choice "")
+node 6 - SEEN pipeline 1 frame 21 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 21 vec len 0 last frame 22 keep len 0
+node 16 pipeline 16 frame 22 - pre first
+node 15 pipeline 15 frame 22 - pre first
+Time to load frame 22 was 10000260817 at node 16
+node 16 pipeline 16 frame 22 - done first (size 0)
+node 16 - SEEN pipeline 16 frame 22 vec len 0 last frame 0 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 0 last frame 22 keep len 0
+node 16 keeping pipeline 16 frame 22 because master
+node 6 - SEEN pipeline 1 frame 22 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 0 last frame 22 keep len 0
+node 5 - SEEN pipeline 0 frame 22 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 22 vec len 0 last frame 22 keep len 0
+Time to run ML on frame 22 was 156352 at node 16
+node 16 pipeline 16 frame 22 - done second (result ":")
+Time to decide object on frame 22 was 209729 at node 16
+node 16 pipeline 16 frame 22 - final (choice "")
+Time to load frame 22 was 10000291476 at node 15
+node 15 pipeline 15 frame 22 - done first (size 0)
+node 15 - SEEN pipeline 15 frame 22 vec len 0 last frame 0 keep len 0
+node 15 keeping pipeline 15 frame 22 because master
+Time to run ML on frame 22 was 116956 at node 15
+node 15 pipeline 15 frame 22 - done second (result ":")
+node 6 - SEEN pipeline 1 frame 22 vec len 0 last frame 22 keep len 0
+node 8 - SEEN pipeline 3 frame 22 vec len 0 last frame 22 keep len 0
+node 9 - SEEN pipeline 4 frame 22 vec len 0 last frame 22 keep len 0
+Time to decide object on frame 22 was 247362 at node 15
+node 15 pipeline 15 frame 22 - final (choice "")
+node 5 - SEEN pipeline 0 frame 22 vec len 0 last frame 22 keep len 0
+node 7 - SEEN pipeline 2 frame 22 vec len 0 last frame 22 keep len 0

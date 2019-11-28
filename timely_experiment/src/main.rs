@@ -5,7 +5,7 @@ use pyo3::{prelude::*, types::{PyModule, PyByteArray}};
 use opencv::core;
 use opencv::videoio;
 use std::ptr;
-use std::time::{Duration, Instant};
+use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 
 
 #[macro_use]
@@ -87,8 +87,12 @@ fn main() {
                                 data.swap(&mut vector);
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
-                                    if datum.1 == index as u64 || ((index == 15 || index == 16) && datum.1 == 0) {
+                                    if datum.1 == index as u64  {
                                         session.give((datum.0, index as u64));
+                                    }
+                                    if datum.1 == 0 && index == 0 {
+                                        session.give((datum.0, 15 as u64));
+                                        session.give((datum.0, 16 as u64));
                                     }
                                 }
                             }
@@ -96,11 +100,8 @@ fn main() {
                     })
 
                     .exchange(move |x: &(u64, u64)| {
-                        if index == 15 || index == 16 {
-                            index as u64
-                        } else {
-                            (*x).1
-                        }
+                        println!("node {:?} routing pipeline {:?} frame {:?}", index, (*x).1, (*x).0);
+                        (*x).1
                     })
 
                     .inspect(move |x: &(u64, u64)| println!("node {:?} pipeline {:?} frame {:?} - pre first", index, (*x).1, (*x).0))
@@ -117,12 +118,13 @@ fn main() {
                                 let mut session = output.session(&time);
                                 for datum in vector.drain(..) {
                                     if index == 15 || index == 16 {
+                                        /*thread::sleep(time::Duration::from_millis(1180)); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                         for pipeline in 0..5 {
                                             session.give((datum.0, pipeline, Vec::<u8>::new(), datum.2));
-                                        }
+                                        }*/
                                         session.give((datum.0, index as u64, Vec::<u8>::new(), datum.2));
                                     } else {
-                                        thread::sleep(time::Duration::from_millis(2000));
+                                        //thread::sleep(time::Duration::from_millis(2000)); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                         cam.read(&mut frame);
                                         let framesize = frame.size().unwrap().width * frame.size().unwrap().height * 3;
                                         //println!("Got frame {}, with width {} and height {}", datum.0, frame.size().unwrap().width, frame.size().unwrap().height);
@@ -151,7 +153,6 @@ fn main() {
                         }
                     })
                     
-                    //.exchange(|x: &(u64, u64, Vec<u8>)| (*x).1 + 5)
                     .exchange(move |x: &(u64, u64, Vec<u8>)| {
                         if (index == 15 || index == 16) && (*x).1 == index as u64 {
                             (*x).1
@@ -205,27 +206,91 @@ fn main() {
 
                     .map(move |x: (u64, u64, Vec<u8>)| (x.0, x.1, x.2, Instant::now()))
 
-                    .map(move |x: (u64, u64, Vec<u8>, Instant)| {
-                        if index == 15 || index == 16 {
-                            (x.0, x.1, ":".to_owned(), x.3)
-                        } else {
-                            (x.0, x.1, execute_python_module(x.0, index as u64, &(x.2)), x.3)
+                    .unary(Pipeline, "ML", |_, _| {
+                        let mut vector : Vec<(u64, u64, Vec<u8>, Instant)> = Vec::new();
+                        move |input, output| {
+                            while let Some((time, data)) = input.next() {
+                                data.swap(&mut vector);
+                                let mut session = output.session(&time);
+                                for x in vector.drain(..) {
+                                    if index == 15 || index == 16 {
+                                        thread::sleep(time::Duration::from_millis(1600)); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                        for pipeline in 0..5 {
+                                            session.give((x.0, pipeline, index as u64, ":".to_owned(), x.3));
+                                        }
+                                        session.give((x.0, x.1, index as u64, ":".to_owned(), x.3));
+                                    } else {
+                                        let res : String = execute_python_module(x.0, index as u64, &(x.2));
+                                        for pipeline in 0..5 {
+                                            session.give((x.0, pipeline, x.1, res.to_owned(), x.3))
+                                        }
+                                    }
+                                }
+                            }
                         }
                     })
 
-                    .map(move |x: (u64, u64, String, Instant)| {
-                        println!("Time to run ML on frame {:?} was {:?} at node {:?}", x.0, x.3.elapsed().as_nanos(), index);
-                        (x.0, x.1, x.2)
+                    .map(move |x: (u64, u64, u64, String, Instant)| {
+                        if x.1 + 5 == index as u64 || (index == 15 && x.1 == 15) || (index == 16 && x.1 == 16) {
+                            println!("Time to run ML on frame {:?} was {:?} pipeline {:?} at node {:?}", x.0, x.4.elapsed().as_nanos(), x.1, index);
+                        }
+                        (x.0, x.1, x.2, x.3)
                     })
-                    
-                    .inspect(move |x: &(u64, u64, String)| println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).2))
 
-                    //.exchange(|x: &(u64, u64, String)| (*x).1 + 10)
-                    .exchange(move |x: &(u64, u64, String)| {
-                        if index == 15 || index == 16 {
+                    .inspect(move |x: &(u64, u64, u64, String)| {
+                        if x.1 + 5 == index as u64 || (index == 15 && x.1 == 15) || (index == 16 && x.1 == 16) {
+                            println!("node {:?} pipeline {:?} frame {:?} - done second (result {:?})", index, (*x).1, (*x).0, (*x).3);
+                        }
+                    })
+
+                    .exchange(move |x: &(u64, u64, u64, String)| {
+                        if (index == 15 || index == 16) && (*x).1 == index as u64 {
                             index as u64
                         } else {
                             (*x).1 + 10
+                        }
+                    })
+
+                    .unary(Pipeline, "WaitForGo2", |_, _| {
+                        let mut vector : Vec<(u64, u64, u64, String)> = Vec::new();
+                        let mut keep : Vec<(u64, u64, u64, String)> = Vec::new();
+                        let mut last_sent_frame_number : u64 = 0;
+
+                        move |input, output| {
+                            while let Some((time, data)) = input.next() {
+                                data.swap(&mut vector);
+                                let mut session = output.session(&time);
+
+                                for datum in vector.drain(..) {
+                                    println!("node {:?} - SEEN2 pipeline {:?} frame {:?} str {:?} last frame {:?} keep len {:?} time {:?}", 
+                                            index, datum.1, datum.0, datum.3, last_sent_frame_number, keep.len(), SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_millis());
+
+                                    if index == 15 || index == 16 {
+                                        if datum.1 == index as u64 {
+                                            session.give((datum.0, datum.1, datum.3));
+                                            println!("node {:?} @ keeping pipeline {:?} frame {:?} because master", index, datum.1, datum.0);
+                                        }
+                                        keep.clear(); // doesn't matter, will never actually put anything in keep for 15/16
+                                    } else if datum.2 + 10 == index as u64 && datum.3 != ":" && datum.0 > last_sent_frame_number {
+                                        println!("node {:?} @ sending expected input - pipeline {:?} frame {:?} data {:?}", index, datum.1, datum.0, datum.2);
+                                        session.give((datum.0, datum.1, datum.3));
+                                        last_sent_frame_number = datum.0;
+                                        keep.clear();
+                                    } else if datum.3 == ":" && datum.0 > last_sent_frame_number {
+                                        if keep.len() == 0 {
+                                            println!("node {:?} @ marker occured before ANY inputs, failure case pipeline {:?} frame {:?}", index, datum.1, datum.0);
+                                            last_sent_frame_number = datum.0;
+                                        } else {
+                                            session.give((keep[0].0, keep[0].1, keep[0].3.to_owned()));
+                                            last_sent_frame_number = datum.0;
+                                            keep.clear();
+                                            println!("node {:?} @ sending other input (got marker) - pipeline {:?} frame {:?}", index, datum.1, datum.0);
+                                        }
+                                    } else if datum.0 > last_sent_frame_number {
+                                        keep.push(datum)
+                                    }
+                                }
+                            }
                         }
                     })
 
@@ -248,8 +313,8 @@ fn main() {
         let pnum = command_line_args[index + 1].parse::<i32>().unwrap();
 
 
-        if pnum < 5 || pnum == 15 || pnum == 16 {
-            for video_frame_index in 1..23 {
+        if pnum < 5 {
+            for video_frame_index in 1..5000 {
                 for pipeline in 0..5 {
                     input.send((video_frame_index, pipeline));
                 }

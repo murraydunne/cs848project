@@ -28,6 +28,7 @@ pub trait SargeOrigin <G: Scope, D: Data> {
 impl<G: Scope, D: Data> SargeOrigin<G, D> for Stream<G, D> {
     fn sarge_origin(&self, replicas: u64, rtcs: u64) -> Stream<G, (SargeContext, D)> {
         let mut vector = Vec::new();
+        let index = self.scope().index() as u64; // index determines who we are in the pipeline
 
         self.unary(Pipeline, "SargeOrigin", move |_,_| move |input, output| {
             input.for_each(|time, data| {
@@ -36,11 +37,25 @@ impl<G: Scope, D: Data> SargeOrigin<G, D> for Stream<G, D> {
                 data.swap(&mut vector);
 
                 for datum in vector.drain(..) {
-                    for rep in 0..replicas {
-                        session.give((SargeContext {node: rep, stage: 0, replicas: replicas, rtcs: rtcs, is_rtc: false}, datum.clone()))
+                    for rtc in 0..rtcs {
+                        session.give((SargeContext {
+                            source_replica: rtc, 
+                            dest_replica: rtc,
+                            pipe_stage: 0, 
+                            num_replicas: replicas, 
+                            num_rtcs: rtcs, 
+                            is_rtc: true
+                        }, datum.clone()))
                     }
-                    for rep in 0..rtcs {
-                        session.give((SargeContext {node: rep, stage: 0, replicas: replicas, rtcs: rtcs, is_rtc: true}, datum.clone()))
+                    for replica in 0..replicas {
+                        session.give((SargeContext {
+                            source_replica: replica, 
+                            dest_replica: replica,
+                            pipe_stage: 0, 
+                            num_replicas: replicas, 
+                            num_rtcs: rtcs, 
+                            is_rtc: false
+                        }, datum.clone()))
                     }
                 }
             });

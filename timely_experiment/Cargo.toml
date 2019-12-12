@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 abomonation = "0.7.3"
 timely = { path = "../timely/timely" }
-pyo3 = { path = "../pyo3" }
-lazy_static = "*"
-atomic_refcell = "*"
-opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}
+#pyo3 = { path = "../pyo3" }
+#lazy_static = "*"
+#atomic_refcell = "*"
+#opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}

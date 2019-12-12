@@ -23,22 +23,22 @@ pub trait SargeExchange<G: Scope, D: ExchangeData> {
     ///            .inspect(|x| println!("seen: {:?}", x));
     /// });
     /// ```
-    fn sarge_exchange (&self) -> Stream<G, (SargeContext, D)>;
+    fn sarge_exchange(&self) -> Stream<G, (SargeContext, D)>;
 }
 
 impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, D)> {
     fn sarge_exchange(&self) -> Stream<G, (SargeContext, D)> {
         let mut vector = Vec::new();
-        let index = self.scope().index(); // index determines who we are in the pipeline
+        let index = self.scope().index() as u64; // index determines who we are in the pipeline
 
         self.unary(
-            ExchangePact::new(|x: &(SargeContext, D)| {
-                if x.0.is_rtc && index == x.0.node {
+            ExchangePact::new(move |x: &(SargeContext, D)| {
+                if x.0.is_rtc {
                     // nodes [0, rtcs) are the RTCS, was this one meant for us?
-                    x.0.node 
+                    x.0.dest_replica 
                 } else {
-                    // nodes [rtcs, replicas) + stage * replicas are the replicas for each stage
-                    x.0.rtcs + x.0.node + x.0.replicas * x.0.stage 
+                    // nodes rtcs + stage * replicas + replica is the address for a given replica at a stage
+                    x.0.num_rtcs + x.0.num_replicas * x.0.pipe_stage + x.0.dest_replica
                 }
             }), 
             "SargeExchange", 
@@ -50,7 +50,7 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
 
                 for datum in vector.drain(..) {
                     let mut datum_next_stage = datum.clone();
-                    datum_next_stage.0.stage += 1;
+                    datum_next_stage.0.pipe_stage += 1;
                     session.give(datum_next_stage);
                 }
             });

@@ -39,6 +39,11 @@ fn main() {
                      println!("worker {}:\tstage 2:\tdata {}", index, x);
                      x
                  }, |x| x)
+                 .sarge_exchange()
+                 .sarge_map(40000000, move |x| {
+                     println!("worker {}:\tstage 3:\tdata {}", index, x);
+                     x
+                 }, |x| x)
                  .probe()
         );
 

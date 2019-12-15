@@ -70,14 +70,15 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
 
                     } else if datum_next_stage.0.is_rtc {
                         // we're still just on the RTC so forward as normal, no action needed
+                        datum_next_stage.0.pipe_stage += 1;
                         session.give(datum_next_stage);
                         output_set.clear();
 
                     } else if *time.time() > last_finished_march {
                         // otherwise take actions only if we have not received the march yet
-                        //println!("node {} - got src={} dest={} stage={} march={} time={:?}",
+                        //println!("node {} - got src={} dest={} stage={} march={} time={:?} lfm={:?}",
                         //    index, datum_next_stage.0.source_replica, datum_next_stage.0.dest_replica,
-                        //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time());
+                        //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
 
                         let our_replica = (index - datum_next_stage.0.num_rtcs) % datum_next_stage.0.num_replicas;
 
@@ -104,9 +105,9 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
 
                         } else if datum_next_stage.0.dest_replica == our_replica && datum_next_stage.0.source_replica == our_replica {
                             // we got the expected input before the march, use it and proceed
-                            //println!("node {} - accepted input src={} dest={} stage={} march={} time={:?}",
+                            //println!("node {} - accepted input src={} dest={} stage={} march={} time={:?} lfm={:?}",
                             //    index, datum_next_stage.0.source_replica, datum_next_stage.0.dest_replica,
-                            //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time());
+                            //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
                             last_finished_march = time.time().clone();
                             datum_next_stage.0.pipe_stage += 1;
                             session.give(datum_next_stage);

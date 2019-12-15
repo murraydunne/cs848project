@@ -12,6 +12,7 @@ pub struct SargeContext {
     pub num_replicas: u64,
     pub num_rtcs: u64,
     pub is_rtc: bool,
+    pub is_march: bool,
 }
 
-unsafe_abomonate!(SargeContext : source_replica, dest_replica, pipe_stage, num_replicas, num_rtcs, is_rtc);
+unsafe_abomonate!(SargeContext : source_replica, dest_replica, pipe_stage, num_replicas, num_rtcs, is_rtc, is_march);

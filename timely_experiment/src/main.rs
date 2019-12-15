@@ -30,20 +30,21 @@ fn main() {
                  .sarge_origin(5, 3) // start sergeant pipeline with 5 replicas and 3 RTCs, 
                  // since we have 2 stages (2x sarge_exchange) we need (5 x 2 + 3) = 13 replicas
                  .sarge_exchange()
-                 .sarge_map(100, move |x| {
+                 .sarge_map(40000000, move |x| {
                      println!("worker {}:\tstage 1:\tdata {}", index, x);
                      x
-                 })
+                 }, |x| x)
                  .sarge_exchange()
-                 .sarge_map(100, move |x| {
+                 .sarge_map(40000000, move |x| {
                      println!("worker {}:\tstage 2:\tdata {}", index, x);
                      x
-                 })
+                 }, |x| x)
                  .probe()
         );
 
         // introduce data and watch!
-        for round in 0..10 {
+        input.advance_to(1);
+        for round in 1..11 {
             if index == 0 {
                 input.send(round);
             }

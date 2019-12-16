@@ -149,7 +149,7 @@ fn main() {
                     res
                 }, |y| "".to_owned())
                 .sarge_exchange()
-                .sarge_map(1200000000, move |x| {
+                .sarge_map(10200000000, move |x| {
                     let obj = x.split(":").next().unwrap().to_owned();
 
                     println!("worker {}:\tstage 3:\tdata {}", index, obj);

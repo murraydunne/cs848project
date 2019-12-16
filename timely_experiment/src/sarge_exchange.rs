@@ -124,7 +124,7 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
                             //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
                             last_finished_march = time.time().clone();
 
-                            println!("node {} - stage {} time {}", index, datum_next_stage.0.pipe_stage, 
+                            println!("node {} - stage={} source={} time={}", index, datum_next_stage.0.pipe_stage, datum_next_stage.0.source_replica,
                                 SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_next_stage.0.start_time);
 
                             datum_next_stage.0.pipe_stage += 1;
@@ -133,6 +133,10 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
 
                         } else if datum_next_stage.0.dest_replica == our_replica {
                             // we got an input from another stage, add it to the set
+
+                            println!("node {} - stage={} source={} time={}", index, datum_next_stage.0.pipe_stage, datum_next_stage.0.source_replica,
+                                SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_next_stage.0.start_time);
+
                             output_set.push(datum_next_stage);
                         }
                         

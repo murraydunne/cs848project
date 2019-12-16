@@ -67,19 +67,19 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         new_context.start_time = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos();
 
 
-                        let mut rng = rand::thread_rng();
-                        let roll : f32 = rng.gen();
+                        //let mut rng = rand::thread_rng();
+                        //let roll : f32 = rng.gen();
 
                         //thread::sleep(time::Duration::from_millis(rng.gen_range(0, extra_latency_bound)));
 
-                        if fail_chance != 0.0 && roll > fail_chance {
+                        //if fail_chance != 0.0 && roll > fail_chance {
                             let res = logic(datum.1);
 
                             for replica in 0..(datum.0.num_replicas) {
                                 new_context.dest_replica = replica;
                                 session.give((new_context, res.clone()));
                             }
-                        }
+                        //}
                     }
                 }
             });

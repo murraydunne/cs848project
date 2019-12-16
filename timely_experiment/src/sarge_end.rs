@@ -58,9 +58,11 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
 
                 for datum_prime in vector.drain(..) {
 
-                    println!("node {} - got src={} dest={} stage={} march={} time={:?} lfm={:?}",
+                    println!("node {} - got src={} dest={} stage={} march={} delta={} time={:?} lfm={:?}",
                             index, datum_prime.0.source_replica, datum_prime.0.dest_replica,
-                            datum_prime.0.pipe_stage, datum_prime.0.is_march, *time.time(), last_finished_march);
+                            datum_prime.0.pipe_stage, datum_prime.0.is_march, 
+                            SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_prime.0.start_time,
+                            *time.time(), last_finished_march);
 
                     count_set.push(datum_prime.clone());
 

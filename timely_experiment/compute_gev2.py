@@ -15,65 +15,40 @@ class InstabilityWarning(UserWarning):
 _warnings.simplefilter('always', InstabilityWarning)
 _warnings.simplefilter('always', UserWarning)
 
-stage_1_dict = {}
-stage_2_dict = {}
-stage_3_dict = {}
-
-with open(sys.argv[1]) as f:
+the_vals = []
+part_vals = []
+#want = [7, 8, 9, 10, 11]
+want = [12, 13, 14, 15, 16]
+with open(sys.argv[1], 'r') as f:
+    keeping = False
     for line in f:
-        sline = line.strip()
+        if '=' in line:
+            are_keeping = False
+            for x in want:
+                if '-' + str(x) + '.' in line:
+                    keeping = True
+                    print("Keeping", line)
+                    are_keeping = True
+            if not are_keeping:
+                keeping = False
+                print("Not keeping", line)
 
-        if sline.startswith("Time to load frame") and 'node 15' not in sline and 'node 16' not in sline:
-            frame = int(sline.split(" ")[4])
-            val = int(sline.split(" ")[6])
+            if len(part_vals) > 0:
+                part_vals = part_vals[10:-10]
+                the_vals.extend(part_vals)
+                part_vals = []
 
-            if frame in stage_1_dict:
-                stage_1_dict[frame].append(val)
-            else:
-                stage_1_dict[frame] = [val]
+        if '=' not in line and keeping:
+            part_vals.append(max([int(x) for x in line.strip().split(',')]) / 100000000.0)
 
-        elif sline.startswith("Time to run ML on frame") and 'node 15' not in sline and 'node 16' not in sline:
-            frame = int(sline.split(" ")[6])
-            val = int(sline.split(" ")[8])
-
-            if frame in stage_2_dict:
-                stage_2_dict[frame].append(val)
-            else:
-                stage_2_dict[frame] = [val]
-
-        elif sline.startswith("Time to decide object on frame") and 'node 15' not in sline and 'node 16' not in sline:
-            frame = int(sline.split(" ")[6])
-            val = int(sline.split(" ")[8])
-
-            if frame in stage_3_dict:
-                stage_3_dict[frame].append(val)
-            else:
-                stage_3_dict[frame] = [val]
-
-
-stage_1_vals = []
-stage_2_vals = []
-stage_3_vals = []
-
-for frame in stage_1_dict.keys():
-    stage_1_vals.append(max(stage_1_dict[frame]))
-
-for frame in stage_2_dict.keys():
-    stage_2_vals.append(max(stage_2_dict[frame]))
-
-for frame in stage_3_dict.keys():
-    stage_3_vals.append(max(stage_3_dict[frame]))
-
-stage_1_vals = np.array(stage_1_vals)[10:-10]
-stage_2_vals = np.array(stage_2_vals)[10:-10]
-stage_3_vals = np.array(stage_3_vals)[10:-10]
+print(len(the_vals))
 
 #plt.plot(np.sort(stage_1_vals))
 #plt.plot(stage_1_vals)
 #plt.show()
 #exit()
 
-print(np.mean(stage_1_vals), np.mean(stage_2_vals), np.mean(stage_3_vals))
+#print(np.mean(stage_1_vals), np.mean(stage_2_vals), np.mean(stage_3_vals))
 
 def bootstrap_ci(data, statfunction=np.average, alpha = 0.0001, 
                  n_samples = 10000):
@@ -201,7 +176,9 @@ def ci_bootstrap(data, gevfit):
 
 
 def do_it(data, title):
+    print("AAAA")
     lmom = lmoments.samlmu(data)
+    print("BBBB")
     gevfit = lmoments.pelgev(lmom) # the parameters of the GEV distribtion as estimated on data
     print(gevfit)
 
@@ -241,5 +218,5 @@ def do_it(data, title):
 
     plt.show()
 
-do_it(stage_2_vals, "Machine Learning Stage")
+do_it(the_vals, "Frame Loading Stage")
 

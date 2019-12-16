@@ -150,8 +150,17 @@ fn main() {
                 }, |y| "".to_owned())
                 .sarge_exchange()
                 .sarge_map(30000000, 0.0, 10, move |x| {
-                    let obj = x.split(":").next().unwrap().to_owned();
+                    let mut nth = 0;
 
+                    let mut rng = rand::thread_rng();
+                    let roll : f32 = rng.gen();
+
+                    if roll < 0.2 {
+                        nth = 2;
+                    }
+
+                    let obj = x.split(":").nth(nth).unwrap().to_owned();
+                    
                     println!("worker {}:\tstage 3:\tdata {}", index, obj);
                     obj
                 }, |y| y)

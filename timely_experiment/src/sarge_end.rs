@@ -106,7 +106,7 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
                                     // we got an input, add it to the set
                                     let mut live_set : Vec<u64> = output_set.iter().map(|x| x.0.source_replica).collect();
         
-                                    if !live_set.contains(&datum_next_stage.0.source_replica) {
+                                    if !live_set.contains(&datum_next_stage.0.source_replica) && !datum_next_stage.0.is_march {
                                         println!("node {} - stage={} source={} time={}", index, datum_next_stage.0.pipe_stage, datum_next_stage.0.source_replica,
                                             SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_next_stage.0.start_time);
                                         output_set.push(datum_next_stage);

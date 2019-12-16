@@ -70,7 +70,7 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         let mut rng = rand::thread_rng();
                         let roll : f32 = rng.gen();
 
-                        thread::sleep(time::Duration::from_millis(rng.gen_range(0, extra_latency_bound)));
+                        //thread::sleep(time::Duration::from_millis(rng.gen_range(0, extra_latency_bound)));
 
                         if fail_chance != 0.0 && roll > fail_chance {
                             let res = logic(datum.1);

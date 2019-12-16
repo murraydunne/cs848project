@@ -59,9 +59,9 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
 
                     if *time.time() > last_finished_march {
                         // take actions only if we have not received the march yet
-                        //println!("node {} - got src={} dest={} stage={} march={} time={:?} lfm={:?}",
-                        //    index, datum_next_stage.0.source_replica, datum_next_stage.0.dest_replica,
-                        //    datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
+                        println!("node {} - got src={} dest={} stage={} march={} time={:?} lfm={:?}",
+                            index, datum_next_stage.0.source_replica, datum_next_stage.0.dest_replica,
+                            datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
 
                         if datum_next_stage.0.is_march {
                             // we're not on an RTC and we got the march

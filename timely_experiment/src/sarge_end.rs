@@ -41,11 +41,11 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
             ExchangePact::new(move |x: &(SargeContext, D)| {
                 if x.0.dest_replica < x.0.num_rtcs {
                     // nodes [0, rtcs) are the RTCS, was this one meant for us?
-                    println!("node {} - routing to index {} (should be RTC) from {} for end (stage {})", 
-                        index, x.0.dest_replica, x.0.source_replica, x.0.pipe_stage);
+                    println!("node {} - routing to index {} (should be RTC) from {} for end (stage {}) march={}", 
+                        index, x.0.dest_replica, x.0.source_replica, x.0.pipe_stage, x.0.is_march);
                     x.0.dest_replica 
                 } else {
-                    println!("node {} - rounting to 0 from {} (dest was {})", index, x.0.source_replica, x.0.dest_replica);
+                    println!("node {} - rounting to 0 from {} (dest was {}) march={}", index, x.0.source_replica, x.0.dest_replica, x.0.is_march);
                     0
                 }
             }), 

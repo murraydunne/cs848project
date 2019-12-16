@@ -24,11 +24,11 @@ pub trait SargeMap<S: Scope, D: Data> {
     ///            .inspect(|x| println!("seen: {:?}", x));
     /// });
     /// ```
-    fn sarge_map<D2: Data, L: FnMut(D)->D2+'static, L2: FnMut(D)->D2+'static>(&self, march_ns: u64, fail_chance: f32, logic: L, no_op: L2) -> Stream<S, (SargeContext, D2)>;
+    fn sarge_map<D2: Data, L: FnMut(D)->D2+'static, L2: FnMut(D)->D2+'static>(&self, march_ns: u64, fail_chance: f32, extra_latency_bound: u64, logic: L, no_op: L2) -> Stream<S, (SargeContext, D2)>;
 }
 
 impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
-    fn sarge_map<D2: Data, L: FnMut(D)->D2+'static, L2: FnMut(D)->D2+'static>(&self, march_ns: u64, fail_chance: f32, mut logic: L, mut no_op: L2) -> Stream<S, (SargeContext, D2)> {
+    fn sarge_map<D2: Data, L: FnMut(D)->D2+'static, L2: FnMut(D)->D2+'static>(&self, march_ns: u64, fail_chance: f32, extra_latency_bound: u64, mut logic: L, mut no_op: L2) -> Stream<S, (SargeContext, D2)> {
         let mut vector = Vec::new();
         let index = self.scope().index() as u64; // index determines who we are in the pipeline
 
@@ -66,14 +66,13 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         new_context.is_rtc = false;
                         new_context.start_time = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos();
 
-                        let res = logic(datum.1);
                         let mut rng = rand::thread_rng();
+                        let roll : f32 = rng.gen();
+                        if fail_chance != 0.0 && roll > fail_chance {
+                            let res = logic(datum.1);
 
-                        for replica in 0..(datum.0.num_replicas) {
-                            new_context.dest_replica = replica;
-
-                            let roll : f32 = rng.gen();
-                            if fail_chance != 0.0 && roll > fail_chance {
+                            for replica in 0..(datum.0.num_replicas) {
+                                new_context.dest_replica = replica;
                                 session.give((new_context, res.clone()));
                             }
                         }

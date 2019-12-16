@@ -45,6 +45,14 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import keras
 import numpy as np
+
+from keras import backend as K
+config = tf.ConfigProto()
+config.gpu_options.allow_growth=True
+sess = tf.Session(config=config)
+K.set_session(sess)
+
+
 from keras.applications.imagenet_utils import decode_predictions
 
 vgg_model = keras.applications.vgg16.VGG16(weights='imagenet')
@@ -90,7 +98,8 @@ fn from_buf_raw<T>(ptr: *const T, elts: usize) -> Vec<T> {
     dst
 }
 
-fn main() {
+fn main() {CUDA error: out of memory
+
 
     // initializes and runs a timely dataflow.
     timely::execute_from_args(std::env::args(), |worker| {

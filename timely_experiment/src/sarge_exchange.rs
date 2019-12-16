@@ -114,6 +114,7 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
                             } else {
                                 println!("HARD-FAIL: VIOLATED MARCH AT TIME {:?}_{} ON REPLICA {} (NODE {})", 
                                     time.time(), datum_next_stage.0.pipe_stage, datum_next_stage.0.dest_replica, index);
+                                output_set.clear();
                             }
 
                         } else if datum_next_stage.0.dest_replica == our_replica && datum_next_stage.0.source_replica == our_replica {

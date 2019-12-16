@@ -13,10 +13,12 @@ mod sarge_context;
 mod sarge_origin;
 mod sarge_exchange;
 mod sarge_map;
+mod sarge_end;
 
 use crate::sarge_origin::SargeOrigin;
 use crate::sarge_exchange::SargeExchange;
 use crate::sarge_map::SargeMap;
+use crate::sarge_end::SargeEnd;
 
 fn main() {
 
@@ -48,6 +50,9 @@ fn main() {
                      println!("worker {}:\tstage 3:\tdata {}", index, x);
                      x
                  }, |x| x)
+                 .sarge_end(move |x| {
+                     println!("worker {}:\tselected {}", index, x);
+                 })
                  .probe()
         );
 

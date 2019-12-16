@@ -43,6 +43,7 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         let res = no_op(datum.1);
 
                         let mut new_context = datum.0.clone();
+                        new_context.start_time = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos();
                         let rtc_replica = new_context.dest_replica;
                         new_context.is_march = true;
                         

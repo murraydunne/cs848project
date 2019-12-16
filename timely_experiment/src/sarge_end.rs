@@ -9,11 +9,12 @@ use timely::dataflow::channels::pact::Exchange as ExchangePact;
 use timely::progress::timestamp::{Timestamp};
 use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 use std::{thread, time};
+use std::fmt::Debug;
 
 use crate::sarge_context::SargeContext;
 
 /// Extension trait for filtering.
-pub trait SargeEnd<G: Scope, D: ExchangeData+PartialEq> {
+pub trait SargeEnd<G: Scope, D: ExchangeData+PartialEq+Debug> {
     /// Returns a new instance of `self` with records transmitted appropriately for starting a Sarge pipeline.
     ///
     /// # Examples
@@ -30,7 +31,7 @@ pub trait SargeEnd<G: Scope, D: ExchangeData+PartialEq> {
     fn sarge_end<L: FnMut(D)->()+'static>(&self, handle: L) -> Stream<G, SargeContext>;
 }
 
-impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeContext, D)> {
+impl<G: Scope, D: ExchangeData+PartialEq+Debug> SargeEnd<G,D> for Stream<G, (SargeContext, D)> {
     fn sarge_end<L: FnMut(D)->()+'static>(&self, mut handle: L) -> Stream<G, SargeContext> {
         let mut vector = Vec::new();
         let index = self.scope().index() as u64; // index determines who we are in the pipeline
@@ -58,11 +59,11 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
 
                 for datum_prime in vector.drain(..) {
 
-                    println!("node {} - got src={} dest={} stage={} march={} delta={} time={:?} lfm={:?}",
+                    println!("node {} - got src={} dest={} stage={} march={} delta={} time={:?} lfm={:?} value={:?}",
                             index, datum_prime.0.source_replica, datum_prime.0.dest_replica,
                             datum_prime.0.pipe_stage, datum_prime.0.is_march, 
                             SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_prime.0.start_time,
-                            *time.time(), last_finished_march);
+                            *time.time(), last_finished_march, datum_prime.1);
 
                     count_set.push(datum_prime.clone());
 

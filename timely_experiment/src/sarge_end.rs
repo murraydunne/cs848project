@@ -56,6 +56,8 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
 
                 data.swap(&mut vector);
 
+                println!("node {} - call to for_each in end with {} items in vector", index, vector.len());
+
                 for datum in vector.drain(..) {
                     let mut datum_next_stage = datum.clone();
 

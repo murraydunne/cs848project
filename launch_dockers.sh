@@ -2,7 +2,7 @@
 
 
 launch_instance() {
-    RUST_BACKTRACE=full sudo docker run --rm --network="host" -v /home/pc-admin/cs848project:/home/cs848project calumbruton/cs848:v7 /bin/bash -c "cd /home/cs848project/timely_experiment/; ./target/debug/timely_experiment -w $1 -n $2 --hostfile hosts.txt -p $3" &
+    RUST_BACKTRACE=full sudo docker run --rm --network="host" -v /home/pc-admin/cs848project:/home/cs848project calumbruton/timely-experiment:v5 /bin/bash -c "cd /home/cs848project/timely_experiment/; ./target/debug/timely_experiment -w $1 -n $2 --hostfile hosts.txt -p $3" &
 }
 
 launch_instance 1 17 0

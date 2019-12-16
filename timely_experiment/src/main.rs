@@ -132,7 +132,7 @@ fn main() {
                     res
                 }, |y| "".to_owned())
                 .sarge_exchange()
-                .sarge_map(120000000, move |x| {
+                .sarge_map(1200000000, move |x| {
                     let obj = x.split(":").next().unwrap().to_owned();
 
                     println!("worker {}:\tstage 3:\tdata {}", index, obj);
@@ -144,9 +144,8 @@ fn main() {
                 .probe()
         );
 
-        // introduce data and watch!
         input.advance_to(1);
-        for round in 1..11 {
+        for round in 1..1001 {
             if index == 0 {
                 input.send(round);
             }

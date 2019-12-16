@@ -72,7 +72,10 @@ def main(frame):
     #labels = {x[1] : x[2] for x in netout[0]}
     #print(labels)
     return result
-            ", "pymodule.py", "pymodule").map_err(|e| e.print(*PY)).unwrap();
+            ", "pymodule.py", "pymodule").map_err(|e| {
+                println!("PYTHON ERROR CASE 1 @@@@@@@@@@@@@@@@@@");
+                e.print_and_set_sys_last_vars(*PY)
+            }).unwrap();
 
     }
 
@@ -81,7 +84,13 @@ def main(frame):
 
     let something = PYMODULE.call1("main", (buff,));
 
-    let pyresult: String = (*something.map_err(|e| e.print(*PY)).unwrap()).extract().map_err(|e| e.print(*PY)).unwrap();
+    let pyresult: String = (*something.map_err(|e| {
+        println!("PYTHON ERROR CASE 2 @@@@@@@@@@@@@@@@@@");
+        e.print_and_set_sys_last_vars(*PY)
+    }).unwrap()).extract().map_err(|e| {
+        println!("PYTHON ERROR CASE 3 @@@@@@@@@@@@@@@@@@");
+        e.print_and_set_sys_last_vars(*PY)
+    }).unwrap();
 
     //println!("Result: {:?}", pyresult);
 

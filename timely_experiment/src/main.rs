@@ -98,8 +98,7 @@ fn from_buf_raw<T>(ptr: *const T, elts: usize) -> Vec<T> {
     dst
 }
 
-fn main() {CUDA error: out of memory
-
+fn main() {
 
     // initializes and runs a timely dataflow.
     timely::execute_from_args(std::env::args(), |worker| {

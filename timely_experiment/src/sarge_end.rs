@@ -36,6 +36,7 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
         let index = self.scope().index() as u64; // index determines who we are in the pipeline
         let mut last_finished_march : G::Timestamp = Default::default();
         let mut output_set : Vec<(SargeContext, D)> = Vec::new();
+        let mut count_set : Vec<(SargeContext, D)> = Vec::new();
 
         self.unary(
             ExchangePact::new(move |x: &(SargeContext, D)| {
@@ -53,58 +54,66 @@ impl<G: Scope, D: ExchangeData+PartialEq> SargeEnd<G,D> for Stream<G, (SargeCont
             move |_,_| move |input, output| {
             input.for_each(|time, data| {
                 let mut session = output.session(&time);
-
                 data.swap(&mut vector);
 
-                println!("node {} - call to for_each in end with {} items in vector", index, vector.len());
-
-                for datum in vector.drain(..) {
-                    let mut datum_next_stage = datum.clone();
+                for datum_prime in vector.drain(..) {
 
                     println!("node {} - got src={} dest={} stage={} march={} time={:?} lfm={:?}",
-                            index, datum_next_stage.0.source_replica, datum_next_stage.0.dest_replica,
-                            datum_next_stage.0.pipe_stage, datum_next_stage.0.is_march, *time.time(), last_finished_march);
+                            index, datum_prime.0.source_replica, datum_prime.0.dest_replica,
+                            datum_prime.0.pipe_stage, datum_prime.0.is_march, *time.time(), last_finished_march);
 
-                    if *time.time() > last_finished_march {
-                        // take actions only if we have not received the march yet
+                    count_set.push(datum_prime.clone());
 
-                        if datum_next_stage.0.is_march {
-                            // we're not on an RTC and we got the march
-                            last_finished_march = time.time().clone();
+                    if count_set.len() as u64 >= datum_prime.0.num_replicas * datum_prime.0.num_replicas {
 
-                            if !output_set.is_empty() {
-                                // if we have some output, vote
-                                let result_set : Vec<D> = output_set.iter().map(|x| x.1.clone()).collect();
-                                let mut current_choice : D = result_set[0].clone();
-                                let mut class_size = 1;
+                        count_set.sort_by(|x, y| x.0.is_march.cmp(&y.0.is_march));
 
-                                for result in &result_set {
-                                    let vote = result_set.iter().filter(|&n| result == n).count();
-                                    if vote > class_size {
-                                        current_choice = result.clone();
-                                        class_size = vote;
+                        for datum in count_set.drain(..) {
+                            let mut datum_next_stage = datum.clone();
+
+                            if *time.time() > last_finished_march {
+                                // take actions only if we have not received the march yet
+        
+                                if datum_next_stage.0.is_march {
+                                    // we're not on an RTC and we got the march
+                                    last_finished_march = time.time().clone();
+        
+                                    if !output_set.is_empty() {
+                                        // if we have some output, vote
+                                        let result_set : Vec<D> = output_set.iter().map(|x| x.1.clone()).collect();
+                                        let mut current_choice : D = result_set[0].clone();
+                                        let mut class_size = 1;
+        
+                                        for result in &result_set {
+                                            let vote = result_set.iter().filter(|&n| result == n).count();
+                                            if vote > class_size {
+                                                current_choice = result.clone();
+                                                class_size = vote;
+                                            }
+                                        }
+        
+                                        handle(current_choice);
+                                        output_set.clear();
+                                    } else {
+                                        println!("HARD-FAIL (VOTE): VIOLATED MARCH AT TIME {:?}_{} ON REPLICA {} (NODE {})", 
+                                            time.time(), datum_next_stage.0.pipe_stage, datum_next_stage.0.dest_replica, index);
+                                        output_set.clear();
+                                    }
+        
+                                } else if datum_next_stage.0.dest_replica == index {
+                                    // we got an input, add it to the set
+                                    let mut live_set : Vec<u64> = output_set.iter().map(|x| x.0.source_replica).collect();
+        
+                                    if !live_set.contains(&datum_next_stage.0.source_replica) {
+                                        println!("node {} - stage={} source={} time={}", index, datum_next_stage.0.pipe_stage, datum_next_stage.0.source_replica,
+                                            SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_next_stage.0.start_time);
+                                        output_set.push(datum_next_stage);
                                     }
                                 }
-
-                                handle(current_choice);
-                                output_set.clear();
-                            } else {
-                                println!("HARD-FAIL (VOTE): VIOLATED MARCH AT TIME {:?}_{} ON REPLICA {} (NODE {})", 
-                                    time.time(), datum_next_stage.0.pipe_stage, datum_next_stage.0.dest_replica, index);
-                                output_set.clear();
-                            }
-
-                        } else if datum_next_stage.0.dest_replica == index {
-                            // we got an input, add it to the set
-                            let mut live_set : Vec<u64> = output_set.iter().map(|x| x.0.source_replica).collect();
-
-                            if !live_set.contains(&datum_next_stage.0.source_replica) {
-                                println!("node {} - stage={} source={} time={}", index, datum_next_stage.0.pipe_stage, datum_next_stage.0.source_replica,
-                                    SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos() - datum_next_stage.0.start_time);
-                                output_set.push(datum_next_stage);
                             }
                         }
-                        
+
+                        count_set.clear();
                     }
                 }
             });

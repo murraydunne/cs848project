@@ -46,6 +46,8 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         let rtc_replica = new_context.dest_replica;
                         new_context.is_march = true;
                         
+                        println!("node {} - sending marches for stage {} time {:?}", index, datum.0.pipe_stage, *time.time());
+
                         new_context.is_rtc = false;
                         for replica in 0..(datum.0.num_replicas) {
                             new_context.dest_replica = replica;
@@ -53,6 +55,7 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         }
 
                         new_context.is_rtc = true;
+                        new_context.is_march = false;
                         new_context.dest_replica = rtc_replica;
                         session.give((new_context, res.clone()));
 

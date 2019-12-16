@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 abomonation = "0.7.3"
 timely = { path = "../timely/timely" }
+rand = "0.3"
 #pyo3 = { path = "../pyo3" }
 #lazy_static = "*"
 #atomic_refcell = "*"

@@ -47,7 +47,6 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
                     // nodes rtcs + stage * replicas + replica is the address for a given replica at a stage
                     //println!("worker {} routing to dest replica {} stage {} (should be worker {})", index, x.0.dest_replica, x.0.pipe_stage,
                     //    x.0.num_rtcs + x.0.num_replicas * x.0.pipe_stage + x.0.dest_replica);
-                    //thread::sleep(time::Duration::from_millis(index));
                     x.0.num_rtcs + x.0.num_replicas * x.0.pipe_stage + x.0.dest_replica
                 }
             }), 
@@ -88,7 +87,21 @@ impl<G: Scope, D: ExchangeData> SargeExchange<G,D> for Stream<G, (SargeContext, 
 
                             if !output_set.is_empty() {
                                 // if we have some output, use the output selection strategy
-                                let mut selected_output = output_set[0].clone(); // TODO: selection strategy
+
+                                // select according to selection strategy
+                                let full_set: Vec<u64> = (0..datum_next_stage.0.num_replicas).collect();
+                                let mut live_set : Vec<u64> = output_set.iter().map(|x| x.0.source_replica).collect();
+                                live_set.sort();
+
+                                let mut dead_set = full_set.clone();
+                                dead_set.retain(|x| !live_set.contains(x));
+
+                                let our_pos_in_dead_set = dead_set.iter().position(|x| *x == our_replica).unwrap();
+                                output_set.sort_by(|x, y| x.0.source_replica.partial_cmp(&y.0.source_replica).unwrap());
+                                let mut selected_output = output_set[our_pos_in_dead_set % output_set.len()].clone();
+
+                                //println!("all={:?} dead={:?} live={:?} me={} ourpos={} selsrc={}", 
+                                //    full_set, dead_set, live_set, our_replica, our_pos_in_dead_set, selected_output.0.source_replica);
 
                                 println!("FAIL-OVER: TAKING OUTPUT FROM REPLICA {} AT TIME {:?}_{} ON REPLICA {} (NODE {})", 
                                     selected_output.0.source_replica, time.time(), datum_next_stage.0.pipe_stage, 

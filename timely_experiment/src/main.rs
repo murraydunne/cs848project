@@ -1,11 +1,13 @@
 extern crate timely;
 #[macro_use]
 extern crate abomonation;
+extern crate rand;
 
 use timely::dataflow::InputHandle;
 use timely::dataflow::operators::{Input, Exchange, Inspect, Probe};
 use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 use std::{thread, time};
+use rand::Rng;
 
 mod sarge_context;
 mod sarge_origin;
@@ -36,6 +38,8 @@ fn main() {
                  }, |x| x)
                  .sarge_exchange()
                  .sarge_map(40000000, move |x| {
+                     //let mut rng = rand::thread_rng();
+                     //thread::sleep(time::Duration::from_millis(rng.gen_range(0, 100)));
                      println!("worker {}:\tstage 2:\tdata {}", index, x);
                      x
                  }, |x| x)

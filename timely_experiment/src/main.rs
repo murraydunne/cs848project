@@ -155,7 +155,7 @@ fn main() {
                     let mut rng = rand::thread_rng();
                     let roll : f32 = rng.gen();
 
-                    if roll < 0.2 {
+                    if roll < 0.5 {
                         nth = 2;
                     }
 

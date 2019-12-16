@@ -10,7 +10,8 @@ edition = "2018"
 abomonation = "0.7.3"
 timely = { path = "../timely/timely" }
 rand = "0.3"
-#pyo3 = { path = "../pyo3" }
-#lazy_static = "*"
-#atomic_refcell = "*"
-#opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}
+pyo3 = { path = "../pyo3" }
+lazy_static = "*"
+atomic_refcell = "*"
+ref_thread_local = "0.0"
+opencv = {version = "0.26.6", default-features = false, features = ["opencv-41"]}

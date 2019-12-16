@@ -45,7 +45,8 @@ impl<G: Scope, D: Data> SargeOrigin<G, D> for Stream<G, D> {
                             num_replicas: replicas, 
                             num_rtcs: rtcs, 
                             is_rtc: true,
-                            is_march: false
+                            is_march: false,
+                            start_time: 0
                         }, datum.clone()))
                     }
                     for replica in 0..replicas {
@@ -56,7 +57,8 @@ impl<G: Scope, D: Data> SargeOrigin<G, D> for Stream<G, D> {
                             num_replicas: replicas, 
                             num_rtcs: rtcs, 
                             is_rtc: false,
-                            is_march: false
+                            is_march: false,
+                            start_time: 0
                         }, datum.clone()))
                     }
                 }

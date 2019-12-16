@@ -57,9 +57,11 @@ impl<S: Scope, D: Data> SargeMap<S, D> for Stream<S, (SargeContext, D)> {
                         session.give((new_context, res.clone()));
 
                     } else {
-                        let res = logic(datum.1);
                         let mut new_context = datum.0.clone();
                         new_context.is_rtc = false;
+                        new_context.start_time = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos();
+
+                        let res = logic(datum.1);
 
                         for replica in 0..(datum.0.num_replicas) {
                             new_context.dest_replica = replica;

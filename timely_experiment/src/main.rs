@@ -43,16 +43,16 @@ fn execute_python_module(param: u64, worker: u64, frame: &Vec<u8>) -> String {
     static ref PYMODULE : &'static pyo3::types::module::PyModule =   PyModule::from_code(*PY, "
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import keras
-import numpy as np
 
+import tensorflow as tf
 from keras import backend as K
 config = tf.ConfigProto()
 config.gpu_options.allow_growth=True
 sess = tf.Session(config=config)
 K.set_session(sess)
 
-
+import keras
+import numpy as np
 from keras.applications.imagenet_utils import decode_predictions
 
 vgg_model = keras.applications.vgg16.VGG16(weights='imagenet')

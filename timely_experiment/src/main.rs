@@ -121,7 +121,7 @@ fn main() {
                 .sarge_origin(5, 2) // start sergeant pipeline with 5 replicas and 3 RTCs, 
                 // since we have 2 stages (2x sarge_exchange) we need (5 x 2 + 3) = 13 replicas
                 .sarge_exchange()
-                .sarge_map(500000000, 0.2, move |x| {
+                .sarge_map(500000000, 0.5, move |x| {
                     ref_thread_local! {
                         static managed cam : videoio::VideoCapture = videoio::VideoCapture::new_from_file_with_backend("video-data/train-video.mp4",videoio::CAP_ANY).unwrap();
                     }
@@ -140,7 +140,7 @@ fn main() {
                     buff
                 }, |y| Vec::<u8>::new())
                 .sarge_exchange()
-                .sarge_map(65000000, 0.2, move |x| {
+                .sarge_map(65000000, 0.5, move |x| {
                     //let mut rng = rand::thread_rng();
                     //thread::sleep(time::Duration::from_millis(rng.gen_range(0, 100)));
                     let res : String = execute_python_module(0, index as u64, &x);
@@ -149,7 +149,7 @@ fn main() {
                     res
                 }, |y| "".to_owned())
                 .sarge_exchange()
-                .sarge_map(30000000, 0.2, move |x| {
+                .sarge_map(30000000, 0.5, move |x| {
                     let obj = x.split(":").next().unwrap().to_owned();
 
                     println!("worker {}:\tstage 3:\tdata {}", index, obj);
